@@ -1,0 +1,26 @@
+{
+  "product": "mithqal",
+  "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
+  "updated": "2026-10-31T23:34:39.269Z",
+  "releases": [
+    {
+      "version": "1.13.1",
+      "date": "2026-10-31",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "غلاف سطح المكتب، SQLite خلف طبقة التخزين، التفعيل بالترخيص، التحديث التلقائي.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.13.1-x64.exe",
+          "size": 121824533,
+          "sha512": "00db508baa063efef63fd998beaecf66ed264dba0052a150e82dfada6efd5271d194b0e9be6a22bbdfd1061da9501f8d774b9ea629c5381d49e6757306391a92"
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.13.1-ia32.exe",
+          "size": 99969699,
+          "sha512": "846f76c75c7d57b3302ac351d8ad28db3a65ef5bc2c92dac33ecde2f14aa124104d6a102043e40d8c9c8b065efe732feebf211ecae053bd392cdede9567950b8"
+        }
+      }
+    }
+  ]
+}

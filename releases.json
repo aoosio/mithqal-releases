@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-10-31T23:34:39.269Z",
+  "updated": "2026-11-01T01:04:19.125Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -19,6 +19,25 @@
           "name": "Mithqal-Setup-1.13.1-ia32.exe",
           "size": 99969699,
           "sha512": "846f76c75c7d57b3302ac351d8ad28db3a65ef5bc2c92dac33ecde2f14aa124104d6a102043e40d8c9c8b065efe732feebf211ecae053bd392cdede9567950b8"
+        }
+      }
+    },
+    {
+      "version": "1.14.0",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "مزامنة شبكة المحل بين الجهاز الرئيسي والتوابع، أرقام فواتير بكتل محجوزة، تحذير انحراف الساعة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.14.0-x64.exe",
+          "size": 121840313,
+          "sha512": "5a6b2f1ad1fd9359fb4091b626fd42567c72ec4acbe88156c20eeba969a7f64793ab65f6ba3465497f633d4082e5aa03b69257990ff8438e12d39f68e210ff44"
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.14.0-ia32.exe",
+          "size": 99985342,
+          "sha512": "a27614f3d9d047b47cb74e1605001b2671883bed156693f62ebfcf7a3b81f6835369bfc0da9d480ff174512affd8c2be0a9a682cb1a9121d5aa1821802d3be99"
         }
       }
     }

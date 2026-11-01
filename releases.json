@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-01T16:34:14.434Z",
+  "updated": "2026-11-01T17:34:58.568Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -136,6 +136,27 @@
           "name": "Mithqal-Setup-1.18.1-ia32.exe",
           "size": 102598414,
           "sha512": "1bd4c641bf7483640d93eff3670796792fe533f03d20795b6fcbecef4aac40afd39095bb096bf856b54e1f9c1e84efaf7b417ea46c5ffd4abdd1f36466716d60",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.18.2",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "خط IBM Plex Sans Arabic في البرنامج والفواتير والإيصالات والكشوف، ومسافة واضحة بين اسم الزبون وهاتفه في الفاتورة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.18.2-x64.exe",
+          "size": 124631302,
+          "sha512": "0865e3674ba960324a9487b1751a4ceb9517f45ffc2c83b946bca21d5ec48b550cc9d6b540cd7632618dce463d30b12cf2dd784eeeb3438578b6d65375231a57",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.18.2-ia32.exe",
+          "size": 102775921,
+          "sha512": "f955957dceac623249f33715aa38fa82aced30f9ec5409e1e2ca3df33c8e01701b34556c795068668220352ce4e0429043e9fc2a88141a115520fa3aa8c9d101",
           "signed": false
         }
       }

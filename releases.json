@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-01T17:34:58.568Z",
+  "updated": "2026-11-01T23:07:00.490Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -157,6 +157,27 @@
           "name": "Mithqal-Setup-1.18.2-ia32.exe",
           "size": 102775921,
           "sha512": "f955957dceac623249f33715aa38fa82aced30f9ec5409e1e2ca3df33c8e01701b34556c795068668220352ce4e0429043e9fc2a88141a115520fa3aa8c9d101",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.19.0",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "مزامنة مثقال السحابية (باشتراك): البرنامج يرفع نسخة مشفّرة تلقائيًا، وتربط موبايلك برمز من الإعدادات فيتحدّث تطبيق مثقال للموبايل وحده أينما كنت.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.19.0-x64.exe",
+          "size": 124634495,
+          "sha512": "8366665962693b1c18bd1760b25eca59649e79b86070407cc13bbf1554f73c124301e72d0446f6431642a37b2a59f912b212fa3c78234dbdc77be2c9c4f2ef92",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.19.0-ia32.exe",
+          "size": 102779123,
+          "sha512": "de688bf9a19f66c0daa9c8a28717293d788b70f678f8947aa5ef17d7d20fa2e36c1c8fc56d68f51c4a16ff2a0f0cb43383c1f49f860b02ed836c270bd1591f28",
           "signed": false
         }
       }

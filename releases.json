@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-01T13:20:53.735Z",
+  "updated": "2026-11-01T16:34:14.434Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -115,6 +115,27 @@
           "name": "Mithqal-Setup-1.18.0-ia32.exe",
           "size": 102597072,
           "sha512": "ac142799a38035397401ba4298d7a2424f85101a5ed71d2ded75046d96b8044b02123c5b2671504f3efaa0f4dd0e156544cb59c5da40c57659abd0c4b40a7cfd",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.18.1",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "أرصدة الذهب أوضح: كل عيار باسمه «23.509 غم عيار 21» بدل سلسلة «غم(21) + …»، في اللوحة والكشوف والفواتير والإيصالات.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.18.1-x64.exe",
+          "size": 124453848,
+          "sha512": "369f238e7140aaa59cd5cf7cfc0ed1119640c0029f0963b1e0fddfb2b90a58401cb71524ada895d095822600602e34301d92097000a7f7e719cafa5275a6a21a",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.18.1-ia32.exe",
+          "size": 102598414,
+          "sha512": "1bd4c641bf7483640d93eff3670796792fe533f03d20795b6fcbecef4aac40afd39095bb096bf856b54e1f9c1e84efaf7b417ea46c5ffd4abdd1f36466716d60",
           "signed": false
         }
       }

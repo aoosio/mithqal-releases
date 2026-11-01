@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-01T03:22:26.730Z",
+  "updated": "2026-11-01T12:43:06.639Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -76,6 +76,25 @@
           "name": "Mithqal-Setup-1.16.0-ia32.exe",
           "size": 102531662,
           "sha512": "ebf12611f6db704a2797527b9717506c8da2b1812980c315996f333b310a183373979001e621bc8f20295214fb8b984f7cf22701e926e55a097f33fddfb2bab8"
+        }
+      }
+    },
+    {
+      "version": "1.17.0",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "الجرد بالقطعة والباركود وليبل 50×12 مع قارئ لوحة المفاتيح في الفاتورة والجرد الفعلي وتقريري القطع والربح بالتكلفة، الربط المباشر مع Google Drive وOneDrive، تحسينات شاشات اللابتوب بتكبير 125% و150%.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.17.0-x64.exe",
+          "size": 124440757,
+          "sha512": "17b0a403fe6aa2d0f311e87cf40991131fc1e8f4cc502f55a090f60251a322f784d08ab6556c7d4b4a8cbdfdfa03708569655413ff174be1e28825f48648628c"
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.17.0-ia32.exe",
+          "size": 102585524,
+          "sha512": "fc7820a12e3e2167404c1197c3fc4b6040f3a5218c4c3376d714dc05ffdda1a25cee9249362e5c9a86dfafbbf8dad524d7936d4c21a2bfbc5795fe6261e8a34e"
         }
       }
     }

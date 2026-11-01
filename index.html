@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>مثقال، برنامج محل الذهب</title>
+<meta name="description" content="مثقال: برنامج لمحلات الذهب والمجوهرات في العراق. فواتير A5 وإيصال حراري، أعيرة متعددة، ديون ومخزون بالغرام، إغلاق يومي وتقارير، يعمل على جهازك بلا إنترنت.">
+<meta name="theme-color" content="#10162A">
+<meta name="color-scheme" content="dark">
+<link rel="icon" type="image/png" sizes="64x64" href="assets/icon-64.png">
+<link rel="apple-touch-icon" href="assets/icon-256.png">
+<link rel="canonical" href="https://aoosio.github.io/mithqal-releases/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_IQ">
+<meta property="og:site_name" content="مثقال">
+<meta property="og:title" content="مثقال، برنامج محل الذهب">
+<meta property="og:description" content="فواتير وديون ومخزون بالعيار، على جهازك وبلا إنترنت. صُنع لمحلات الذهب في العراق.">
+<meta property="og:url" content="https://aoosio.github.io/mithqal-releases/">
+<meta property="og:image" content="https://aoosio.github.io/mithqal-releases/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="مثقال، برنامج محل الذهب">
+<meta name="twitter:description" content="فواتير وديون ومخزون بالعيار، على جهازك وبلا إنترنت.">
+<meta name="twitter:image" content="https://aoosio.github.io/mithqal-releases/assets/og.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=IBM+Plex+Mono&display=swap">
+<style>
+/* ===== الرموز ===== */
+:root{
+  --canvas:#10162A; --canvas-2:#0A0F1D; --stage:#040811; --paper:#F4F2EC; --paper-2:#EAE6DA;
+  --panel:#1A2238; --panel-2:#222C47; --line:rgba(214,166,58,.16); --line-strong:rgba(214,166,58,.42);
+  --accent:#D6A63A; --accent-hover:#E8BE57; --accent-deep:#B98A24; --accent-muted:rgba(214,166,58,.16);
+  --text-primary:#F4F0E4; --text-secondary:#BDB7A6; --ink:#1B2030; --ink-2:#4B5166;
+  --display:'Aref Ruqaa',serif; --body:'IBM Plex Sans Arabic',system-ui,'Segoe UI',Tahoma,sans-serif; --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  --ease:cubic-bezier(.22,.61,.36,1); --ease-out:cubic-bezier(.16,1,.3,1);
+  --tshadow:0 1px 2px rgba(3,6,12,.95),0 3px 12px rgba(3,6,12,.78),0 10px 44px rgba(3,6,12,.8);
+  --gutter:clamp(16px,4vw,40px); --max:1180px; --nav-h:68px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+html,body{overflow-x:hidden;overflow-x:clip;margin:0}
+body{background:var(--canvas);color:var(--text-primary);font-family:var(--body);font-size:17px;line-height:1.85;font-variant-numeric:lining-nums;animation:pagein .7s var(--ease) both}
+@keyframes pagein{from{opacity:0}to{opacity:1}}
+img,svg,video{display:block;max-width:100%}
+img{height:auto}
+a{color:inherit}
+h1,h2,h3,p{margin:0}
+button{font:inherit;color:inherit}
+.sr-only{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:absolute;inset-inline-start:12px;top:-60px;z-index:100;background:var(--accent);color:var(--ink);padding:10px 16px;border-radius:10px;font-weight:600;transition:top .3s var(--ease)}
+.skip:focus{top:12px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{width:min(var(--max),100% - 2*var(--gutter));margin-inline:auto}
+.display{font-family:var(--display);font-weight:700;line-height:1.5}
+.mono{font-family:var(--mono);direction:ltr;unicode-bidi:isolate;font-variant-numeric:tabular-nums}
+.num{font-variant-numeric:tabular-nums lining-nums}
+
+/* ===== الخلفية الواحدة ===== */
+.bg{position:fixed;inset:0;z-index:-1;background:var(--canvas);overflow:hidden;pointer-events:none}
+.bg .glow{position:absolute;width:140vmax;height:140vmax;left:50%;top:40%;margin:-70vmax 0 0 -70vmax;background:radial-gradient(circle at 50% 50%,rgba(214,166,58,.11) 0%,rgba(214,166,58,.04) 22%,rgba(16,22,42,0) 48%);animation:drift 96s linear infinite;will-change:transform}
+@keyframes drift{0%{transform:translate(0,0) rotate(0)}50%{transform:translate(6vw,-5vh) rotate(180deg)}100%{transform:translate(0,0) rotate(360deg)}}
+.dust{position:absolute;inset:0}
+.dust i{position:absolute;width:3px;height:3px;border-radius:50%;background:var(--accent);opacity:0;animation:dust var(--d,70s) linear infinite;animation-delay:var(--dl,0s);left:var(--x);top:var(--y);transform:translateY(0)}
+@keyframes dust{0%{transform:translateY(0) scale(.6);opacity:0}8%{opacity:var(--o,.3)}50%{opacity:var(--o,.3)}92%{opacity:0}100%{transform:translateY(-38vh) translateX(3vw) scale(1);opacity:0}}
+body.paused *,body.paused *::before,body.paused *::after{animation-play-state:paused!important}
+
+/* ===== الشريط العلوي ===== */
+.nav{position:fixed;top:0;inset-inline:0;z-index:50;height:var(--nav-h);display:flex;align-items:center;background:linear-gradient(to bottom,rgba(4,8,17,.78),rgba(4,8,17,.38));backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);transition:background .5s var(--ease),box-shadow .5s var(--ease)}
+.nav.scrolled{background:rgba(8,12,24,.86);box-shadow:0 1px 0 var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:28px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--display);font-size:26px;line-height:1;padding:6px 0}
+.brand img{width:40px;height:33px;object-fit:contain}
+.nav-links{display:flex;gap:26px;margin-inline-start:auto;list-style:none;margin-block:0;padding:0}
+.nav-links a{text-decoration:none;color:var(--text-secondary);font-weight:500;font-size:15px;transition:color .3s var(--ease)}
+.nav-links a:hover{color:var(--text-primary)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;font-weight:600;border-radius:12px;padding:13px 24px;min-height:48px;border:1px solid transparent;cursor:pointer;transition:transform .45s var(--ease-out),background .3s var(--ease),color .3s var(--ease),border-color .3s var(--ease),box-shadow .5s var(--ease);text-shadow:none}
+.btn-gold{background:var(--accent);color:var(--ink);box-shadow:0 10px 28px rgba(3,6,12,.35)}
+.btn-gold:hover{background:var(--accent-hover);transform:translateY(-2px);box-shadow:0 14px 34px rgba(3,6,12,.45)}
+.btn-ghost{border-color:var(--line-strong);color:var(--text-primary);background:rgba(10,15,29,.35)}
+.btn-ghost:hover{border-color:var(--accent);transform:translateY(-2px)}
+.btn-sm{padding:9px 16px;min-height:40px;font-size:15px}
+.nav .btn{margin-inline-start:auto}
+.nav-links + .btn{margin-inline-start:0}
+@media (pointer:coarse){.btn{min-height:44px}}
+
+/* ===== البطل ===== */
+.hero{position:relative;height:500vh;margin-top:0}
+.stage{position:sticky;top:0;height:100vh;overflow:hidden;background:var(--stage)}
+.poster{position:absolute;inset:0;background-color:var(--stage);background-size:cover;background-position:30% 50%;background-repeat:no-repeat}
+#hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:30% 50%;opacity:0;transition:opacity .8s var(--ease);transform:translateZ(0);will-change:transform}
+.stage.video-ready #hero-video{opacity:1}
+.stage.video-failed #hero-video{display:none}
+.scrim{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 120% 90% at 50% 45%,rgba(4,8,17,0) 35%,rgba(4,8,17,.62) 100%)}
+.band{position:absolute;opacity:0;pointer-events:none;text-shadow:var(--tshadow);--k:0}
+.band.on{pointer-events:auto}
+.band:not(.on){visibility:hidden} /* الشريط غير الظاهر يخرج من ترتيب التبويب ومن قارئ الشاشة */
+.band::before{content:"";position:absolute;inset:-34% -26%;pointer-events:none;opacity:calc(.25 + .75*var(--k,1));background:radial-gradient(ellipse 62% 58% at 50% 50%,rgba(4,6,12,var(--sa,.66)) 0%,rgba(4,6,12,calc(var(--sa,.66)*.66)) 46%,rgba(4,6,12,0) 76%)}
+.band > *{position:relative}
+.band.side{top:50%;transform:translateY(-50%);inset-inline-start:6vw;width:min(46vw,640px);text-align:start}
+.band.side .line{font-size:clamp(40px,5.2vw,78px);color:var(--text-primary)}
+.band.settle{--sa:.78;top:13vh;left:50%;transform:translateX(-50%);width:min(92vw,860px);text-align:center;display:flex;flex-direction:column;align-items:center;gap:14px}
+.band.settle .line{font-size:clamp(46px,5.8vw,88px);color:var(--accent-hover)}
+.band.settle .sub{font-size:clamp(17px,1.5vw,21px);color:var(--text-primary);max-width:34ch;--ks:clamp(0,(var(--k,0) - .6)*4,1);opacity:var(--ks);transform:translateY(calc((1 - var(--ks))*12px))}
+.band.settle .cta-row{--kb:clamp(0,(var(--k,0) - .74)*5,1);opacity:var(--kb);transform:translateY(calc((1 - var(--kb))*12px));margin-top:8px;display:flex;flex-direction:column;align-items:center;gap:10px}
+.band .w{display:inline-block;--kc:clamp(0,(var(--k,0) - var(--th,0))*2.8,1);opacity:var(--kc)}
+.b1 .w{transform:translateY(calc((1 - var(--kc))*-30px))}
+.b2 .w{transform:translateY(calc((1 - var(--kc))*30px))}
+.settle .w{transform:translateY(calc((1 - var(--kc))*18px))}
+.chip{display:inline-flex;align-items:center;gap:8px;background:rgba(8,10,18,.55);border:1px solid rgba(120,120,150,.3);border-radius:10px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);text-shadow:0 1px 3px rgba(3,6,12,.85);padding:6px 12px;font-size:13px;color:var(--text-secondary)}
+.cue{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);transition:opacity .6s var(--ease)}
+.cue.gone{opacity:0}
+.cue svg{width:14px;height:14px;animation:nudge 2.4s var(--ease) infinite}
+@keyframes nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+.ring-wrap{position:absolute;bottom:72px;left:50%;transform:translateX(-50%);width:34px;height:34px;color:var(--accent);opacity:.9;transition:opacity .5s var(--ease)}
+.stage.video-ready .ring-wrap,.stage.video-failed .ring-wrap{opacity:0;pointer-events:none}
+.ring circle{transition:stroke-dashoffset .15s linear;transform:rotate(-90deg);transform-origin:50% 50%}
+.ring .track{opacity:.25}
+.thread{position:absolute;inset-inline-end:3vw;top:14vh;height:72vh;width:1px;background:linear-gradient(to bottom,rgba(214,166,58,0),rgba(214,166,58,.55) 20%,rgba(214,166,58,.55) 80%,rgba(214,166,58,0));transform-origin:top;transform:scaleY(var(--p,0))}
+.hero-static{display:none}
+@media (max-height:560px){.cue,.thread,.ring-wrap{display:none}}
+
+/* البوابات الخمس: مطابقة حرفيًا لمصفوفة GATES في السكربت */
+@media (max-width: 720px), (orientation: portrait) and (max-width: 1024px), (orientation: portrait) and (pointer: coarse), (orientation: landscape) and (pointer: coarse) and (max-height: 560px), (prefers-reduced-motion: reduce){
+  .hero{height:auto}
+  .stage{position:relative;height:100svh;min-height:560px}
+  .bands,.ring-wrap,.thread,.cue,#hero-video{display:none}
+  .poster{background-image:url("assets/hero-ending.jpg")}
+  .scrim{background:linear-gradient(to bottom,rgba(4,8,17,.55) 0%,rgba(4,8,17,.25) 40%,rgba(4,8,17,.1) 65%,rgba(4,8,17,.7) 100%)}
+  .hero-static{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-start;padding:calc(var(--nav-h) + 6vh) var(--gutter) 40px;text-align:start;text-shadow:var(--tshadow)}
+  .hero-static .line{font-size:clamp(38px,9.5vw,64px);color:var(--text-primary);max-width:12ch}
+  .hero-static .sub{margin-top:14px;font-size:clamp(16px,4.2vw,19px);color:var(--text-primary);max-width:30ch}
+  .hero-static .cta-row{margin-top:22px;display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+  .hero-static .btn{text-shadow:none}
+}
+
+/* ===== الأقسام ===== */
+section{position:relative;scroll-margin-top:calc(var(--nav-h) + 8px)}
+.sec{padding:clamp(72px,10vw,128px) 0}
+.kicker{display:inline-flex;align-items:center;gap:10px;color:var(--accent);font-weight:600;font-size:14px;letter-spacing:.2px}
+.kicker::before{content:"";width:22px;height:1px;background:var(--accent)}
+.h2{font-size:clamp(34px,4.4vw,56px);color:var(--text-primary);margin-top:8px}
+.lede{color:var(--text-secondary);font-size:clamp(17px,1.4vw,19px);max-width:46ch;margin-top:10px}
+.beam{width:220px;height:24px;overflow:visible;margin-top:10px;color:var(--accent)}
+.beam .arm{transform-origin:120px 12px;transform:rotate(-4deg);transition:transform 1.6s var(--ease-out)}
+.beam .arm line,.beam .arm path{stroke:currentColor;stroke-width:1.4;fill:none;stroke-linecap:round}
+.beam .pivot{fill:currentColor}
+.beam .halo{fill:var(--accent);opacity:0;transform-origin:120px 12px}
+.reveal.in .beam .arm{transform:rotate(0)}
+.live .beam .halo{animation:halo 5s var(--ease) infinite -1.6s}
+@keyframes halo{0%,100%{opacity:0;transform:scale(.6)}50%{opacity:.5;transform:scale(1.6)}}
+.center{text-align:center}
+.center .beam{margin-inline:auto}
+.center .lede{margin-inline:auto}
+/* الظهور المنسّق */
+.reveal .part{opacity:0;transform:translateY(22px);transition:opacity .9s var(--ease),transform .9s var(--ease-out),box-shadow .4s var(--ease),border-color .4s var(--ease);transition-delay:calc(var(--i,0)*90ms)}
+.reveal.in .part{opacity:1;transform:translateY(0)}
+.reveal.in.done .part{transition-delay:0s}
+.divider{height:1px;background:linear-gradient(to right,transparent,var(--line-strong),transparent);position:relative;width:min(var(--max),100% - 2*var(--gutter));margin-inline:auto}
+.divider::after{content:"";position:absolute;left:50%;top:-4px;width:9px;height:9px;border-radius:50%;background:var(--canvas);border:1px solid var(--accent);transform:translateX(-50%)}
+
+/* S1 لماذا الاسم */
+.premise .grid{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(28px,5vw,72px);align-items:center}
+.premise figure{margin:0;position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px rgba(0,0,0,.45)}
+.premise figure img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:30% 60%}
+.premise figure::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(16,22,42,.5),transparent 45%)}
+.premise .unit{position:absolute;inset-inline-end:18px;bottom:16px;font-family:var(--mono);font-size:13px;color:var(--accent-hover);background:rgba(8,10,18,.6);border:1px solid rgba(214,166,58,.3);border-radius:8px;padding:5px 10px;direction:ltr}
+.premise p.body{color:var(--text-secondary);font-size:18px;max-width:42ch;margin-top:18px}
+
+/* S2 المزايا */
+.features{background:linear-gradient(to bottom,transparent,rgba(4,8,17,.35) 30%,rgba(4,8,17,.35) 70%,transparent)}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:48px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px 22px 26px;position:relative;overflow:hidden;transition:transform .5s var(--ease-out),border-color .4s var(--ease),box-shadow .5s var(--ease)}
+.card:hover{transform:translateY(-4px);border-color:var(--line-strong);box-shadow:0 18px 44px rgba(0,0,0,.35)}
+.card .ic{width:34px;height:34px;color:var(--accent)}
+.card .ic *{fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:19px;font-weight:600;margin-top:16px}
+.card p{color:var(--text-secondary);font-size:15.5px;line-height:1.8;margin-top:6px}
+
+/* S3 اللقطات */
+.shots{background:var(--paper);color:var(--ink)}
+.shots .h2{color:var(--ink)}
+.shots .lede{color:var(--ink-2)}
+.shots .beam{color:var(--accent-deep)}
+.tabs{display:flex;gap:8px;margin-top:36px;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;border:1px solid rgba(27,32,48,.18);background:transparent;border-radius:999px;padding:9px 18px;font-weight:500;font-size:15px;cursor:pointer;transition:background .3s var(--ease),color .3s var(--ease),border-color .3s var(--ease);min-height:40px}
+.tab:hover{border-color:var(--accent-deep)}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.frame{margin-top:22px;border-radius:16px;background:#fff;border:1px solid rgba(27,32,48,.14);box-shadow:0 40px 90px rgba(27,32,48,.22),0 2px 6px rgba(27,32,48,.08);overflow:hidden;position:relative}
+.frame .bar{height:38px;display:flex;align-items:center;padding-inline:14px;gap:10px;background:#F7F6F1;border-bottom:1px solid rgba(27,32,48,.1);font-size:13px;color:var(--ink-2)}
+.frame .bar i{width:9px;height:9px;border-radius:50%;background:rgba(27,32,48,.14)}
+.frame .bar i:first-child{background:var(--accent)}
+.frame .bar span{margin-inline:auto}
+.frame .view{position:relative;aspect-ratio:1366/768;background:#F4F2EC}
+.frame .view img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s var(--ease)}
+.frame .view img.cur{opacity:1}
+.frame .sheen{position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 40%,rgba(255,255,255,.18) 50%,transparent 60%);transform:translateX(-120%);opacity:0}
+.live .frame .sheen{animation:sheen 9s var(--ease) infinite -3s}
+@keyframes sheen{0%{transform:translateX(120%);opacity:0}10%{opacity:1}40%{transform:translateX(-120%);opacity:0}100%{transform:translateX(-120%);opacity:0}}
+.caption{margin-top:14px;color:var(--ink-2);font-size:15px;min-height:1.8em}
+
+/* S4 الخطوات */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:52px;position:relative}
+.connector{position:absolute;top:-34px;inset-inline:14%;height:40px;pointer-events:none;overflow:visible}
+.connector path{stroke:var(--accent);stroke-width:1.2;fill:none;stroke-dasharray:1000;stroke-dashoffset:1000;transition:stroke-dashoffset 2.2s var(--ease-out) .3s;opacity:.7}
+.reveal.in .connector path{stroke-dashoffset:0}
+.step{text-align:center}
+.step .pic{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3;box-shadow:0 24px 60px rgba(0,0,0,.4)}
+.step .pic img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s var(--ease-out)}
+.step:hover .pic img{transform:scale(1.03)}
+.step .n{position:absolute;top:12px;inset-inline-start:12px;width:40px;height:40px;border-radius:50%;background:rgba(8,10,18,.6);border:1px solid rgba(214,166,58,.5);color:var(--accent-hover);display:grid;place-items:center;font-family:var(--mono);font-size:15px;backdrop-filter:blur(8px)}
+.step h3{font-size:21px;font-weight:600;margin-top:18px}
+.step p{color:var(--text-secondary);font-size:15.5px;margin-top:6px;max-width:30ch;margin-inline:auto}
+
+/* S5 الميزان التفاعلي */
+.hold{--p:0;background:linear-gradient(to bottom,transparent,rgba(4,8,17,.4) 25%,rgba(4,8,17,.4) 75%,transparent)}
+.hold .grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:center}
+.hb{width:100%;max-width:460px;margin-inline:auto;overflow:visible;color:var(--accent)}
+.hb *{transition:none}
+.hb .post,.hb .base{fill:none;stroke:#2A3552;stroke-width:6;stroke-linecap:round}
+.hb .arm-g{transform-origin:160px 62px;transform:rotate(calc((1 - var(--p))*9deg))}
+.hb .arm{stroke:#2A3552;stroke-width:7;stroke-linecap:round}
+.hb .arm-gold{stroke:var(--accent);stroke-width:2}
+.hb .pan-r{transform:translateY(calc((1 - var(--p))*14px))}
+.hb .pan-l{transform:translateY(calc((1 - var(--p))*-14px))}
+.hb .str{stroke:var(--accent);stroke-width:1.2;fill:none;opacity:.8}
+.hb .pan{fill:none;stroke:var(--accent);stroke-width:2.2;stroke-linecap:round}
+.hb .wt{fill:var(--accent)}
+.hb .coin{fill:var(--accent-hover);opacity:0;transition:opacity .4s var(--ease)}
+.hb.c1 .coin:nth-of-type(1),.hb.c2 .coin:nth-of-type(-n+2),.hb.c3 .coin:nth-of-type(-n+3),.hb.c4 .coin{opacity:1}
+.hb .pv{fill:var(--accent)}
+.hb .pv-halo{fill:var(--accent);opacity:0;transform-origin:160px 62px}
+.live .hb .pv-halo{animation:halo 5s var(--ease) infinite -2.2s}
+.readouts{display:grid;gap:14px;margin-top:26px}
+.ro{display:flex;align-items:baseline;justify-content:space-between;gap:16px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;transition:border-color .5s var(--ease),box-shadow .6s var(--ease),transform .6s var(--ease-out)}
+.ro .lbl{color:var(--text-secondary);font-size:15px}
+.ro .val{font-family:var(--mono);font-size:24px;color:var(--text-primary)}
+.ro .val small{font-family:var(--body);font-size:13px;color:var(--text-secondary);margin-inline-start:6px}
+.ro.diff .val{color:var(--accent-hover)}
+.hold.is-done .ro{border-color:var(--line-strong);box-shadow:0 0 0 1px rgba(214,166,58,.15),0 16px 40px rgba(0,0,0,.3)}
+.hold.is-done .ro:nth-child(1){transition-delay:0s}.hold.is-done .ro:nth-child(2){transition-delay:.25s}.hold.is-done .ro:nth-child(3){transition-delay:.5s}
+.hold-btn{margin-top:22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.hold-btn .btn{user-select:none;-webkit-user-select:none;touch-action:none;position:relative;overflow:hidden}
+.hold-btn .btn::after{content:"";position:absolute;inset:0;background:rgba(255,255,255,.25);transform-origin:inline-start;transform:scaleX(var(--p));transition:none}
+.hold .hint{color:var(--text-secondary);font-size:14px}
+.hold .after{margin-top:18px;color:var(--accent-hover);font-size:18px;font-weight:500;opacity:0;transform:translateY(8px);transition:opacity .8s var(--ease) .6s,transform .8s var(--ease-out) .6s}
+.hold.is-done .after{opacity:1;transform:none}
+.hold.is-done .hint{opacity:0;transition:opacity .4s}
+
+/* S6 الثقة */
+.trust .grid{display:grid;grid-template-columns:.9fr 1.4fr;gap:clamp(28px,5vw,72px);align-items:start}
+.trust .sticky{position:sticky;top:calc(var(--nav-h) + 24px)}
+.trust .mark{width:min(260px,60%);margin-top:28px;opacity:.95;filter:drop-shadow(0 20px 40px rgba(0,0,0,.5))}
+.tlist{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.tlist li{display:grid;grid-template-columns:44px 1fr;gap:18px;padding:26px 0;border-bottom:1px solid var(--line);align-items:start}
+.tlist .ic{width:34px;height:34px;color:var(--accent);margin-top:4px}
+.tlist .ic *{fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.tlist h3{font-size:20px;font-weight:600}
+.tlist p{color:var(--text-secondary);font-size:16px;margin-top:4px;max-width:52ch}
+
+/* S7 الأسئلة */
+.faq .col{max-width:800px;margin-inline:auto;margin-top:40px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:first-of-type{border-top:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 4px;font-size:19px;font-weight:600;min-height:48px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .pm{width:28px;height:28px;flex:0 0 28px;border:1px solid var(--line-strong);border-radius:50%;position:relative;transition:transform .5s var(--ease-out),border-color .3s var(--ease)}
+.faq summary .pm::before,.faq summary .pm::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:1.5px;background:var(--accent);transform:translate(-50%,-50%)}
+.faq summary .pm::after{transform:translate(-50%,-50%) rotate(90deg);transition:transform .5s var(--ease-out)}
+.faq details[open] summary .pm{transform:rotate(45deg);border-color:var(--accent)}
+.faq .ans{padding:0 4px 24px;color:var(--text-secondary);font-size:16.5px;max-width:62ch;animation:ans .5s var(--ease) both}
+@keyframes ans{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+
+/* S8 التحميل */
+.dl{background:radial-gradient(ellipse 70% 60% at 50% 100%,rgba(214,166,58,.14),transparent 70%),linear-gradient(to bottom,transparent,var(--canvas-2))}
+.dl .box{text-align:center;max-width:720px;margin-inline:auto}
+.dl .big{position:relative;display:inline-flex;margin-top:34px}
+.dl .big::before{content:"";position:absolute;inset:-14px;border-radius:26px;background:radial-gradient(ellipse at 50% 50%,rgba(214,166,58,.35),transparent 70%);opacity:0;filter:blur(10px)}
+.live .dl .big::before{animation:breathe 6s var(--ease) infinite -2s}
+@keyframes breathe{0%,100%{opacity:.25;transform:scale(.96)}50%{opacity:.7;transform:scale(1.03)}}
+.dl .big .btn{position:relative;font-size:19px;padding:18px 34px;min-height:60px;border-radius:16px}
+.dl .big .btn svg{width:20px;height:20px}
+.dl .meta{margin-top:14px;color:var(--text-secondary);font-size:15px}
+.dl .meta .mono{color:var(--text-primary)}
+.dl .alt{margin-top:10px;display:flex;justify-content:center;gap:22px;flex-wrap:wrap;font-size:15px}
+.dl .alt a{color:var(--text-secondary);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--line-strong);transition:color .3s var(--ease)}
+.dl .alt a:hover{color:var(--accent-hover)}
+.dl .note{margin-top:22px;color:var(--text-secondary);font-size:14px}
+.hidden{display:none!important}
+
+/* التذييل */
+footer{background:var(--canvas-2);border-top:1px solid var(--line);padding:34px 0 40px}
+footer .wrap{display:flex;align-items:center;gap:18px;flex-wrap:wrap;color:var(--text-secondary);font-size:14.5px}
+footer .brand{font-size:22px}
+footer .copy{margin-inline-start:auto}
+
+/* ===== الهواتف ===== */
+@media (max-width:1024px){.cards{grid-template-columns:repeat(2,1fr)}.trust .grid{grid-template-columns:1fr}.trust .sticky{position:static}.trust .mark{display:none}}
+@media (max-width:860px){.premise .grid,.hold .grid{grid-template-columns:1fr}.steps{grid-template-columns:1fr;gap:34px}.connector{display:none}.step{text-align:start}.step p{margin-inline:0}.nav-links{display:none}}
+@media (max-width:720px){.nav .wrap{gap:12px}.brand{font-size:23px}.cards{grid-template-columns:1fr}.sec{padding:64px 0}.card{padding:20px 18px}.ro .val{font-size:20px}}
+@media (max-width:420px){body{font-size:16px}.h2{font-size:32px}.dl .big .btn{font-size:17px;padding:16px 22px}}
+
+/* ===== الحركة المخفّضة (CSS) ===== */
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important;transition-delay:0s!important}
+  .reveal .part{opacity:1;transform:none}
+  .beam .arm{transform:none}
+  .connector path{stroke-dashoffset:0}
+  .hold{--p:1}.hold .after{opacity:1;transform:none}.hold .hint{opacity:0}.hb .coin{opacity:1}
+  .dust,.sheen{display:none}
+}
+/* الحركة المخفّضة عند التبديل أثناء الجلسة (JS يضيف الصنف) */
+html.rm *,html.rm *::before,html.rm *::after{animation:none!important;transition:none!important;transition-delay:0s!important}
+html.rm .reveal .part{opacity:1;transform:none}
+html.rm .beam .arm{transform:none}
+html.rm .connector path{stroke-dashoffset:0}
+html.rm .hold .after{opacity:1;transform:none}
+html.rm .hold .hint{opacity:0}
+html.rm .hb .coin{opacity:1}
+html.rm .dust,html.rm .sheen{display:none}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">تخطَّ إلى المحتوى</a>
+<div class="bg" aria-hidden="true"><div class="glow"></div><div class="dust" id="dust"></div></div>
+
+<nav class="nav" id="nav" aria-label="التنقل الرئيسي">
+  <div class="wrap">
+    <a class="brand" href="#hero" aria-label="مثقال، الصفحة الرئيسية"><img src="assets/mark-340.png" alt="" width="40" height="33"><span>مثقال</span></a>
+    <ul class="nav-links">
+      <li><a href="#features">ماذا يفعل</a></li>
+      <li><a href="#shots">من الداخل</a></li>
+      <li><a href="#how">كيف يعمل</a></li>
+      <li><a href="#faq">الأسئلة</a></li>
+    </ul>
+    <a class="btn btn-gold btn-sm" href="#download">تحميل</a>
+  </div>
+</nav>
+
+<main id="main" tabindex="-1">
+<!-- ===== البطل ===== -->
+<section class="hero" id="hero" aria-label="مقدمة">
+  <div class="stage" id="stage">
+    <div class="poster" id="poster" aria-hidden="true"></div>
+    <video id="hero-video" preload="none" muted playsinline aria-hidden="true" tabindex="-1"></video>
+    <div class="scrim" aria-hidden="true"></div>
+    <div class="bands" id="bands">
+      <div class="band side b1" data-a="0" data-b="0.30"><h1 class="line display split">كل غرام يُحسب.</h1></div>
+      <div class="band side b2" data-a="0.34" data-b="0.67"><p class="line display split">عيار بعيار، ودينار بدينار.</p></div>
+      <div class="band settle b3" data-a="0.75" data-b="1" data-ramp="0.08">
+        <p class="line display split">ويستقر الميزان.</p>
+        <p class="sub">مثقال، برنامج محل الذهب. على جهازك، ويعمل بلا إنترنت.</p>
+        <div class="cta-row"><a class="btn btn-gold dl-x64" href="https://github.com/aoosio/mithqal-releases/releases/latest">تحميل مثقال لويندوز</a><span class="chip dl-meta-chip hidden"></span></div>
+      </div>
+    </div>
+    <div class="thread" id="thread" aria-hidden="true"></div>
+    <div class="ring-wrap" id="ring-wrap" aria-hidden="true"><svg class="ring" viewBox="0 0 48 48"><circle class="track" cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="126" style="stroke-dashoffset:var(--ld,126)"/></svg></div>
+    <div class="chip cue" id="cue" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 6l5 5 5-5"/></svg>مرّر للأسفل</div>
+    <div class="hero-static">
+      <h1 class="line display">كل غرام يُحسب. ويستقر الميزان.</h1>
+      <p class="sub">مثقال، برنامج محل الذهب في العراق: فواتير وديون ومخزون بالعيار، على جهازك وبلا إنترنت.</p>
+      <div class="cta-row"><a class="btn btn-gold dl-x64" href="https://github.com/aoosio/mithqal-releases/releases/latest">تحميل مثقال لويندوز</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== S1 لماذا الاسم ===== -->
+<section class="sec premise reveal" id="why" aria-labelledby="why-h">
+  <div class="wrap grid">
+    <div>
+      <span class="kicker part" style="--i:0">لماذا «مثقال»؟</span>
+      <h2 class="h2 display part" id="why-h" style="--i:1">أربعة غرامات وربع من الثقة.</h2>
+      <svg class="beam part" style="--i:2" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
+      <p class="body part" style="--i:3">المثقال وحدة وزن الذهب القديمة، نحو 4.25 غرامًا. به كان الصائغ يزن، وبه كان الزبون يطمئن. البرنامج يحمل الاسم نفسه لأنه يعمل بالمنطق نفسه: وزن دقيق، وحساب واضح، وثقة بين الطرفين.</p>
+    </div>
+    <figure class="part" style="--i:1"><img src="assets/hero-ending.jpg" alt="قالب صغير مملوء بذهب مصهور ساكن على حجر داكن" loading="lazy" width="1912" height="1080"><span class="unit" aria-hidden="true">1 mithqal = 4.25 g</span></figure>
+  </div>
+</section>
+
+<!-- ===== S2 ماذا يفعل ===== -->
+<section class="sec features reveal" id="features" aria-labelledby="features-h">
+  <div class="wrap center">
+    <h2 class="h2 display part" id="features-h" style="--i:0">ماذا يفعل مثقال؟</h2>
+    <svg class="beam part" style="--i:1" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
+    <p class="lede part" style="--i:2">كل ما يحتاجه محل الذهب في برنامج واحد، على جهاز واحد.</p>
+    <div class="cards">
+      <article class="card part" style="--i:2"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M8 3h16v24l-2.7-2-2.6 2-2.7-2-2.7 2-2.6-2L8 27z"/><path d="M12 10h8M12 15h8M12 20h5"/></svg><h3>فواتير بيع وشراء</h3><p>تُطبع على ورق A5 أو إيصال حراري 80 ملم، بالدينار أو الدولار.</p></article>
+      <article class="card part" style="--i:3"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="10"/><path d="M16 3v4M16 25v4M3 16h4M25 16h4"/><circle cx="16" cy="16" r="3"/></svg><h3>أعيرة متعددة</h3><p>18 و21 و22 و24 في الفاتورة نفسها، وكل عيار بسعره.</p></article>
+      <article class="card part" style="--i:4"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="6" r="2.5"/><path d="M13 9.5h6l4 15H9z"/><path d="M8 24.5h16"/><path d="M9 28h14"/></svg><h3>الديون والمخزون بالغرام</h3><p>ديون الزبائن ورصيد المخزون بالغرام لكل عيار، لا بالتقريب.</p></article>
+      <article class="card part" style="--i:5"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 7c4-1.5 7-1.5 12 1 5-2.5 8-2.5 12-1v18c-4-1.5-7-1.5-12 1-5-2.5-8-2.5-12-1z"/><path d="M16 8v18"/><path d="M8 13h4M8 17h4M20 13h4M20 17h4"/></svg><h3>الزبائن والموردون</h3><p>كشف حساب لكل زبون ومورد، بالذهب والدينار والدولار.</p></article>
+      <article class="card part" style="--i:6"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M23 9.5a9 9 0 1 0 2.5 7"/><path d="M27 4v7h-7"/><path d="M11 18l3 3 6-7"/></svg><h3>شراء الذهب المستعمل</h3><p>شراء الكسر من الزبون بوزنه الصافي، ويدخل المخزون مباشرة.</p></article>
+      <article class="card part" style="--i:7"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="11" width="24" height="16" rx="2"/><path d="M4 16h24"/><path d="M10 11V7a6 6 0 0 1 12 0v4"/><path d="M12 22l3 2.5 5-5"/></svg><h3>الإغلاق اليومي</h3><p>النقد المعدود مقابل المتوقع، وفرق اليوم ظاهر قبل أن تُغلق.</p></article>
+      <article class="card part" style="--i:8"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27h22"/><path d="M8 23V15M14 23V9M20 23v-6M26 23V12"/><path d="M8 11l6-4 6 4 6-6"/></svg><h3>عشرة تقارير جاهزة</h3><p>المبيعات والأرباح والديون والحركة بالعيار، وتصدير إلى Excel بضغطة.</p></article>
+      <article class="card part" style="--i:9"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="6" width="12" height="9" rx="1.5"/><rect x="17" y="13" width="12" height="9" rx="1.5"/><path d="M9 15v4M23 22v4M6 19h6M20 26h6"/><path d="M15 10.5h2a3 3 0 0 1 3 3"/></svg><h3>أكثر من جهاز في المحل</h3><p>مزامنة عبر شبكة المحل بين الجهاز الرئيسي والتوابع، بلا إنترنت.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== S3 من داخل البرنامج ===== -->
+<section class="sec shots reveal" id="shots" aria-labelledby="shots-h">
+  <div class="wrap">
+    <span class="kicker part" style="--i:0">لقطات حقيقية</span>
+    <h2 class="h2 display part" id="shots-h" style="--i:1">من داخل البرنامج.</h2>
+    <svg class="beam part" style="--i:2" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
+    <p class="lede part" style="--i:3">لقطات حقيقية من مثقال، بمحل تجريبي اسمه «مجوهرات النور».</p>
+    <div class="tabs part" style="--i:4" role="tablist" aria-label="صفحات البرنامج" id="tabs">
+      <button class="tab" role="tab" aria-selected="true" aria-controls="shot-panel" id="tab-0" data-i="0">اللوحة الرئيسية</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="shot-panel" id="tab-1" data-i="1" tabindex="-1">سجل الفواتير</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="shot-panel" id="tab-2" data-i="2" tabindex="-1">الفاتورة</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="shot-panel" id="tab-3" data-i="3" tabindex="-1">الموردون</button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="shot-panel" id="tab-4" data-i="4" tabindex="-1">التقارير</button>
+    </div>
+    <div class="frame part" style="--i:5" id="shot-panel" role="tabpanel" aria-labelledby="tab-0">
+      <div class="bar" aria-hidden="true"><i></i><i></i><i></i><span>مثقال، مجوهرات النور</span></div>
+      <div class="view">
+        <img class="cur" src="assets/shot-dashboard.webp" alt="اللوحة الرئيسية: مبيعات اليوم، المخزون بالعيار، الصناديق، وآخر 7 أيام" width="1366" height="768">
+        <img src="assets/shot-register.webp" alt="سجل الفواتير مع البحث والفلاتر وإجمالي الفترة" width="1366" height="768" loading="lazy">
+        <img src="assets/shot-invoice.webp" alt="فاتورة رقم 2 بصنفين من عيارين مختلفين، جاهزة للطباعة" width="1366" height="768" loading="lazy">
+        <img src="assets/shot-suppliers.webp" alt="صفحة الموردين مع أرصدة الذهب بالعيار" width="1366" height="768" loading="lazy">
+        <img src="assets/shot-reports.webp" alt="تقرير المبيعات: الإجمالي، حسب العيار، وحسب اليوم" width="1366" height="768" loading="lazy">
+        <div class="sheen" aria-hidden="true"></div>
+      </div>
+    </div>
+    <p class="caption part" style="--i:6" id="shot-caption">اللوحة الرئيسية: مبيعات اليوم، المخزون بالعيار، الصناديق، وآخر 7 أيام.</p>
+  </div>
+</section>
+
+<!-- ===== S4 كيف يعمل ===== -->
+<section class="sec how reveal" id="how" aria-labelledby="how-h">
+  <div class="wrap center">
+    <h2 class="h2 display part" id="how-h" style="--i:0">ثلاث خطوات.</h2>
+    <svg class="beam part" style="--i:1" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
+    <div class="steps">
+      <svg class="connector" viewBox="0 0 1000 40" preserveAspectRatio="none" aria-hidden="true"><path d="M1000 20 C 750 -4, 620 44, 500 20 S 250 -4, 0 20"/></svg>
+      <article class="step part" style="--i:2"><div class="pic"><img src="assets/step-1.jpg" alt="" loading="lazy" width="1168" height="880"><span class="n" aria-hidden="true">1</span></div><h3>تحميل وتثبيت</h3><p>ملف واحد لويندوز. ثبّته على جهاز المحل.</p></article>
+      <article class="step part" style="--i:3"><div class="pic"><img src="assets/step-2.jpg" alt="" loading="lazy" width="1168" height="880"><span class="n" aria-hidden="true">2</span></div><h3>تفعيل برمز الجهاز</h3><p>يظهر رمز الجهاز عند أول تشغيل. أرسله إلينا وتستلم رمز التفعيل.</p></article>
+      <article class="step part" style="--i:4"><div class="pic"><img src="assets/step-3.jpg" alt="" loading="lazy" width="1168" height="880"><span class="n" aria-hidden="true">3</span></div><h3>البيع والطباعة</h3><p>افتح أول فاتورة، واطبعها A5 أو إيصالًا حراريًا.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== S5 الميزان ===== -->
+<section class="sec hold reveal" id="balance" aria-labelledby="hold-h">
+  <div class="wrap grid">
+    <div>
+      <span class="kicker part" style="--i:0">جرّبها بيدك</span>
+      <h2 class="h2 display part" id="hold-h" style="--i:1">أمسك الميزان حتى يتّزن.</h2>
+      <svg class="beam part" style="--i:2" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
+      <div class="readouts part" style="--i:3">
+        <div class="ro"><span class="lbl">المتوقع في الصندوق</span><span class="val num">4,250,000<small>د.ع</small></span></div>
+        <div class="ro"><span class="lbl">المعدود</span><span class="val num" id="counted">0<small>د.ع</small></span></div>
+        <div class="ro diff"><span class="lbl">الفرق</span><span class="val num" id="diff">4,250,000<small>د.ع</small></span></div>
+      </div>
+      <div class="hold-btn part" style="--i:4">
+        <button type="button" class="btn btn-gold" id="hold-btn" aria-describedby="hold-hint">زِن اليوم</button>
+        <span class="hint" id="hold-hint">اضغط مطوّلًا على الزر</span>
+      </div>
+      <p class="after" id="hold-after" aria-live="polite">الفرق: 0 دينار. هكذا يُغلق يومك في مثقال.</p>
+    </div>
+    <div class="part" style="--i:2">
+      <svg class="hb" id="hb" viewBox="0 0 320 210" aria-hidden="true">
+        <path class="base" d="M110 196h100"/>
+        <path class="post" d="M160 194V62"/>
+        <circle class="pv-halo" cx="160" cy="62" r="8"/>
+        <g class="arm-g">
+          <line class="arm" x1="40" y1="62" x2="280" y2="62"/>
+          <line class="arm-gold" x1="48" y1="62" x2="272" y2="62"/>
+          <g class="pan-l"><path class="str" d="M44 62l-22 66M44 62l22 66"/><path class="pan" d="M12 128c0 12 14 20 32 20s32-8 32-20"/><ellipse class="coin" cx="44" cy="129" rx="9" ry="3"/><ellipse class="coin" cx="46" cy="124" rx="9" ry="3"/><ellipse class="coin" cx="42" cy="119" rx="9" ry="3"/><ellipse class="coin" cx="45" cy="114" rx="9" ry="3"/></g>
+          <g class="pan-r"><path class="str" d="M276 62l-22 66M276 62l22 66"/><path class="pan" d="M244 128c0 12 14 20 32 20s32-8 32-20"/><path class="wt" d="M270 112h12l3 14h-18zM274 108h4v4h-4z"/></g>
+        </g>
+        <circle class="pv" cx="160" cy="62" r="4"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===== S6 الثقة ===== -->
+<section class="sec trust reveal" id="trust" aria-labelledby="trust-h">
+  <div class="wrap grid">
+    <div class="sticky">
+      <span class="kicker part" style="--i:0">الأمان</span>
+      <h2 class="h2 display part" id="trust-h" style="--i:1">بياناتك عندك، لا عندنا.</h2>
+      <svg class="beam part" style="--i:2" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
+      <img class="mark part" style="--i:3" src="assets/mark-340.png" alt="" loading="lazy" width="340" height="280">
+    </div>
+    <ul class="tlist">
+      <li class="part" style="--i:1"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 12a17 17 0 0 1 24 0M8 16.5a11 11 0 0 1 16 0M12 21a5 5 0 0 1 8 0"/><circle cx="16" cy="26" r="1.5"/><path d="M5 27L27 5"/></svg><div><h3>يعمل بلا إنترنت</h3><p>البيع والطباعة والتقارير كلها على الجهاز. لا يتوقف المحل إذا انقطعت الشبكة.</p></div></li>
+      <li class="part" style="--i:2"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="6" y="14" width="20" height="14" rx="2.5"/><path d="M10 14V9a6 6 0 0 1 12 0v5"/><circle cx="16" cy="21" r="2"/><path d="M16 23v2.5"/></svg><div><h3>نسخ احتياطية مشفّرة</h3><p>تلقائيًا، يوميًا وعند الإغلاق، إلى مجلد OneDrive أو Google Drive أو iCloud، بكلمة مرور تختارها أنت.</p></div></li>
+      <li class="part" style="--i:3"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="5" width="11" height="8" rx="1.5"/><rect x="18" y="19" width="11" height="8" rx="1.5"/><path d="M14 9h4v14h-4M8.5 13v4h7"/></svg><div><h3>شبكة المحل</h3><p>الجهاز الرئيسي والأجهزة التابعة تتزامن عبر شبكة المحل، من دون سحابة.</p></div></li>
+      <li class="part" style="--i:4"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="9" y="3" width="14" height="26" rx="3"/><path d="M14 6h4"/><path d="M13 13h6M13 17h6M13 21h4"/></svg><div><h3>قارئ على الآيفون</h3><p>تطبيق للآيفون والآيباد يفتح النسخ الاحتياطية، فتقرأ أرقامك وأنت خارج المحل.</p></div></li>
+      <li class="part" style="--i:5"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M26 14a10 10 0 0 0-18.5-4"/><path d="M6 5v6h6"/><path d="M6 18a10 10 0 0 0 18.5 4"/><path d="M26 27v-6h-6"/></svg><div><h3>تحديثات ودعم</h3><p>الإصدارات الجديدة تصل وتُثبَّت بنفسها، والدعم عبر واتساب.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== S7 الأسئلة ===== -->
+<section class="sec faq reveal" id="faq" aria-labelledby="faq-h">
+  <div class="wrap center">
+    <h2 class="h2 display part" id="faq-h" style="--i:0">أسئلة تُسأل كثيرًا.</h2>
+    <svg class="beam part" style="--i:1" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
+  </div>
+  <div class="wrap col" style="text-align:start">
+    <details class="part" style="--i:2"><summary>هل يعمل بلا إنترنت؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم، بالكامل. البيع والطباعة والتقارير كلها على الجهاز. الإنترنت يلزم فقط للتفعيل الأول، ولتنزيل التحديثات، ولرفع النسخ الاحتياطية إن اخترت ذلك.</div></details>
+    <details class="part" style="--i:3"><summary>أين تُحفظ بياناتي؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">في قاعدة بيانات على جهازك داخل المحل، ولا تمر على خوادمنا. النسخ الاحتياطية تُشفَّر بكلمة مرور تختارها أنت قبل أن تخرج من الجهاز.</div></details>
+    <details class="part" style="--i:4"><summary>عندي أكثر من جهاز في المحل؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">جهاز رئيسي وأجهزة تابعة تتزامن عبر شبكة المحل المحلية، ويرى الجميع الفواتير نفسها. كل جهاز يحتاج ترخيصه.</div></details>
+    <details class="part" style="--i:5"><summary>ماذا لو غيّرت الجهاز؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">استعد آخر نسخة احتياطية على الجهاز الجديد من صفحة الإعدادات، ثم أرسل رمز الجهاز الجديد إلى الدعم ليُنقل الترخيص إليه.</div></details>
+    <details class="part" style="--i:6"><summary>كيف تصل التحديثات؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">يفحص البرنامج الإصدارات الجديدة عند التشغيل إن توفر إنترنت، وينزّلها بنفسه، وتُثبَّت عند إعادة التشغيل. بياناتك تبقى كما هي.</div></details>
+    <details class="part" style="--i:7"><summary>هل يطبع على الطابعة الحرارية؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم. إيصال 80 ملم بطباعة صامتة، إلى جانب فاتورة A5 على الطابعة العادية.</div></details>
+  </div>
+</section>
+
+<!-- ===== S8 التحميل ===== -->
+<section class="sec dl reveal" id="download" aria-labelledby="dl-h">
+  <div class="wrap box">
+    <span class="kicker part" style="--i:0">التحميل</span>
+    <h2 class="h2 display part" id="dl-h" style="--i:1">جاهز لأول فاتورة؟</h2>
+    <p class="lede part" style="--i:2">حمّل مثقال على جهاز المحل، وفعّله برمز الجهاز.</p>
+    <div class="big part" style="--i:3"><a class="btn btn-gold dl-x64" id="dl-main" href="https://github.com/aoosio/mithqal-releases/releases/latest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M4 17v3h16v-3"/></svg>تحميل مثقال لويندوز</a></div>
+    <p class="meta part" style="--i:4" id="dl-meta">أحدث إصدار</p>
+    <div class="alt part" style="--i:5"><a id="dl-ia32" class="hidden" href="#download">نسخة 32 بت</a><a id="dl-wa" class="hidden" href="#download" rel="noopener" target="_blank">تواصل عبر واتساب</a></div>
+    <p class="note part" style="--i:6">يعمل على ويندوز. الترخيص لكل جهاز.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="brand" href="#hero"><img src="assets/mark-340.png" alt="" width="34" height="28"><span>مثقال</span></a>
+    <span>صُنع لمحلات الذهب في العراق.</span>
+    <span class="copy">© مثقال 2026</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+'use strict';
+var $ = function(s, r){ return (r || document).querySelector(s); };
+var $$ = function(s, r){ return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+var clamp = function(v, lo, hi){ return Math.min(hi, Math.max(lo, v)); };
+var smoothstep = function(p, e0, e1){ var t = clamp((p - e0) / (e1 - e0), 0, 1); return t * t * (3 - 2 * t); };
+function rng(seed){ var s = seed >>> 0; return function(){ s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; }; }
+var rmq = matchMedia('(prefers-reduced-motion: reduce)');
+
+/* ---------- غبار الذهب (طبقة الخلفية الواحدة) ---------- */
+(function(){
+  var host = $('#dust'); if (!host) return;
+  var r = rng(4250), html = '';
+  for (var i = 0; i < 14; i++) html += '<i style="--x:' + (r() * 100).toFixed(1) + '%;--y:' + (20 + r() * 80).toFixed(1) + '%;--d:' + (62 + r() * 36).toFixed(0) + 's;--dl:-' + (r() * 60).toFixed(0) + 's;--o:' + (0.16 + r() * 0.18).toFixed(2) + '"></i>';
+  host.innerHTML = html;
+})();
+document.addEventListener('visibilitychange', function(){ document.body.classList.toggle('paused', document.hidden); });
+
+/* ---------- تقسيم العناوين إلى كلمات (الحروف العربية متصلة، فلا نقسم دونها) ---------- */
+$$('.band .split').forEach(function(el, n){
+  var text = el.textContent.trim();
+  var words = text.split(/\s+/);
+  var r = rng(1000 + n * 97);
+  var spread = Number(el.closest('.band').dataset.spread || 0.5);
+  var vis = document.createElement('span'); vis.setAttribute('aria-hidden', 'true');
+  words.forEach(function(w, i){
+    var s = document.createElement('span'); s.className = 'w'; s.textContent = w;
+    s.style.setProperty('--th', (i / words.length * spread + r() * 0.05).toFixed(3));
+    vis.appendChild(s); if (i < words.length - 1) vis.appendChild(document.createTextNode(' '));
+  });
+  var sr = document.createElement('span'); sr.className = 'sr-only'; sr.textContent = text;
+  el.textContent = ''; el.appendChild(sr); el.appendChild(vis);
+});
+
+/* ---------- البطل: الفرك بالتمرير ---------- */
+var hero = $('#hero'), stage = $('#stage'), video = $('#hero-video'), poster = $('#poster'), ringWrap = $('#ring-wrap'), ring = $('.ring circle:last-child'), cue = $('#cue'), thread = $('#thread');
+var VIDEO_URL = 'assets/hero-scrub.mp4', POSTER_URL = 'assets/hero-poster.jpg', VIDEO_BYTES = 5841999;
+var bands = $$('.band').map(function(el, i, arr){ return { el: el, a: Number(el.dataset.a), b: Number(el.dataset.b), ramp: el.dataset.ramp ? Number(el.dataset.ramp) : 0, first: i === 0, last: i === arr.length - 1, op: -1, k: -1, on: null }; });
+var target = 0, shown = 0, rafId = null, lastTick = 0, heroOnScreen = true, scrubOn = false, inited = false, loadK = 0, loadStart = 0;
+var lastCue = null, lastThread = -1;
+
+function heroProgress(){
+  var top = hero.offsetTop, range = hero.offsetHeight - innerHeight;
+  return range > 0 ? clamp((scrollY - top) / range, 0, 1) : 0;
+}
+/* بوابات الفرك: يُعاد الحكم عند كل تغيير */
+var seekBusy = false, pendingTime = null;
+function requestSeek(t){
+  if (!video.duration || !isFinite(t)) return;
+  if (seekBusy) { pendingTime = t; return; }
+  seekBusy = true; video.currentTime = t;
+}
+video.addEventListener('seeked', function(){ seekBusy = false; if (pendingTime !== null) { var t = pendingTime; pendingTime = null; requestSeek(t); } });
+video.addEventListener('error', function(){ seekBusy = false; pendingTime = null; failVideo(); });
+
+function updateCaptions(p){
+  var now = performance.now();
+  if (loadStart && loadK < 1) { loadK = clamp((now - loadStart) / 1100, 0, 1); loadK = loadK * loadK * (3 - 2 * loadK); }
+  for (var i = 0; i < bands.length; i++) {
+    var b = bands[i];
+    var f = Math.min(0.03, (b.b - b.a) / 3);
+    var op = (b.first ? 1 : smoothstep(p, b.a, b.a + f)) * (b.last ? 1 : 1 - smoothstep(p, b.b - f, b.b));
+    if (!b.first && p < b.a) op = 0;
+    if (!b.last && p > b.b) op = 0;
+    var ramp = b.ramp || Math.min(0.025, (b.b - b.a) * 0.35);
+    var k = clamp((p - b.a) / ramp, 0, 1);
+    if (b.first) k = Math.max(k, loadK);
+    if (Math.abs(op - b.op) > 0.004 || ((op === 0 || op === 1) && op !== b.op)) { b.el.style.opacity = op.toFixed(3); b.op = op; }
+    var on = op > 0.02; if (on !== b.on) { b.el.classList.toggle('on', on); b.on = on; }
+    if (Math.abs(k - b.k) > 0.008 || ((k === 0 || k === 1) && k !== b.k)) { b.el.style.setProperty('--k', k.toFixed(3)); b.k = k; }
+  }
+  var cueGone = p > 0.04; if (cueGone !== lastCue) { $$('.cue', stage).forEach(function(c){ c.classList.toggle('gone', cueGone); }); lastCue = cueGone; }
+  var th = Math.round(p * 100) / 100; if (th !== lastThread) { thread.style.setProperty('--p', th); lastThread = th; }
+}
+function tick(now){
+  var dt = Math.min(100, now - (lastTick || now)); lastTick = now;
+  var k = 0.16;
+  shown += (target - shown) * (1 - Math.pow(1 - k, dt / 16.667));
+  var converged = Math.abs(target - shown) < 0.0005 && loadK >= 1;
+  if (Math.abs(target - shown) < 0.0005) shown = target;
+  if (converged) { rafId = null; lastTick = 0; } else rafId = requestAnimationFrame(tick);
+  if (video.duration) requestSeek(shown * video.duration);
+  updateCaptions(shown);
+}
+function onScroll(){
+  target = heroProgress();
+  if (rafId === null && heroOnScreen) rafId = requestAnimationFrame(tick);
+  var sc = scrollY > 24; if (sc !== navScrolled) { nav.classList.toggle('scrolled', sc); navScrolled = sc; }
+}
+var nav = $('#nav'), navScrolled = null;
+new IntersectionObserver(function(es){ heroOnScreen = es[0].isIntersecting; if (heroOnScreen && scrubOn && rafId === null) rafId = requestAnimationFrame(tick); else if (!heroOnScreen && rafId !== null) { cancelAnimationFrame(rafId); rafId = null; lastTick = 0; } }).observe(hero);
+
+function makeScrollChevron(){ var d = document.createElement('div'); d.className = 'chip cue'; d.setAttribute('aria-hidden', 'true'); d.innerHTML = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 6l5 5 5-5"/></svg>مرّر للأسفل'; return d; }
+function failVideo(){ if (stage.classList.contains('video-failed')) return; stage.classList.add('video-failed'); if (ringWrap.parentNode) { ringWrap.replaceWith(makeScrollChevron()); } }
+
+var started = false;
+function startBlobFetch(){ if (started) return; started = true; loadHeroBlob().catch(failVideo); }
+function initHeroOnce(){
+  if (inited) return; inited = true;
+  loadStart = performance.now();
+  poster.style.backgroundImage = "url('" + POSTER_URL + "')";
+  var img = new Image(); img.onload = startBlobFetch; img.onerror = startBlobFetch; img.src = POSTER_URL;
+  setTimeout(startBlobFetch, 4000);
+}
+function loadHeroBlob(){
+  var ctrl = new AbortController(); var watchdog = setTimeout(function(){ ctrl.abort(); }, 20000);
+  return fetch(VIDEO_URL, { priority: 'low', signal: ctrl.signal }).then(function(res){
+    if (!res.ok || !res.body) throw new Error('video');
+    var total = Number(res.headers.get('Content-Length')) || VIDEO_BYTES;
+    var reader = res.body.getReader(), chunks = [], got = 0, lastRing = 0;
+    function pump(){
+      return reader.read().then(function(r){
+        if (r.done) return;
+        clearTimeout(watchdog); watchdog = setTimeout(function(){ ctrl.abort(); }, 20000);
+        chunks.push(r.value); got += r.value.length;
+        var frac = Math.min(1, got / total), now = performance.now();
+        if (now - lastRing > 100 || frac === 1) { lastRing = now; ring.style.setProperty('--ld', Math.round(126 * (1 - frac))); }
+        return pump();
+      });
+    }
+    return pump().then(function(){
+      clearTimeout(watchdog); ring.style.setProperty('--ld', 0);
+      video.src = URL.createObjectURL(new Blob(chunks, { type: 'video/mp4' }));
+      video.load();
+      video.addEventListener('loadedmetadata', function(){ requestSeek(heroProgress() * video.duration); }, { once: true });
+      video.addEventListener('canplay', function(){ requestSeek(heroProgress() * video.duration); stage.classList.add('video-ready'); }, { once: true });
+    });
+  });
+}
+/* البوابات الخمس، حرفيًا كما في CSS */
+var GATES = [
+  '(max-width: 720px)',
+  '(orientation: portrait) and (max-width: 1024px)',
+  '(orientation: portrait) and (pointer: coarse)',
+  '(orientation: landscape) and (pointer: coarse) and (max-height: 560px)',
+  '(prefers-reduced-motion: reduce)'
+];
+function enableScrub(){
+  if (scrubOn) return; scrubOn = true;
+  initHeroOnce();
+  addEventListener('scroll', onScroll, { passive: true });
+  bands.forEach(function(b){ b.op = -1; b.k = -1; b.on = null; });
+  lastCue = null; lastThread = -1;
+  unpinFinalStates();
+  updateCaptions(heroProgress());
+  onScroll();
+}
+function disableScrub(){
+  if (!scrubOn) return; scrubOn = false;
+  removeEventListener('scroll', onScroll);
+  if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null; lastTick = 0; }
+}
+function applyHeroMode(){
+  if (GATES.some(function(q){ return matchMedia(q).matches; })) disableScrub(); else enableScrub();
+  nav.classList.toggle('scrolled', scrollY > 24);
+}
+var MQLS = GATES.map(function(q){ return matchMedia(q); });
+MQLS.forEach(function(m){ m.addEventListener('change', applyHeroMode); });
+addEventListener('resize', function(){ if (scrubOn) { target = heroProgress(); if (rafId === null) rafId = requestAnimationFrame(tick); } }, { passive: true });
+
+/* ---------- الحركة المخفّضة في الاتجاهين ---------- */
+function pinToFinalStates(){
+  document.documentElement.classList.add('rm');
+  $$('.reveal').forEach(function(s){ s.classList.add('in', 'done'); });
+  holdSetProgress(1, true);
+}
+function unpinFinalStates(){
+  document.documentElement.classList.remove('rm');
+  if (!holdUserDone) holdSetProgress(0, true);   /* الميزان يعود إلى يد الزائر ما لم يكن هو من أتمّه */
+}
+rmq.addEventListener('change', function(e){ if (e.matches) pinToFinalStates(); else applyHeroMode(); });
+
+/* ---------- ظهور الأقسام ومواضع الحياة ---------- */
+var io = new IntersectionObserver(function(es){
+  es.forEach(function(e){
+    var s = e.target;
+    s.classList.toggle('live', e.isIntersecting);
+    if (e.isIntersecting && !s.classList.contains('in')) { s.classList.add('in'); setTimeout(function(){ s.classList.add('done'); }, 1600); }
+  });
+}, { rootMargin: '0px 0px -12% 0px', threshold: 0.08 });
+$$('.reveal').forEach(function(s){ io.observe(s); });
+
+/* ---------- اللقطات: تبويبات ---------- */
+(function(){
+  var tabs = $$('#tabs .tab'), imgs = $$('#shot-panel .view img'), cap = $('#shot-caption'), panel = $('#shot-panel');
+  var caps = ['اللوحة الرئيسية: مبيعات اليوم، المخزون بالعيار، الصناديق، وآخر 7 أيام.', 'سجل الفواتير: بحث برقم الفاتورة أو الاسم أو الصنف، وإجمالي الفترة في الأعلى.', 'الفاتورة: صنفان من عيارين مختلفين في ورقة واحدة، تُطبع A5 أو إيصالًا حراريًا.', 'الموردون: رصيد كل مورد بالذهب حسب العيار، وبالدينار والدولار.', 'التقارير: المبيعات حسب العيار وحسب اليوم، وتصدير إلى Excel أو PDF.'];
+  function select(i, focus){
+    tabs.forEach(function(t, n){ var on = n === i; t.setAttribute('aria-selected', on ? 'true' : 'false'); t.tabIndex = on ? 0 : -1; if (on && focus) t.focus(); });
+    imgs.forEach(function(im, n){ im.classList.toggle('cur', n === i); if (n === i) im.loading = 'eager'; });
+    panel.setAttribute('aria-labelledby', 'tab-' + i);
+    if (cap.textContent !== caps[i]) cap.textContent = caps[i];
+  }
+  tabs.forEach(function(t, i){
+    t.addEventListener('click', function(){ select(i, false); });
+    t.addEventListener('keydown', function(e){
+      var d = e.key === 'ArrowLeft' ? 1 : e.key === 'ArrowRight' ? -1 : 0; /* في الاتجاه RTL السهم الأيسر يتقدم */
+      if (!d && e.key !== 'Home' && e.key !== 'End') return;
+      e.preventDefault();
+      var n = e.key === 'Home' ? 0 : e.key === 'End' ? tabs.length - 1 : (i + d + tabs.length) % tabs.length;
+      select(n, true);
+    });
+  });
+})();
+
+/* ---------- الميزان: اضغط مطوّلًا ---------- */
+var holdSec = $('#balance'), hb = $('#hb'), holdBtn = $('#hold-btn'), counted = $('#counted'), diffEl = $('#diff');
+var holdP = 0, holdDone = false, holdUserDone = false, holding = false, holdRaf = null, holdLast = 0, lastCounted = '', lastCountedAt = 0, lastCoin = -1;
+var TOTAL = 4250000;
+var fmt = function(n){ return Math.round(n).toLocaleString('en-US'); };
+function holdWrite(now, force){
+  holdSec.style.setProperty('--p', holdP.toFixed(3));
+  var c = Math.floor(holdP * 4 + 1e-6); if (c !== lastCoin) { hb.className.baseVal = 'hb' + (c ? ' c' + c : ''); lastCoin = c; }
+  if (!force && now - lastCountedAt < 100) return;
+  var txt = fmt(holdP * TOTAL);
+  if (txt !== lastCounted) { lastCounted = txt; lastCountedAt = now; counted.firstChild.nodeValue = txt; diffEl.firstChild.nodeValue = fmt(TOTAL - holdP * TOTAL); }
+}
+function holdSetProgress(p, force){ holdP = p; holdDone = p >= 1; holdSec.classList.toggle('is-done', holdDone); holdBtn.setAttribute('aria-pressed', holdDone ? 'true' : 'false'); holdWrite(performance.now(), true); }
+function holdTick(now){
+  var dt = Math.min(80, now - (holdLast || now)); holdLast = now;
+  if (holding) holdP = Math.min(1, holdP + dt / 1800); else holdP = Math.max(0, holdP - dt / 900);
+  holdWrite(now, false);
+  if (holdP >= 1 && !holdDone) { holdDone = true; holdUserDone = true; holdSec.classList.add('is-done'); holdBtn.setAttribute('aria-pressed', 'true'); holdWrite(now, true); }
+  if ((holding && holdP < 1) || (!holding && holdP > 0 && !holdDone)) holdRaf = requestAnimationFrame(holdTick); else { holdRaf = null; holdLast = 0; holdWrite(now, true); }
+}
+function holdStart(e){ if (holdDone) return; if (e && e.type === 'pointerdown' && e.button !== 0) return; holding = true; if (holdRaf === null) holdRaf = requestAnimationFrame(holdTick); }
+function holdStop(){ if (!holding) return; holding = false; if (holdRaf === null && holdP > 0 && !holdDone) holdRaf = requestAnimationFrame(holdTick); }
+holdBtn.addEventListener('pointerdown', function(e){ holdStart(e); try { holdBtn.setPointerCapture(e.pointerId); } catch (x) {} });
+['pointerup', 'pointercancel', 'lostpointercapture'].forEach(function(t){ holdBtn.addEventListener(t, holdStop); });
+holdBtn.addEventListener('keydown', function(e){ if ((e.key === ' ' || e.key === 'Enter') && !e.repeat) { e.preventDefault(); holdStart(); } });
+holdBtn.addEventListener('keyup', function(e){ if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); holdStop(); } });
+holdBtn.addEventListener('blur', holdStop);
+holdBtn.addEventListener('contextmenu', function(e){ e.preventDefault(); });
+
+/* ---------- زر التحميل الحي ---------- */
+(function(){
+  var FALLBACK = 'https://github.com/aoosio/mithqal-releases/releases/latest';
+  var links = $$('.dl-x64'), meta = $('#dl-meta'), ia32 = $('#dl-ia32'), wa = $('#dl-wa'), chips = $$('.dl-meta-chip');
+  var semver = function(v){ return String(v || '').split('.').map(function(x){ return parseInt(x, 10) || 0; }); };
+  var newer = function(a, b){ var x = semver(a), y = semver(b); for (var i = 0; i < 3; i++) { if ((x[i] || 0) !== (y[i] || 0)) return (x[i] || 0) > (y[i] || 0); } return false; };
+  var mb = function(bytes){ return (bytes / 1048576).toFixed(1); };
+  fetch('./releases.json', { cache: 'no-cache' }).then(function(r){ if (!r.ok) throw new Error('manifest'); return r.json(); }).then(function(m){
+    var list = (m && m.releases || []).filter(function(r){ return r && r.version && r.files && r.files.x64 && r.files.x64.name; });
+    if (!list.length || !m.feed) throw new Error('empty');
+    var best = list.reduce(function(acc, r){ return !acc || newer(r.version, acc.version) ? r : acc; }, null);
+    var base = m.feed.replace('{version}', best.version);
+    var x64 = base + best.files.x64.name;
+    links.forEach(function(a){ a.href = x64; a.setAttribute('download', ''); });
+    meta.innerHTML = 'الإصدار <span class="mono">' + best.version + '</span>، <span class="mono">' + mb(best.files.x64.size || 0) + '</span> ميغابايت، 64 بت';
+    chips.forEach(function(c){ c.textContent = 'الإصدار ' + best.version + '، ' + mb(best.files.x64.size || 0) + ' ميغابايت'; c.classList.remove('hidden'); });
+    if (best.files.ia32 && best.files.ia32.name) { ia32.href = base + best.files.ia32.name; ia32.setAttribute('download', ''); ia32.classList.remove('hidden'); }
+    var phone = m.support && m.support.phone ? String(m.support.phone).replace(/\D/g, '') : '';
+    if (phone) { wa.href = 'https://wa.me/' + phone; wa.classList.remove('hidden'); }
+  }).catch(function(){
+    links.forEach(function(a){ a.href = FALLBACK; a.removeAttribute('download'); });
+    meta.textContent = 'أحدث إصدار';
+  });
+})();
+
+/* ---------- الانطلاق ---------- */
+if (rmq.matches) pinToFinalStates();
+applyHeroMode();
+})();
+</script>
+</body>
+</html>

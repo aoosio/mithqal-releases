@@ -178,6 +178,25 @@ section{position:relative;scroll-margin-top:calc(var(--nav-h) + 8px)}
 .card h3{font-size:19px;font-weight:600;margin-top:16px}
 .card p{color:var(--text-secondary);font-size:15.5px;line-height:1.8;margin-top:6px}
 
+/* S3b الموبايل */
+.mobile .grid{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(28px,5vw,72px);align-items:center}
+.mobile .points{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:16px;max-width:44ch}
+.mobile .points li{display:grid;grid-template-columns:30px 1fr;gap:12px;align-items:start}
+.mobile .points svg{width:26px;height:26px;color:var(--accent);margin-top:3px}
+.mobile .points svg *{fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.mobile .points b{display:block;font-weight:600;font-size:17px}
+.mobile .points span{color:var(--text-secondary);font-size:15.5px;line-height:1.75}
+.mobile .stores{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.mobile .stores svg{width:20px;height:20px}
+.phones{position:relative;height:clamp(440px,52vw,620px)}
+.phones img{position:absolute;top:50%;width:auto;height:84%;filter:drop-shadow(0 34px 50px rgba(0,0,0,.5));transition:transform .9s var(--ease-out)}
+.phones .p1{height:100%;left:50%;transform:translate(-50%,-50%);z-index:2}
+.phones .p2{right:2%;transform:translateY(-50%) rotate(4deg)}
+.phones .p3{left:2%;transform:translateY(-50%) rotate(-4deg)}
+.phones::before{content:"";position:absolute;inset:18% 12%;border-radius:50%;background:radial-gradient(closest-side,rgba(214,166,58,.22),transparent);pointer-events:none}
+@media (max-width:860px){.mobile .grid{grid-template-columns:1fr}.phones{height:clamp(360px,110vw,520px);order:-1}}
+@media (max-width:420px){.phones .p2{right:-4%}.phones .p3{left:-4%}}
+
 /* S3 اللقطات */
 .shots{background:var(--paper);color:var(--ink)}
 .shots .h2{color:var(--ink)}
@@ -333,6 +352,7 @@ html.rm .dust,html.rm .sheen{display:none}
     <ul class="nav-links">
       <li><a href="#features">ماذا يفعل</a></li>
       <li><a href="#shots">من الداخل</a></li>
+      <li><a href="#mobile">الموبايل</a></li>
       <li><a href="#how">كيف يعمل</a></li>
       <li><a href="#faq">الأسئلة</a></li>
     </ul>
@@ -425,6 +445,31 @@ html.rm .dust,html.rm .sheen{display:none}
       </div>
     </div>
     <p class="caption part" style="--i:6" id="shot-caption">اللوحة الرئيسية: مبيعات اليوم، المخزون بالعيار، الصناديق، وآخر 7 أيام.</p>
+  </div>
+</section>
+
+<!-- ===== S3b على الموبايل ===== -->
+<section class="sec mobile reveal" id="mobile" aria-labelledby="mobile-h">
+  <div class="wrap grid">
+    <div>
+      <span class="kicker part" style="--i:0">تطبيق مثقال للموبايل</span>
+      <h2 class="h2 display part" id="mobile-h" style="--i:1">محلك بجيبك.</h2>
+      <p class="lede part" style="--i:2">تابع المبيعات والديون والمخزون من الموبايل وأنت خارج المحل. التطبيق للاطلاع فقط، فالبيع والتعديل يبقيان على حاسبة المحل.</p>
+      <ul class="points">
+        <li class="part" style="--i:3"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 21a6 6 0 0 1-.6-12A8 8 0 0 1 24 10.5 5.5 5.5 0 0 1 23.5 21"/><path d="M16 14v11M12 21l4 4 4-4"/></svg><div><b>مزامنة سحابية باشتراك</b><span>الحاسبة ترفع نسخة مشفّرة تلقائيًا، والموبايل يتحدّث وحده. لا أحد غيرك يقدر يقرأ بياناتك، ولا حتى نحن.</span></div></li>
+        <li class="part" style="--i:4"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="10" y="3" width="12" height="26" rx="2.5"/><path d="M14 25h4"/><path d="M5 12h3M24 12h3M5 18h3M24 18h3"/></svg><div><b>ربط برمز واحد</b><span>من الإعدادات على الحاسبة اضغط «ربط موبايل»، واكتب الرمز بالتطبيق. ينتهي الرمز خلال عشر دقائق.</span></div></li>
+        <li class="part" style="--i:5"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><path d="M16 9v7l4.5 3"/></svg><div><b>يشتغل بلا إنترنت</b><span>آخر نسخة تبقى محفوظة على الموبايل، وسعر الذهب العالمي بالأونصة والغرام يظهر عند الاتصال.</span></div></li>
+      </ul>
+      <div class="stores part" style="--i:6">
+        <a class="btn btn-ghost" href="https://apps.apple.com/app/id6829446076" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.8zM14.1 5.7c.6-.8 1.1-1.8 1-2.9-.9 0-2.1.6-2.7 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2.1-.5 2.7-1.3z"/></svg>App Store</a>
+        <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=co.docrep.mithqal.reader" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.6 2.3 13.8 12l-9.2 9.7c-.4-.2-.6-.7-.6-1.2V3.5c0-.5.2-.9.6-1.2zm10.6 8.3 2.6-2.7 3.2 1.8c1 .6 1 1.9 0 2.5l-3.2 1.8-2.6-2.7-.7-.7.7-.7zM6 1.7l10.3 5.8-2.2 2.3L6 1.7zm8.1 12.5 2.2 2.3L6 22.3l8.1-8.1z"/></svg>Google Play</a>
+      </div>
+    </div>
+    <div class="phones part" style="--i:2" role="img" aria-label="ثلاث لقطات من تطبيق مثقال على آيفون: اللوحة مع سعر الذهب العالمي، سجل الفواتير، والزبائن">
+      <img class="p3" src="assets/phone-customers.webp" alt="" width="600" height="1250" loading="lazy">
+      <img class="p2" src="assets/phone-invoices.webp" alt="" width="600" height="1250" loading="lazy">
+      <img class="p1" src="assets/phone-dashboard.webp" alt="" width="600" height="1250" loading="lazy">
+    </div>
   </div>
 </section>
 

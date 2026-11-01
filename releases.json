@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-01T12:43:06.639Z",
+  "updated": "2026-11-01T13:20:53.735Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -95,6 +95,27 @@
           "name": "Mithqal-Setup-1.17.0-ia32.exe",
           "size": 102585524,
           "sha512": "fc7820a12e3e2167404c1197c3fc4b6040f3a5218c4c3376d714dc05ffdda1a25cee9249362e5c9a86dfafbbf8dad524d7936d4c21a2bfbc5795fe6261e8a34e"
+        }
+      }
+    },
+    {
+      "version": "1.18.0",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "منشئ التقارير بحفظ التقارير باسم، تعدد الفروع (فرع لكل جهاز ونطاق عرض للسجل واللوحة والتقارير والإغلاق)، جاهزية التوقيع الرقمي، وتحسينات بيع القطع.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.18.0-x64.exe",
+          "size": 124452365,
+          "sha512": "d288d3ed84e1746fe460142e5a65888221cb54ef83c2f49213b744848538756db46ec8ed8fac7b84e652e44c94dab122943842e7a36deb8a5bcf498cf6363458",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.18.0-ia32.exe",
+          "size": 102597072,
+          "sha512": "ac142799a38035397401ba4298d7a2424f85101a5ed71d2ded75046d96b8044b02123c5b2671504f3efaa0f4dd0e156544cb59c5da40c57659abd0c4b40a7cfd",
+          "signed": false
         }
       }
     }

@@ -303,6 +303,8 @@ section{position:relative;scroll-margin-top:calc(var(--nav-h) + 8px)}
 .dl .big .btn svg{width:20px;height:20px}
 .dl .meta{margin-top:14px;color:var(--text-secondary);font-size:15px}
 .dl .meta .mono{color:var(--text-primary)}
+.dl .whatsnew{margin:12px auto 0;max-width:52ch;color:var(--text-secondary);font-size:15px;line-height:1.8}
+.dl .whatsnew b{color:var(--accent);font-weight:600}
 .dl .alt{margin-top:10px;display:flex;justify-content:center;gap:22px;flex-wrap:wrap;font-size:15px}
 .dl .alt a{color:var(--text-secondary);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--line-strong);transition:color .3s var(--ease)}
 .dl .alt a:hover{color:var(--accent-hover)}
@@ -414,7 +416,7 @@ html.rm .dust,html.rm .sheen{display:none}
       <article class="card part" style="--i:6"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M23 9.5a9 9 0 1 0 2.5 7"/><path d="M27 4v7h-7"/><path d="M11 18l3 3 6-7"/></svg><h3>شراء الذهب المستعمل</h3><p>شراء الكسر من الزبون بوزنه الصافي، ويدخل المخزون مباشرة.</p></article>
       <article class="card part" style="--i:7"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="11" width="24" height="16" rx="2"/><path d="M4 16h24"/><path d="M10 11V7a6 6 0 0 1 12 0v4"/><path d="M12 22l3 2.5 5-5"/></svg><h3>الإغلاق اليومي</h3><p>النقد المعدود مقابل المتوقع، وفرق اليوم ظاهر قبل أن تُغلق.</p></article>
       <article class="card part" style="--i:8"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27h22"/><path d="M8 23V15M14 23V9M20 23v-6M26 23V12"/><path d="M8 11l6-4 6 4 6-6"/></svg><h3>عشرة تقارير جاهزة</h3><p>المبيعات والأرباح والديون والحركة بالعيار، وتصدير إلى Excel بضغطة.</p></article>
-      <article class="card part" style="--i:9"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="6" width="12" height="9" rx="1.5"/><rect x="17" y="13" width="12" height="9" rx="1.5"/><path d="M9 15v4M23 22v4M6 19h6M20 26h6"/><path d="M15 10.5h2a3 3 0 0 1 3 3"/></svg><h3>أكثر من جهاز في المحل</h3><p>مزامنة عبر شبكة المحل بين الجهاز الرئيسي والتوابع، بلا إنترنت.</p></article>
+      <article class="card part" style="--i:9"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="6" width="12" height="9" rx="1.5"/><rect x="17" y="13" width="12" height="9" rx="1.5"/><path d="M9 15v4M23 22v4M6 19h6M20 26h6"/><path d="M15 10.5h2a3 3 0 0 1 3 3"/></svg><h3>المحل على كل أجهزتك</h3><p>أجهزة المحل تتزامن عبر شبكته بلا إنترنت، وباشتراك المزامنة السحابية يصلك المحل على موبايلك.</p></article>
     </div>
   </div>
 </section>
@@ -548,12 +550,13 @@ html.rm .dust,html.rm .sheen{display:none}
     <svg class="beam part" style="--i:1" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
   </div>
   <div class="wrap col" style="text-align:start">
-    <details class="part" style="--i:2"><summary>هل يعمل بلا إنترنت؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم، بالكامل. البيع والطباعة والتقارير كلها على الجهاز. الإنترنت يلزم فقط للتفعيل الأول، ولتنزيل التحديثات، ولرفع النسخ الاحتياطية إن اخترت ذلك.</div></details>
-    <details class="part" style="--i:3"><summary>أين تُحفظ بياناتي؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">في قاعدة بيانات على جهازك داخل المحل، ولا تمر على خوادمنا. النسخ الاحتياطية تُشفَّر بكلمة مرور تختارها أنت قبل أن تخرج من الجهاز.</div></details>
+    <details class="part" style="--i:2"><summary>هل يعمل بلا إنترنت؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم، بالكامل. البيع والطباعة والتقارير كلها على الجهاز. الإنترنت يلزم فقط للتفعيل الأول، ولتنزيل التحديثات، ولرفع النسخ الاحتياطية والمزامنة السحابية إن اخترت ذلك.</div></details>
+    <details class="part" style="--i:3"><summary>أين تُحفظ بياناتي؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">في قاعدة بيانات على جهازك داخل المحل، ولا تمر على خوادمنا. النسخ الاحتياطية، ومنها ما يُرفع للمزامنة السحابية، تُشفَّر بكلمة مرور تختارها أنت قبل أن تخرج من الجهاز، فلا نستطيع نحن قراءتها.</div></details>
     <details class="part" style="--i:4"><summary>عندي أكثر من جهاز في المحل؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">جهاز رئيسي وأجهزة تابعة تتزامن عبر شبكة المحل المحلية، ويرى الجميع الفواتير نفسها. كل جهاز يحتاج ترخيصه.</div></details>
-    <details class="part" style="--i:5"><summary>ماذا لو غيّرت الجهاز؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">استعد آخر نسخة احتياطية على الجهاز الجديد من صفحة الإعدادات، ثم أرسل رمز الجهاز الجديد إلى الدعم ليُنقل الترخيص إليه.</div></details>
-    <details class="part" style="--i:6"><summary>كيف تصل التحديثات؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">يفحص البرنامج الإصدارات الجديدة عند التشغيل إن توفر إنترنت، وينزّلها بنفسه، وتُثبَّت عند إعادة التشغيل. بياناتك تبقى كما هي.</div></details>
-    <details class="part" style="--i:7"><summary>هل يطبع على الطابعة الحرارية؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم. إيصال 80 ملم بطباعة صامتة، إلى جانب فاتورة A5 على الطابعة العادية.</div></details>
+    <details class="part" style="--i:5"><summary>هل أتابع المحل من موبايلي؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم، بتطبيق مثقال لآيفون وأندرويد مع اشتراك المزامنة السحابية. البرنامج يرفع نسخة مشفّرة تلقائيًا، وتربط الموبايل برمز من الإعدادات، فيتحدّث وحده أينما كنت ويبقى يعمل بلا إنترنت. التطبيق للاطلاع فقط، والبيع يبقى على حاسبة المحل.</div></details>
+    <details class="part" style="--i:6"><summary>ماذا لو غيّرت الجهاز؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">استعد آخر نسخة احتياطية على الجهاز الجديد من صفحة الإعدادات، ثم أرسل رمز الجهاز الجديد إلى الدعم ليُنقل الترخيص إليه.</div></details>
+    <details class="part" style="--i:7"><summary>كيف تصل التحديثات؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">يفحص البرنامج الإصدارات الجديدة عند التشغيل إن توفر إنترنت، وينزّلها بنفسه، وتُثبَّت عند إعادة التشغيل. بياناتك تبقى كما هي.</div></details>
+    <details class="part" style="--i:8"><summary>هل يطبع على الطابعة الحرارية؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم. إيصال 80 ملم بطباعة صامتة، إلى جانب فاتورة A5 على الطابعة العادية.</div></details>
   </div>
 </section>
 
@@ -565,6 +568,7 @@ html.rm .dust,html.rm .sheen{display:none}
     <p class="lede part" style="--i:2">حمّل مثقال على جهاز المحل، وفعّله برمز الجهاز.</p>
     <div class="big part" style="--i:3"><a class="btn btn-gold dl-x64" id="dl-main" href="https://github.com/aoosio/mithqal-releases/releases/latest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M4 17v3h16v-3"/></svg>تحميل مثقال لويندوز</a></div>
     <p class="meta part" style="--i:4" id="dl-meta">أحدث إصدار</p>
+    <p class="whatsnew part hidden" style="--i:4" id="dl-notes"></p>
     <div class="alt part" style="--i:5"><a id="dl-ia32" class="hidden" href="#download">نسخة 32 بت</a><a id="dl-wa" class="hidden" href="#download" rel="noopener" target="_blank">تواصل عبر واتساب</a></div>
     <p class="note part" style="--i:6">يعمل على ويندوز. الترخيص لكل جهاز.</p>
   </div>
@@ -816,7 +820,7 @@ holdBtn.addEventListener('contextmenu', function(e){ e.preventDefault(); });
 /* ---------- زر التحميل الحي ---------- */
 (function(){
   var FALLBACK = 'https://github.com/aoosio/mithqal-releases/releases/latest';
-  var links = $$('.dl-x64'), meta = $('#dl-meta'), ia32 = $('#dl-ia32'), wa = $('#dl-wa'), chips = $$('.dl-meta-chip');
+  var links = $$('.dl-x64'), meta = $('#dl-meta'), notes = $('#dl-notes'), ia32 = $('#dl-ia32'), wa = $('#dl-wa'), chips = $$('.dl-meta-chip');
   var semver = function(v){ return String(v || '').split('.').map(function(x){ return parseInt(x, 10) || 0; }); };
   var newer = function(a, b){ var x = semver(a), y = semver(b); for (var i = 0; i < 3; i++) { if ((x[i] || 0) !== (y[i] || 0)) return (x[i] || 0) > (y[i] || 0); } return false; };
   var mb = function(bytes){ return (bytes / 1048576).toFixed(1); };
@@ -829,6 +833,7 @@ holdBtn.addEventListener('contextmenu', function(e){ e.preventDefault(); });
     links.forEach(function(a){ a.href = x64; a.setAttribute('download', ''); });
     meta.innerHTML = 'الإصدار <span class="mono">' + best.version + '</span>، <span class="mono">' + mb(best.files.x64.size || 0) + '</span> ميغابايت، 64 بت';
     chips.forEach(function(c){ c.textContent = 'الإصدار ' + best.version + '، ' + mb(best.files.x64.size || 0) + ' ميغابايت'; c.classList.remove('hidden'); });
+    if (best.notes) { notes.innerHTML = ''; var nb = document.createElement('b'); nb.textContent = 'الجديد في ' + best.version + ': '; notes.appendChild(nb); notes.appendChild(document.createTextNode(String(best.notes))); notes.classList.remove('hidden'); }
     if (best.files.ia32 && best.files.ia32.name) { ia32.href = base + best.files.ia32.name; ia32.setAttribute('download', ''); ia32.classList.remove('hidden'); }
     var phone = m.support && m.support.phone ? String(m.support.phone).replace(/\D/g, '') : '';
     if (phone) { wa.href = 'https://wa.me/' + phone; wa.classList.remove('hidden'); }

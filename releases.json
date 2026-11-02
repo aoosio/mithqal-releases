@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-01T23:07:00.490Z",
+  "updated": "2026-11-02T01:53:41.154Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -178,6 +178,27 @@
           "name": "Mithqal-Setup-1.19.0-ia32.exe",
           "size": 102779123,
           "sha512": "de688bf9a19f66c0daa9c8a28717293d788b70f678f8947aa5ef17d7d20fa2e36c1c8fc56d68f51c4a16ff2a0f0cb43383c1f49f860b02ed836c270bd1591f28",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.20.0",
+      "date": "2026-11-02",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "المزامنة السحابية صارت باتجاهين: ما يُسجَّل على موبايلات المحل يصل الحاسبة، وأرقام الفواتير ورموز القطع تُحجز من خادم مثقال فلا تتكرر بين الأجهزة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.20.0-x64.exe",
+          "size": 124645351,
+          "sha512": "7e3697128526d15abce63f89426b3a27bccfcc83721a905eb7ca8ae0b2343b2c5e1617697f373ae7b9d14d548f21cc4e3a5fd61bd48dc32fda9c5b2e1b57f885",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.20.0-ia32.exe",
+          "size": 102790036,
+          "sha512": "a907582050aad091e7ad2868cc2f99e55ab7c842611c4e4137e45762e6b2cf4053bf42570da152c6d0016cc49d82c4811c3383b285b1c379de4fb126e8de325a",
           "signed": false
         }
       }

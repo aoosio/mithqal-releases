@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-02T01:53:41.154Z",
+  "updated": "2026-11-03T04:02:37.820Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -199,6 +199,27 @@
           "name": "Mithqal-Setup-1.20.0-ia32.exe",
           "size": 102790036,
           "sha512": "a907582050aad091e7ad2868cc2f99e55ab7c842611c4e4137e45762e6b2cf4053bf42570da152c6d0016cc49d82c4811c3383b285b1c379de4fb126e8de325a",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.21.0",
+      "date": "2026-11-03",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "الحاسبة وموبايلات المحل صارت تعمل بالقواعد نفسها: الفواتير والمشتريات والتسديد والإغلاق تُحفظ بالطريقة نفسها على كل جهاز، والمستخدمون وصلاحياتهم وإعدادات المحل تتزامن بين الحاسبة والموبايلات.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.21.0-x64.exe",
+          "size": 124655340,
+          "sha512": "72ba1084a2ac16137bc36e37cdf79f93eea6a1ec96f870877a82d55e86baf8fb1b9ac37bfec54a0aa99bede83be9dfbe6937cda6043098b01de7ece7b12904ff",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.21.0-ia32.exe",
+          "size": 102800048,
+          "sha512": "b22c9f318a74588e88aefaf68587d9f0e92f61e597ad919cd7ed42ffc39aa73543599aafffc7d8c45a3c3db6f15a92d001cb03f270dec65735618a1392a856db",
           "signed": false
         }
       }

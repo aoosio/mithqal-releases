@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-03T04:02:37.820Z",
+  "updated": "2026-11-03T15:01:32.496Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -220,6 +220,27 @@
           "name": "Mithqal-Setup-1.21.0-ia32.exe",
           "size": 102800048,
           "sha512": "b22c9f318a74588e88aefaf68587d9f0e92f61e597ad919cd7ed42ffc39aa73543599aafffc7d8c45a3c3db6f15a92d001cb03f270dec65735618a1392a856db",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.22.0",
+      "date": "2026-11-03",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "الحاسبة تنضم لمحل يعمل على الموبايل وحده برمز ربط من الموبايل الأساسي، فتعمل معه بالأرقام نفسها بلا تكرار. وتحسينات في المزامنة مع الموبايلات: حالة القطع المرقّمة تصل كل الأجهزة، وتنبيه «بيعت مرتين» لا يظهر لقطعة أُرجعت ثم بيعت.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.22.0-x64.exe",
+          "size": 124657831,
+          "sha512": "bd5290cd4f88a0205670a535def9bde70f251c4698baf81860b49238d4418c62ad943d16aac59ae39f82c7656f9c66a595506917ed1cbb9dec1d916d821b552a",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.22.0-ia32.exe",
+          "size": 102802407,
+          "sha512": "bb49b0256d31a686776c18312401e36a1788034645189415d5af55acf7b29ac49e6a954c37c6f7c9d109c11cd0a3b0f2e7d2f7fd3f74dbb1c75d5ca41ebb51b2",
           "signed": false
         }
       }

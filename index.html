@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>مثقال، برنامج محل الذهب</title>
-<meta name="description" content="مثقال: برنامج لمحلات الذهب والمجوهرات في العراق. فواتير A5 وإيصال حراري، أعيرة متعددة، ديون ومخزون بالغرام، إغلاق يومي وتقارير، يعمل على جهازك بلا إنترنت.">
+<meta name="description" content="مثقال: برنامج سهل لمحلات الذهب في العراق. فواتير، ديون ومخزون بالغرام، ويشتغل بلا إنترنت. جرّبه مجانًا لمدة شهر: 07779397740 أو 07718075412.">
 <meta name="theme-color" content="#10162A">
 <meta name="color-scheme" content="dark">
 <link rel="icon" type="image/png" sizes="64x64" href="assets/icon-64.png">
@@ -14,14 +14,14 @@
 <meta property="og:locale" content="ar_IQ">
 <meta property="og:site_name" content="مثقال">
 <meta property="og:title" content="مثقال، برنامج محل الذهب">
-<meta property="og:description" content="فواتير وديون ومخزون بالعيار، على جهازك وبلا إنترنت. صُنع لمحلات الذهب في العراق.">
+<meta property="og:description" content="برنامج سهل لمحل الذهب: فواتير وديون ومخزون بالغرام، بلا إنترنت. جرّبه مجانًا لمدة شهر.">
 <meta property="og:url" content="https://mithqal.mortada.io/">
 <meta property="og:image" content="https://mithqal.mortada.io/assets/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="مثقال، برنامج محل الذهب">
-<meta name="twitter:description" content="فواتير وديون ومخزون بالعيار، على جهازك وبلا إنترنت.">
+<meta name="twitter:description" content="برنامج سهل لمحل الذهب. جرّبه مجانًا لمدة شهر.">
 <meta name="twitter:image" content="https://mithqal.mortada.io/assets/og.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -134,6 +134,25 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
   .hero-static .cta-row{margin-top:22px;display:flex;flex-direction:column;align-items:flex-start;gap:10px}
   .hero-static .btn{text-shadow:none}
 }
+
+/* جرّب مجانًا: الرقمان */
+.try{background:radial-gradient(ellipse 70% 70% at 50% 50%,rgba(214,166,58,.12),transparent 72%)}
+.try .h2{color:var(--accent-hover)}
+.try .lede{color:var(--text-primary);font-size:clamp(18px,1.6vw,21px)}
+.pcards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:860px;margin:40px auto 0}
+.pcard{background:var(--panel);border:1px solid var(--line-strong);border-radius:22px;padding:28px 22px 24px;display:flex;flex-direction:column;align-items:center;gap:20px;box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.pnum{font-family:var(--mono);direction:ltr;unicode-bidi:isolate;font-variant-numeric:tabular-nums;font-size:clamp(34px,4.2vw,48px);font-weight:600;letter-spacing:.5px;line-height:1.2;color:var(--text-primary);text-decoration:none;white-space:nowrap}
+.pnum:hover{color:var(--accent-hover)}
+.pacts{display:flex;gap:12px;width:100%}
+.pacts .btn{flex:1 1 0;font-size:18px;min-height:56px;padding:12px 14px}
+.pacts .btn svg{width:22px;height:22px;flex:0 0 22px}
+.dl .phones-inline{margin-top:16px;display:flex;justify-content:center;align-items:baseline;gap:6px 12px;flex-wrap:wrap;font-size:20px}
+.dl .phones-inline span{color:var(--text-secondary);font-size:15px}
+.dl .phones-inline span:first-child{flex-basis:100%}
+.dl .phones-inline a{font-family:var(--mono);direction:ltr;unicode-bidi:isolate;color:var(--text-primary);text-decoration:none;font-weight:600}
+.dl .phones-inline a:hover{color:var(--accent-hover)}
+.cta-row .btn-ghost{text-shadow:none}
+@media (max-width:720px){.pcards{grid-template-columns:1fr;gap:16px;margin-top:30px}.pcard{padding:24px 16px 20px}.pnum{font-size:clamp(28px,9.2vw,44px)}}
 
 /* ===== الأقسام ===== */
 section{position:relative;scroll-margin-top:calc(var(--nav-h) + 8px)}
@@ -355,12 +374,13 @@ html.rm .dust,html.rm .sheen{display:none}
     <a class="brand" href="#hero" aria-label="مثقال، الصفحة الرئيسية"><img src="assets/mark-340.png" alt="" width="40" height="33"><span>مثقال</span></a>
     <ul class="nav-links">
       <li><a href="#features">ماذا يفعل</a></li>
-      <li><a href="#shots">من الداخل</a></li>
+      <li><a href="#try">شهر مجاني</a></li>
+      <li><a href="#shots">صور البرنامج</a></li>
       <li><a href="#mobile">الموبايل</a></li>
-      <li><a href="#how">كيف يعمل</a></li>
       <li><a href="#faq">الأسئلة</a></li>
+      <li><a href="#download">التحميل</a></li>
     </ul>
-    <a class="btn btn-gold btn-sm" href="#download">تحميل</a>
+    <a class="btn btn-gold btn-sm" href="#try">جرّب مجانًا</a>
   </div>
 </nav>
 
@@ -376,17 +396,17 @@ html.rm .dust,html.rm .sheen{display:none}
       <div class="band side b2" data-a="0.34" data-b="0.67"><p class="line display split">عيار بعيار، ودينار بدينار.</p></div>
       <div class="band settle b3" data-a="0.75" data-b="1" data-ramp="0.08">
         <p class="line display split">ويستقر الميزان.</p>
-        <p class="sub">مثقال، برنامج محل الذهب. على جهازك، ويعمل بلا إنترنت.</p>
-        <div class="cta-row"><a class="btn btn-gold dl-x64" href="https://github.com/aoosio/mithqal-releases/releases/latest">تحميل مثقال لويندوز</a><span class="chip dl-meta-chip hidden"></span></div>
+        <p class="sub">مثقال برنامج سهل لمحل الذهب. تبيع وتشتري، وتعرف ديونك ومخزونك بالغرام.</p>
+        <div class="cta-row"><a class="btn btn-gold" href="#try">جرّب مجانًا لمدة شهر</a><a class="btn btn-ghost dl-x64" href="https://github.com/aoosio/mithqal-releases/releases/latest">تحميل مثقال لويندوز</a><span class="chip dl-meta-chip hidden"></span></div>
       </div>
     </div>
     <div class="thread" id="thread" aria-hidden="true"></div>
     <div class="ring-wrap" id="ring-wrap" aria-hidden="true"><svg class="ring" viewBox="0 0 48 48"><circle class="track" cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="126" style="stroke-dashoffset:var(--ld,126)"/></svg></div>
     <div class="chip cue" id="cue" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 6l5 5 5-5"/></svg>مرّر للأسفل</div>
     <div class="hero-static">
-      <h1 class="line display">كل غرام يُحسب. ويستقر الميزان.</h1>
-      <p class="sub">مثقال، برنامج محل الذهب في العراق: فواتير وديون ومخزون بالعيار، على جهازك وبلا إنترنت.</p>
-      <div class="cta-row"><a class="btn btn-gold dl-x64" href="https://github.com/aoosio/mithqal-releases/releases/latest">تحميل مثقال لويندوز</a></div>
+      <h1 class="line display">برنامج سهل لمحل الذهب.</h1>
+      <p class="sub">تبيع وتشتري وتطبع الفاتورة، وتعرف ديونك ومخزونك بالغرام. ويشتغل بلا إنترنت.</p>
+      <div class="cta-row"><a class="btn btn-gold" href="#try">جرّب مجانًا لمدة شهر</a><a class="btn btn-ghost dl-x64" href="https://github.com/aoosio/mithqal-releases/releases/latest">تحميل مثقال لويندوز</a></div>
     </div>
   </div>
 </section>
@@ -398,7 +418,7 @@ html.rm .dust,html.rm .sheen{display:none}
       <span class="kicker part" style="--i:0">لماذا «مثقال»؟</span>
       <h2 class="h2 display part" id="why-h" style="--i:1">خمسة غرامات من الثقة.</h2>
       <svg class="beam part" style="--i:2" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
-      <p class="body part" style="--i:3">المثقال وحدة وزن الذهب التي توارثها الصاغة؛ في العراق يساوي خمسة غرامات. به كان الصائغ يزن، وبه كان الزبون يطمئن. البرنامج يحمل الاسم نفسه لأنه يعمل بالمنطق نفسه: وزن دقيق، وحساب واضح، وثقة بين الطرفين.</p>
+      <p class="body part" style="--i:3">المثقال وزن الذهب عند الصاغة، ويساوي في العراق خمسة غرامات. سمّينا البرنامج «مثقال» لأنه مثل الميزان: وزن دقيق، وحساب واضح.</p>
     </div>
     <figure class="part" style="--i:1"><img src="assets/hero-ending.jpg" alt="قالب صغير مملوء بذهب مصهور ساكن على حجر داكن" loading="lazy" width="1912" height="1080"><span class="unit" aria-hidden="true">1 mithqal = 5 g</span></figure>
   </div>
@@ -409,16 +429,35 @@ html.rm .dust,html.rm .sheen{display:none}
   <div class="wrap center">
     <h2 class="h2 display part" id="features-h" style="--i:0">ماذا يفعل مثقال؟</h2>
     <svg class="beam part" style="--i:1" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
-    <p class="lede part" style="--i:2">كل ما يحتاجه محل الذهب في برنامج واحد، على جهاز واحد.</p>
+    <p class="lede part" style="--i:2">كل شغل محل الذهب في برنامج واحد.</p>
     <div class="cards">
-      <article class="card part" style="--i:2"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M8 3h16v24l-2.7-2-2.6 2-2.7-2-2.7 2-2.6-2L8 27z"/><path d="M12 10h8M12 15h8M12 20h5"/></svg><h3>فواتير بيع وشراء</h3><p>تُطبع على ورق A5 أو إيصال حراري 80 ملم، بالدينار أو الدولار.</p></article>
-      <article class="card part" style="--i:3"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="10"/><path d="M16 3v4M16 25v4M3 16h4M25 16h4"/><circle cx="16" cy="16" r="3"/></svg><h3>أعيرة متعددة</h3><p>18 و21 و22 و24 في الفاتورة نفسها، وكل عيار بسعره.</p></article>
-      <article class="card part" style="--i:4"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="6" r="2.5"/><path d="M13 9.5h6l4 15H9z"/><path d="M8 24.5h16"/><path d="M9 28h14"/></svg><h3>الديون والمخزون بالغرام</h3><p>ديون الزبائن ورصيد المخزون بالغرام لكل عيار، لا بالتقريب.</p></article>
-      <article class="card part" style="--i:5"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 7c4-1.5 7-1.5 12 1 5-2.5 8-2.5 12-1v18c-4-1.5-7-1.5-12 1-5-2.5-8-2.5-12-1z"/><path d="M16 8v18"/><path d="M8 13h4M8 17h4M20 13h4M20 17h4"/></svg><h3>الزبائن والموردون</h3><p>كشف حساب لكل زبون ومورد، بالذهب والدينار والدولار.</p></article>
-      <article class="card part" style="--i:6"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M23 9.5a9 9 0 1 0 2.5 7"/><path d="M27 4v7h-7"/><path d="M11 18l3 3 6-7"/></svg><h3>شراء الذهب المستعمل</h3><p>شراء الكسر من الزبون بوزنه الصافي، ويدخل المخزون مباشرة.</p></article>
-      <article class="card part" style="--i:7"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="11" width="24" height="16" rx="2"/><path d="M4 16h24"/><path d="M10 11V7a6 6 0 0 1 12 0v4"/><path d="M12 22l3 2.5 5-5"/></svg><h3>الإغلاق اليومي</h3><p>النقد المعدود مقابل المتوقع، وفرق اليوم ظاهر قبل أن تُغلق.</p></article>
-      <article class="card part" style="--i:8"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27h22"/><path d="M8 23V15M14 23V9M20 23v-6M26 23V12"/><path d="M8 11l6-4 6 4 6-6"/></svg><h3>عشرة تقارير جاهزة</h3><p>المبيعات والأرباح والديون والحركة بالعيار، وتصدير إلى Excel بضغطة.</p></article>
-      <article class="card part" style="--i:9"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="6" width="12" height="9" rx="1.5"/><rect x="17" y="13" width="12" height="9" rx="1.5"/><path d="M9 15v4M23 22v4M6 19h6M20 26h6"/><path d="M15 10.5h2a3 3 0 0 1 3 3"/></svg><h3>المحل على كل أجهزتك</h3><p>أجهزة المحل تتزامن عبر شبكته بلا إنترنت، وباشتراك المزامنة السحابية يصلك المحل على موبايلك.</p></article>
+      <article class="card part" style="--i:2"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M8 3h16v24l-2.7-2-2.6 2-2.7-2-2.7 2-2.6-2L8 27z"/><path d="M12 10h8M12 15h8M12 20h5"/></svg><h3>فواتير بيع وشراء</h3><p>تطبع الفاتورة على ورق A5 أو على طابعة الإيصالات، بالدينار أو الدولار.</p></article>
+      <article class="card part" style="--i:3"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="10"/><path d="M16 3v4M16 25v4M3 16h4M25 16h4"/><circle cx="16" cy="16" r="3"/></svg><h3>كل الأعيرة</h3><p>عيار 18 و21 و22 و24 في نفس الفاتورة، وكل عيار بسعره.</p></article>
+      <article class="card part" style="--i:4"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="6" r="2.5"/><path d="M13 9.5h6l4 15H9z"/><path d="M8 24.5h16"/><path d="M9 28h14"/></svg><h3>الديون والمخزون بالغرام</h3><p>تعرف كم غرام على كل زبون، وكم غرام عندك في المخزون.</p></article>
+      <article class="card part" style="--i:5"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 7c4-1.5 7-1.5 12 1 5-2.5 8-2.5 12-1v18c-4-1.5-7-1.5-12 1-5-2.5-8-2.5-12-1z"/><path d="M16 8v18"/><path d="M8 13h4M8 17h4M20 13h4M20 17h4"/></svg><h3>الزبائن والموردون</h3><p>كشف حساب لكل زبون وكل مورد، بالذهب والدينار والدولار.</p></article>
+      <article class="card part" style="--i:6"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M23 9.5a9 9 0 1 0 2.5 7"/><path d="M27 4v7h-7"/><path d="M11 18l3 3 6-7"/></svg><h3>شراء الكسر</h3><p>تشتري الذهب المستعمل من الزبون، ويدخل المخزون مباشرة.</p></article>
+      <article class="card part" style="--i:7"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="11" width="24" height="16" rx="2"/><path d="M4 16h24"/><path d="M10 11V7a6 6 0 0 1 12 0v4"/><path d="M12 22l3 2.5 5-5"/></svg><h3>إغلاق اليوم</h3><p>آخر اليوم تعدّ النقد، والبرنامج يبيّن لك إن كان هناك فرق.</p></article>
+      <article class="card part" style="--i:8"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27h22"/><path d="M8 23V15M14 23V9M20 23v-6M26 23V12"/><path d="M8 11l6-4 6 4 6-6"/></svg><h3>تقارير جاهزة</h3><p>المبيعات والأرباح والديون، وتنقلها إلى Excel بضغطة.</p></article>
+      <article class="card part" style="--i:9"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="6" width="12" height="9" rx="1.5"/><rect x="17" y="13" width="12" height="9" rx="1.5"/><path d="M9 15v4M23 22v4M6 19h6M20 26h6"/><path d="M15 10.5h2a3 3 0 0 1 3 3"/></svg><h3>الحاسبة والموبايل</h3><p>يشتغل على كل حاسبات المحل، ويصلك المحل على موبايلك أينما كنت.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== جرّب مجانًا ===== -->
+<section class="sec try reveal" id="try" aria-labelledby="try-h">
+  <div class="wrap center">
+    <span class="kicker part" style="--i:0">مجانًا</span>
+    <h2 class="h2 display part" id="try-h" style="--i:1">جرّب مثقال مجانًا لمدة شهر.</h2>
+    <p class="lede part" style="--i:2">اتصل بنا أو راسلنا على الواتساب، ونفعّل لك البرنامج شهرًا كاملًا مجانًا.</p>
+    <div class="pcards">
+      <div class="pcard part" style="--i:3">
+        <a class="pnum" href="tel:+9647779397740" dir="ltr" aria-label="اتصل على 07779397740">0777 939 7740</a>
+        <div class="pacts"><a class="btn btn-gold" href="tel:+9647779397740"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 5.1 5.1l1.4-2.3L19 13.5V17a2 2 0 0 1-2 2A15 15 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>اتصال</a><a class="btn btn-ghost" href="https://wa.me/9647779397740" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2a9.7 9.7 0 0 0-8.4 14.6L2.3 21.7l5-1.3A9.7 9.7 0 1 0 12 2.2zm0 17.7c-1.5 0-2.9-.4-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 19.9zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2.1.7 2.8.6.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.1-.3z"/></svg>واتساب</a></div>
+      </div>
+      <div class="pcard part" style="--i:4">
+        <a class="pnum" href="tel:+9647718075412" dir="ltr" aria-label="اتصل على 07718075412">0771 807 5412</a>
+        <div class="pacts"><a class="btn btn-gold" href="tel:+9647718075412"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 5.1 5.1l1.4-2.3L19 13.5V17a2 2 0 0 1-2 2A15 15 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>اتصال</a><a class="btn btn-ghost" href="https://wa.me/9647718075412" rel="noopener" target="_blank"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2a9.7 9.7 0 0 0-8.4 14.6L2.3 21.7l5-1.3A9.7 9.7 0 1 0 12 2.2zm0 17.7c-1.5 0-2.9-.4-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 19.9zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2.1.7 2.8.6.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.1-.3z"/></svg>واتساب</a></div>
+      </div>
     </div>
   </div>
 </section>
@@ -426,10 +465,10 @@ html.rm .dust,html.rm .sheen{display:none}
 <!-- ===== S3 من داخل البرنامج ===== -->
 <section class="sec shots reveal" id="shots" aria-labelledby="shots-h">
   <div class="wrap">
-    <span class="kicker part" style="--i:0">لقطات حقيقية</span>
+    <span class="kicker part" style="--i:0">صور حقيقية</span>
     <h2 class="h2 display part" id="shots-h" style="--i:1">من داخل البرنامج.</h2>
     <svg class="beam part" style="--i:2" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
-    <p class="lede part" style="--i:3">لقطات حقيقية من مثقال، بمحل تجريبي اسمه «مجوهرات النور».</p>
+    <p class="lede part" style="--i:3">صور من البرنامج نفسه، لمحل تجريبي اسمه «مجوهرات النور».</p>
     <div class="tabs part" style="--i:4" role="tablist" aria-label="صفحات البرنامج" id="tabs">
       <button class="tab" role="tab" aria-selected="true" aria-controls="shot-panel" id="tab-0" data-i="0">اللوحة الرئيسية</button>
       <button class="tab" role="tab" aria-selected="false" aria-controls="shot-panel" id="tab-1" data-i="1" tabindex="-1">سجل الفواتير</button>
@@ -458,11 +497,11 @@ html.rm .dust,html.rm .sheen{display:none}
     <div>
       <span class="kicker part" style="--i:0">تطبيق مثقال للموبايل</span>
       <h2 class="h2 display part" id="mobile-h" style="--i:1">محلك بجيبك.</h2>
-      <p class="lede part" style="--i:2">بِع واشترِ من الموبايل كما على حاسبة المحل: فواتير بأرقام لا تتكرر، قطع بالباركود، ديون وصناديق وكشوف حساب. مع حاسبة المحل، أو على الموبايل وحده لمحل صغير.</p>
+      <p class="lede part" style="--i:2">تطبيق مثقال لآيفون وأندرويد. تبيع وتشتري من الموبايل، مع حاسبة المحل أو بدونها.</p>
       <ul class="points">
-        <li class="part" style="--i:3"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M8 3h16v26l-3-2-2.5 2-2.5-2-2.5 2-2.5-2-3 2z"/><path d="M12 10h8M12 15h8M12 20h5"/></svg><div><b>فواتير ومشتريات من الموبايل</b><span>بيع بالعيار والوزن أو بالقطعة المرقّمة بالكاميرا أو قارئ البلوتوث، وطباعة A5 أو مشاركة PDF. شراء الذهب من المورد والمستعمل من الزبون.</span></div></li>
-        <li class="part" style="--i:4"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="12" cy="11" r="4"/><path d="M4 26c1-5 4.5-7 8-7s7 2 8 7"/><circle cx="23" cy="12" r="3"/><path d="M21 19c3 0 6 2 7 6"/></svg><div><b>كل موظف بحسابه</b><span>اربط موبايلات الموظفين برمز من الحاسبة أو من موبايل المحل، وكل واحد يدخل بحسابه وصلاحياته. البيانات مشفّرة، ولا أحد غيرك يقدر يقرأها، ولا حتى نحن.</span></div></li>
-        <li class="part" style="--i:5"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><path d="M16 9v7l4.5 3"/></svg><div><b>يشتغل بلا إنترنت</b><span>البيع والشراء يُحفظان على الموبايل فورًا، ويتزامنان مع المحل عند الاتصال.</span></div></li>
+        <li class="part" style="--i:3"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M8 3h16v26l-3-2-2.5 2-2.5-2-2.5 2-2.5-2-3 2z"/><path d="M12 10h8M12 15h8M12 20h5"/></svg><div><b>بيع وشراء من الموبايل</b><span>بالوزن والعيار، أو تقرأ باركود القطعة بالكاميرا. وتطبع الفاتورة أو ترسلها PDF.</span></div></li>
+        <li class="part" style="--i:4"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="12" cy="11" r="4"/><path d="M4 26c1-5 4.5-7 8-7s7 2 8 7"/><circle cx="23" cy="12" r="3"/><path d="M21 19c3 0 6 2 7 6"/></svg><div><b>كل موظف بحسابه</b><span>كل موظف يدخل باسمه وصلاحياته. وبياناتك مشفّرة، لا يقرأها أحد غيرك، ولا حتى نحن.</span></div></li>
+        <li class="part" style="--i:5"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><path d="M16 9v7l4.5 3"/></svg><div><b>يشتغل بلا إنترنت</b><span>يحفظ كل شيء فورًا، ويتزامن مع المحل لما يرجع الإنترنت.</span></div></li>
       </ul>
       <div class="stores part" style="--i:6">
         <a class="btn btn-ghost" href="https://apps.apple.com/app/id6829446076" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.8zM14.1 5.7c.6-.8 1.1-1.8 1-2.9-.9 0-2.1.6-2.7 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2.1-.5 2.7-1.3z"/></svg>App Store</a>
@@ -484,9 +523,9 @@ html.rm .dust,html.rm .sheen{display:none}
     <svg class="beam part" style="--i:1" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
     <div class="steps">
       <svg class="connector" viewBox="0 0 1000 40" preserveAspectRatio="none" aria-hidden="true"><path d="M1000 20 C 750 -4, 620 44, 500 20 S 250 -4, 0 20"/></svg>
-      <article class="step part" style="--i:2"><div class="pic"><img src="assets/step-1.jpg" alt="" loading="lazy" width="1168" height="880"><span class="n" aria-hidden="true">1</span></div><h3>تحميل وتثبيت</h3><p>ملف واحد لويندوز. ثبّته على جهاز المحل.</p></article>
-      <article class="step part" style="--i:3"><div class="pic"><img src="assets/step-2.jpg" alt="" loading="lazy" width="1168" height="880"><span class="n" aria-hidden="true">2</span></div><h3>تفعيل برمز الجهاز</h3><p>يظهر رمز الجهاز عند أول تشغيل. أرسله إلينا وتستلم رمز التفعيل.</p></article>
-      <article class="step part" style="--i:4"><div class="pic"><img src="assets/step-3.jpg" alt="" loading="lazy" width="1168" height="880"><span class="n" aria-hidden="true">3</span></div><h3>البيع والطباعة</h3><p>افتح أول فاتورة، واطبعها A5 أو إيصالًا حراريًا.</p></article>
+      <article class="step part" style="--i:2"><div class="pic"><img src="assets/step-1.jpg" alt="" loading="lazy" width="1168" height="880"><span class="n" aria-hidden="true">1</span></div><h3>حمّل البرنامج</h3><p>ثبّته على حاسبة المحل (ويندوز).</p></article>
+      <article class="step part" style="--i:3"><div class="pic"><img src="assets/step-2.jpg" alt="" loading="lazy" width="1168" height="880"><span class="n" aria-hidden="true">2</span></div><h3>اتصل بنا</h3><p>يظهر لك رمز عند أول تشغيل. أرسله لنا، ونفعّل لك الشهر المجاني.</p></article>
+      <article class="step part" style="--i:4"><div class="pic"><img src="assets/step-3.jpg" alt="" loading="lazy" width="1168" height="880"><span class="n" aria-hidden="true">3</span></div><h3>ابدأ البيع</h3><p>اكتب أول فاتورة واطبعها.</p></article>
     </div>
   </div>
 </section>
@@ -496,7 +535,7 @@ html.rm .dust,html.rm .sheen{display:none}
   <div class="wrap grid">
     <div>
       <span class="kicker part" style="--i:0">جرّبها بيدك</span>
-      <h2 class="h2 display part" id="hold-h" style="--i:1">أمسك الميزان حتى يتّزن.</h2>
+      <h2 class="h2 display part" id="hold-h" style="--i:1">اضغط حتى يتّزن الميزان.</h2>
       <svg class="beam part" style="--i:2" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
       <div class="readouts part" style="--i:3">
         <div class="ro"><span class="lbl">المتوقع في الصندوق</span><span class="val num">4,250,000<small>د.ع</small></span></div>
@@ -507,7 +546,7 @@ html.rm .dust,html.rm .sheen{display:none}
         <button type="button" class="btn btn-gold" id="hold-btn" aria-describedby="hold-hint">زِن اليوم</button>
         <span class="hint" id="hold-hint">اضغط مطوّلًا على الزر</span>
       </div>
-      <p class="after" id="hold-after" aria-live="polite">الفرق: 0 دينار. هكذا يُغلق يومك في مثقال.</p>
+      <p class="after" id="hold-after" aria-live="polite">الفرق صفر. هكذا تغلق يومك في مثقال.</p>
     </div>
     <div class="part" style="--i:2">
       <svg class="hb" id="hb" viewBox="0 0 320 210" aria-hidden="true">
@@ -536,11 +575,11 @@ html.rm .dust,html.rm .sheen{display:none}
       <img class="mark part" style="--i:3" src="assets/mark-340.png" alt="" loading="lazy" width="340" height="280">
     </div>
     <ul class="tlist">
-      <li class="part" style="--i:1"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 12a17 17 0 0 1 24 0M8 16.5a11 11 0 0 1 16 0M12 21a5 5 0 0 1 8 0"/><circle cx="16" cy="26" r="1.5"/><path d="M5 27L27 5"/></svg><div><h3>يعمل بلا إنترنت</h3><p>البيع والطباعة والتقارير كلها على الجهاز. لا يتوقف المحل إذا انقطعت الشبكة.</p></div></li>
-      <li class="part" style="--i:2"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="6" y="14" width="20" height="14" rx="2.5"/><path d="M10 14V9a6 6 0 0 1 12 0v5"/><circle cx="16" cy="21" r="2"/><path d="M16 23v2.5"/></svg><div><h3>نسخ احتياطية مشفّرة</h3><p>تلقائيًا، يوميًا وعند الإغلاق، إلى مجلد OneDrive أو Google Drive أو iCloud، بكلمة مرور تختارها أنت.</p></div></li>
-      <li class="part" style="--i:3"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="5" width="11" height="8" rx="1.5"/><rect x="18" y="19" width="11" height="8" rx="1.5"/><path d="M14 9h4v14h-4M8.5 13v4h7"/></svg><div><h3>شبكة المحل</h3><p>الجهاز الرئيسي والأجهزة التابعة تتزامن عبر شبكة المحل، من دون سحابة.</p></div></li>
-      <li class="part" style="--i:4"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="9" y="3" width="14" height="26" rx="3"/><path d="M14 6h4"/><path d="M13 13h6M13 17h6M13 21h4"/></svg><div><h3>تطبيق الموبايل</h3><p>آيفون وآيباد وأندرويد: بيع وشراء وديون وصناديق، مع حاسبة المحل أو بدونها. ترخيص موبايل لكل جهاز.</p></div></li>
-      <li class="part" style="--i:5"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M26 14a10 10 0 0 0-18.5-4"/><path d="M6 5v6h6"/><path d="M6 18a10 10 0 0 0 18.5 4"/><path d="M26 27v-6h-6"/></svg><div><h3>تحديثات ودعم</h3><p>الإصدارات الجديدة تصل وتُثبَّت بنفسها، والدعم عبر واتساب.</p></div></li>
+      <li class="part" style="--i:1"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M4 12a17 17 0 0 1 24 0M8 16.5a11 11 0 0 1 16 0M12 21a5 5 0 0 1 8 0"/><circle cx="16" cy="26" r="1.5"/><path d="M5 27L27 5"/></svg><div><h3>يشتغل بلا إنترنت</h3><p>البيع والطباعة والتقارير على جهازك. إذا انقطع الإنترنت، المحل يكمل شغله.</p></div></li>
+      <li class="part" style="--i:2"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="6" y="14" width="20" height="14" rx="2.5"/><path d="M10 14V9a6 6 0 0 1 12 0v5"/><circle cx="16" cy="21" r="2"/><path d="M16 23v2.5"/></svg><div><h3>نسخة احتياطية كل يوم</h3><p>نسخة مشفّرة إلى OneDrive أو Google Drive أو iCloud، بكلمة سر تختارها أنت.</p></div></li>
+      <li class="part" style="--i:3"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="5" width="11" height="8" rx="1.5"/><rect x="18" y="19" width="11" height="8" rx="1.5"/><path d="M14 9h4v14h-4M8.5 13v4h7"/></svg><div><h3>أكثر من حاسبة</h3><p>حاسبات المحل تتزامن على شبكة المحل، بلا إنترنت.</p></div></li>
+      <li class="part" style="--i:4"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="9" y="3" width="14" height="26" rx="3"/><path d="M14 6h4"/><path d="M13 13h6M13 17h6M13 21h4"/></svg><div><h3>تطبيق الموبايل</h3><p>آيفون وآيباد وأندرويد، مع حاسبة المحل أو بدونها.</p></div></li>
+      <li class="part" style="--i:5"><svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M26 14a10 10 0 0 0-18.5-4"/><path d="M6 5v6h6"/><path d="M6 18a10 10 0 0 0 18.5 4"/><path d="M26 27v-6h-6"/></svg><div><h3>تحديثات ودعم</h3><p>التحديثات تنزل وحدها، والدعم بالهاتف والواتساب.</p></div></li>
     </ul>
   </div>
 </section>
@@ -552,13 +591,14 @@ html.rm .dust,html.rm .sheen{display:none}
     <svg class="beam part" style="--i:1" viewBox="0 0 240 24" aria-hidden="true"><circle class="halo" cx="120" cy="12" r="6"/><g class="arm"><line x1="8" y1="12" x2="232" y2="12"/><path d="M16 12v5M224 12v5"/><path d="M8 17c0 3 3.6 5 8 5s8-2 8-5M216 17c0 3 3.6 5 8 5s8-2 8-5"/></g><circle class="pivot" cx="120" cy="12" r="3"/></svg>
   </div>
   <div class="wrap col" style="text-align:start">
-    <details class="part" style="--i:2"><summary>هل يعمل بلا إنترنت؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم، بالكامل. البيع والطباعة والتقارير كلها على الجهاز. الإنترنت يلزم فقط للتفعيل الأول، ولتنزيل التحديثات، ولرفع النسخ الاحتياطية والمزامنة السحابية إن اخترت ذلك.</div></details>
-    <details class="part" style="--i:3"><summary>أين تُحفظ بياناتي؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">في قاعدة بيانات على جهازك داخل المحل، ولا تمر على خوادمنا. النسخ الاحتياطية، ومنها ما يُرفع للمزامنة السحابية، تُشفَّر بكلمة مرور تختارها أنت قبل أن تخرج من الجهاز، فلا نستطيع نحن قراءتها.</div></details>
-    <details class="part" style="--i:4"><summary>عندي أكثر من جهاز في المحل؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">جهاز رئيسي وأجهزة تابعة تتزامن عبر شبكة المحل المحلية، ويرى الجميع الفواتير نفسها. كل جهاز يحتاج ترخيصه.</div></details>
-    <details class="part" style="--i:5"><summary>هل أتابع المحل من موبايلي؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم، بتطبيق مثقال لآيفون وأندرويد مع اشتراك المزامنة السحابية. البرنامج يرفع نسخة مشفّرة تلقائيًا، وتربط الموبايل برمز من الإعدادات، فيتحدّث وحده أينما كنت ويبقى يعمل بلا إنترنت. ومن الموبايل تبيع وتشتري وتسجّل التسديد بحسابك في المحل، أو تشغّل المحل كله على الموبايل وحده بلا حاسبة، وإن كبر المحل تضيف برنامج الحاسبة لاحقًا فينضم للمحل نفسه بلا إعادة إدخال.</div></details>
-    <details class="part" style="--i:6"><summary>ماذا لو غيّرت الجهاز؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">استعد آخر نسخة احتياطية على الجهاز الجديد من صفحة الإعدادات، ثم أرسل رمز الجهاز الجديد إلى الدعم ليُنقل الترخيص إليه.</div></details>
-    <details class="part" style="--i:7"><summary>كيف تصل التحديثات؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">يفحص البرنامج الإصدارات الجديدة عند التشغيل إن توفر إنترنت، وينزّلها بنفسه، وتُثبَّت عند إعادة التشغيل. بياناتك تبقى كما هي.</div></details>
-    <details class="part" style="--i:8"><summary>هل يطبع على الطابعة الحرارية؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم. إيصال 80 ملم بطباعة صامتة، إلى جانب فاتورة A5 على الطابعة العادية.</div></details>
+    <details class="part" style="--i:2"><summary>كيف أجرّب مجانًا؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">حمّل البرنامج وشغّله، ثم اتصل بنا أو راسلنا واتساب على <a href="tel:+9647779397740" dir="ltr">07779397740</a> أو <a href="tel:+9647718075412" dir="ltr">07718075412</a>. نفعّل لك شهرًا مجانيًا.</div></details>
+    <details class="part" style="--i:2"><summary>هل يعمل بلا إنترنت؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم. البيع والطباعة والتقارير كلها تشتغل بلا إنترنت. تحتاج الإنترنت فقط للتفعيل أول مرة، وللتحديثات والنسخة الاحتياطية.</div></details>
+    <details class="part" style="--i:3"><summary>أين تُحفظ بياناتي؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">على جهازك داخل المحل، وليس عندنا. والنسخة الاحتياطية مشفّرة بكلمة سر تختارها أنت، فلا يقرأها أحد غيرك.</div></details>
+    <details class="part" style="--i:4"><summary>عندي أكثر من جهاز في المحل؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم. حاسبة رئيسية وحاسبات ثانية تتزامن على شبكة المحل، والكل يرى نفس الفواتير. كل جهاز يحتاج ترخيصه.</div></details>
+    <details class="part" style="--i:5"><summary>هل أتابع المحل من موبايلي؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم، بتطبيق مثقال لآيفون وأندرويد مع اشتراك المزامنة السحابية. تربط الموبايل بالبرنامج وتتابع المحل أينما كنت. وتقدر تبيع وتشتري من الموبايل، أو تشغّل محلًا صغيرًا على الموبايل وحده وتضيف الحاسبة لاحقًا.</div></details>
+    <details class="part" style="--i:6"><summary>ماذا لو غيّرت الجهاز؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">ترجع آخر نسخة احتياطية على الجهاز الجديد، وتتصل بنا لننقل الترخيص إليه.</div></details>
+    <details class="part" style="--i:7"><summary>كيف تصل التحديثات؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">تنزل وحدها إذا كان هناك إنترنت، وتُثبَّت عند إعادة التشغيل. بياناتك تبقى كما هي.</div></details>
+    <details class="part" style="--i:8"><summary>هل يطبع على الطابعة الحرارية؟<span class="pm" aria-hidden="true"></span></summary><div class="ans">نعم. إيصال 80 ملم على الطابعة الحرارية، وفاتورة A5 على الطابعة العادية.</div></details>
   </div>
 </section>
 
@@ -566,14 +606,15 @@ html.rm .dust,html.rm .sheen{display:none}
 <section class="sec dl reveal" id="download" aria-labelledby="dl-h">
   <div class="wrap box">
     <span class="kicker part" style="--i:0">التحميل</span>
-    <h2 class="h2 display part" id="dl-h" style="--i:1">جاهز لأول فاتورة؟</h2>
-    <p class="lede part" style="--i:2">حمّل مثقال على جهاز المحل، وفعّله برمز الجهاز.</p>
+    <h2 class="h2 display part" id="dl-h" style="--i:1">جاهز تبدأ؟</h2>
+    <p class="lede part" style="--i:2">حمّل مثقال على حاسبة المحل، واتصل بنا لتفعيل الشهر المجاني.</p>
     <div class="big part" style="--i:3"><a class="btn btn-gold dl-x64" id="dl-main" href="https://github.com/aoosio/mithqal-releases/releases/latest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M4 17v3h16v-3"/></svg>تحميل مثقال لويندوز</a></div>
     <p class="meta part" style="--i:4" id="dl-meta">أحدث إصدار</p>
     <p class="whatsnew part hidden" style="--i:4" id="dl-notes"></p>
     <div class="alt part" style="--i:5"><a id="dl-ia32" class="hidden" href="#download">نسخة 32 بت</a><a id="dl-wa" class="hidden" href="#download" rel="noopener" target="_blank">تواصل عبر واتساب</a></div>
-    <p class="note part" style="--i:6">يعمل على ويندوز. الترخيص لكل جهاز.</p>
-    <p class="lede part" style="--i:7">وعلى الموبايل: نزّل تطبيق مثقال، وفعّله بترخيص موبايل لكل جهاز.</p>
+    <div class="phones-inline part" style="--i:6"><span>للتفعيل والدعم:</span><a href="tel:+9647779397740">0777 939 7740</a><span>أو</span><a href="tel:+9647718075412">0771 807 5412</a></div>
+    <p class="note part" style="--i:6">يشتغل على ويندوز. ترخيص لكل جهاز.</p>
+    <p class="lede part" style="--i:7">وعلى الموبايل: نزّل تطبيق مثقال من المتجر.</p>
     <div class="stores part" style="--i:8">
         <a class="btn btn-ghost" href="https://apps.apple.com/app/id6829446076" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.8zM14.1 5.7c.6-.8 1.1-1.8 1-2.9-.9 0-2.1.6-2.7 1.4-.6.7-1.1 1.8-1 2.8 1 .1 2.1-.5 2.7-1.3z"/></svg>App Store</a>
         <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=co.docrep.mithqal.reader" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.6 2.3 13.8 12l-9.2 9.7c-.4-.2-.6-.7-.6-1.2V3.5c0-.5.2-.9.6-1.2zm10.6 8.3 2.6-2.7 3.2 1.8c1 .6 1 1.9 0 2.5l-3.2 1.8-2.6-2.7-.7-.7.7-.7zM6 1.7l10.3 5.8-2.2 2.3L6 1.7zm8.1 12.5 2.2 2.3L6 22.3l8.1-8.1z"/></svg>Google Play</a>
@@ -586,7 +627,7 @@ html.rm .dust,html.rm .sheen{display:none}
   <div class="wrap">
     <a class="brand" href="#hero"><img src="assets/mark-340.png" alt="" width="34" height="28"><span>مثقال</span></a>
     <span>صُنع لمحلات الذهب في العراق.</span>
-    <span class="legal">من شركة السلاسل الذكية للتسويق الالكتروني محدودة المسؤولية · بغداد، العراق · <a href="tel:+9647718075412" dir="ltr">+964 771 807 5412</a></span>
+    <span class="legal">من شركة السلاسل الذكية للتسويق الالكتروني محدودة المسؤولية · بغداد، العراق · <a href="tel:+9647779397740" dir="ltr">0777 939 7740</a> · <a href="tel:+9647718075412" dir="ltr">0771 807 5412</a></span>
     <span class="copy">© مثقال 2026</span>
   </div>
 </footer>

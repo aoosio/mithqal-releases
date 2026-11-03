@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-03T15:01:32.496Z",
+  "updated": "2026-11-03T17:46:51.762Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -241,6 +241,27 @@
           "name": "Mithqal-Setup-1.22.0-ia32.exe",
           "size": 102802407,
           "sha512": "bb49b0256d31a686776c18312401e36a1788034645189415d5af55acf7b29ac49e6a954c37c6f7c9d109c11cd0a3b0f2e7d2f7fd3f74dbb1c75d5ca41ebb51b2",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.23.0",
+      "date": "2026-11-03",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "ربط الموبايل بالحاسبة صار بمسح رمز QR بكاميرا الموبايل بدل كتابة الرمز الطويل (الرمز المكتوب يبقى متاحًا).",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.23.0-x64.exe",
+          "size": 124658244,
+          "sha512": "28142b1b9e131e62f12d92966bf23a1df803e3effb7def0170ee6dd0d6f8259ad6c6b97763e36c16d0f92cc23c7ad0909b2d885d407218d82abfedc2a096d391",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.23.0-ia32.exe",
+          "size": 102802809,
+          "sha512": "4efec20aebfeb9788676b6ba6cb5002d73ed017bc5365a508baa37ade64d4450de582dcd8f641e1f563939ffd2c010d2eae6e20bf45dad944e0b86a134568d9b",
           "signed": false
         }
       }

@@ -119,13 +119,28 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 .ring .track{opacity:.25}
 .thread{position:absolute;inset-inline-end:3vw;top:14vh;height:72vh;width:1px;background:linear-gradient(to bottom,rgba(214,166,58,0),rgba(214,166,58,.55) 20%,rgba(214,166,58,.55) 80%,rgba(214,166,58,0));transform-origin:top;transform:scaleY(var(--p,0))}
 .hero-static{display:none}
+/* جرّب مجانًا والرقمان: بالوجه من أول لحظة */
+.hero-try{box-sizing:border-box;display:flex;align-items:center;gap:10px 18px;flex-wrap:wrap;background:rgba(8,10,18,.62);border:1px solid rgba(214,166,58,.45);border-radius:16px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);padding:10px 12px 10px 18px;box-shadow:0 18px 50px rgba(3,6,12,.45);text-shadow:none}
+.hero-try.float{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);width:max-content;max-width:calc(100vw - 32px);justify-content:center;z-index:2}
+.ht-label{font-size:16px;color:var(--text-primary)}.ht-label b{color:var(--accent-hover);font-weight:700}
+.ht-nums{display:flex;gap:10px;flex-wrap:wrap}
+.ht-num{display:inline-flex;align-items:stretch;border-radius:12px;overflow:hidden;border:1px solid var(--line-strong)}
+.ht-num a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;min-height:46px;transition:background .3s var(--ease),color .3s var(--ease)}
+.ht-call{background:var(--accent);color:var(--ink);font-weight:700;padding:0 14px;font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:19px;letter-spacing:.3px;white-space:nowrap}
+.ht-call:hover{background:var(--accent-hover)}
+.ht-call svg{width:18px;height:18px;flex:0 0 18px}
+.ht-wa{background:rgba(37,211,102,.14);color:#7FE3A5;padding:0 12px;border-inline-start:1px solid var(--line-strong)}
+.ht-wa:hover{background:rgba(37,211,102,.26);color:#B4F2CA}
+.ht-wa svg{width:22px;height:22px}
+.stage .cue{bottom:118px}
+.stage .ring-wrap{bottom:160px}
 @media (max-height:560px){.cue,.thread,.ring-wrap{display:none}}
 
 /* البوابات الخمس: مطابقة حرفيًا لمصفوفة GATES في السكربت */
 @media (max-width: 720px), (orientation: portrait) and (max-width: 1024px), (orientation: portrait) and (pointer: coarse), (orientation: landscape) and (pointer: coarse) and (max-height: 560px), (prefers-reduced-motion: reduce){
   .hero{height:auto}
   .stage{position:relative;height:100svh;min-height:560px}
-  .bands,.ring-wrap,.thread,.cue,#hero-video{display:none}
+  .bands,.ring-wrap,.thread,.cue,#hero-video,.hero-try.float{display:none}
   .poster{background-image:url("assets/hero-ending.jpg")}
   .scrim{background:linear-gradient(to bottom,rgba(4,8,17,.55) 0%,rgba(4,8,17,.25) 40%,rgba(4,8,17,.1) 65%,rgba(4,8,17,.7) 100%)}
   .hero-static{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-start;padding:calc(var(--nav-h) + 6vh) var(--gutter) 40px;text-align:start;text-shadow:var(--tshadow)}
@@ -133,6 +148,10 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
   .hero-static .sub{margin-top:14px;font-size:clamp(16px,4.2vw,19px);color:var(--text-primary);max-width:30ch}
   .hero-static .cta-row{margin-top:22px;display:flex;flex-direction:column;align-items:flex-start;gap:10px}
   .hero-static .btn{text-shadow:none}
+  .hero-static .hero-try{margin-top:22px;flex-direction:column;align-items:flex-start;padding:14px;width:100%;max-width:420px}
+  .hero-static .ht-nums{flex-direction:column;width:100%}
+  .hero-static .ht-num{width:100%;box-sizing:border-box}.hero-static .ht-call{flex:1;justify-content:center;font-size:21px;min-height:52px}.hero-static .ht-wa{padding:0 18px}
+  .hero-static .cta-row{margin-top:14px}
 }
 
 /* جرّب مجانًا: الرقمان */
@@ -402,11 +421,13 @@ html.rm .dust,html.rm .sheen{display:none}
     </div>
     <div class="thread" id="thread" aria-hidden="true"></div>
     <div class="ring-wrap" id="ring-wrap" aria-hidden="true"><svg class="ring" viewBox="0 0 48 48"><circle class="track" cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="126" style="stroke-dashoffset:var(--ld,126)"/></svg></div>
+    <div class="hero-try float"><span class="ht-label"><b>جرّب مجانًا لمدة شهر.</b> اتصل أو راسلنا واتساب:</span><div class="ht-nums"><span class="ht-num"><a class="ht-call" href="tel:+9647779397740" aria-label="اتصل على 07779397740"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 5.1 5.1l1.4-2.3L19 13.5V17a2 2 0 0 1-2 2A15 15 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg><span dir="ltr">0777 939 7740</span></a><a class="ht-wa" href="https://wa.me/9647779397740" rel="noopener" target="_blank" aria-label="واتساب 07779397740"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2a9.7 9.7 0 0 0-8.4 14.6L2.3 21.7l5-1.3A9.7 9.7 0 1 0 12 2.2zm0 17.7c-1.5 0-2.9-.4-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 19.9zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2.1.7 2.8.6.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.1-.3z"/></svg></a></span><span class="ht-num"><a class="ht-call" href="tel:+9647718075412" aria-label="اتصل على 07718075412"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 5.1 5.1l1.4-2.3L19 13.5V17a2 2 0 0 1-2 2A15 15 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg><span dir="ltr">0771 807 5412</span></a><a class="ht-wa" href="https://wa.me/9647718075412" rel="noopener" target="_blank" aria-label="واتساب 07718075412"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2a9.7 9.7 0 0 0-8.4 14.6L2.3 21.7l5-1.3A9.7 9.7 0 1 0 12 2.2zm0 17.7c-1.5 0-2.9-.4-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 19.9zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2.1.7 2.8.6.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.1-.3z"/></svg></a></span></div></div>
     <div class="chip cue" id="cue" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3 6l5 5 5-5"/></svg>مرّر للأسفل</div>
     <div class="hero-static">
       <h1 class="line display">برنامج سهل لمحل الذهب.</h1>
       <p class="sub">تبيع وتشتري وتطبع الفاتورة، وتعرف ديونك ومخزونك بالغرام. ويشتغل بلا إنترنت.</p>
-      <div class="cta-row"><a class="btn btn-gold" href="#try">جرّب مجانًا لمدة شهر</a><a class="btn btn-ghost dl-x64" href="https://github.com/aoosio/mithqal-releases/releases/latest">تحميل مثقال لويندوز</a></div>
+      <div class="hero-try inline"><span class="ht-label"><b>جرّب مجانًا لمدة شهر.</b> اتصل أو راسلنا واتساب:</span><div class="ht-nums"><span class="ht-num"><a class="ht-call" href="tel:+9647779397740" aria-label="اتصل على 07779397740"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 5.1 5.1l1.4-2.3L19 13.5V17a2 2 0 0 1-2 2A15 15 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg><span dir="ltr">0777 939 7740</span></a><a class="ht-wa" href="https://wa.me/9647779397740" rel="noopener" target="_blank" aria-label="واتساب 07779397740"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2a9.7 9.7 0 0 0-8.4 14.6L2.3 21.7l5-1.3A9.7 9.7 0 1 0 12 2.2zm0 17.7c-1.5 0-2.9-.4-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 19.9zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2.1.7 2.8.6.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.1-.3z"/></svg></a></span><span class="ht-num"><a class="ht-call" href="tel:+9647718075412" aria-label="اتصل على 07718075412"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 3h3.5l1.8 4.5-2.3 1.4a11 11 0 0 0 5.1 5.1l1.4-2.3L19 13.5V17a2 2 0 0 1-2 2A15 15 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg><span dir="ltr">0771 807 5412</span></a><a class="ht-wa" href="https://wa.me/9647718075412" rel="noopener" target="_blank" aria-label="واتساب 07718075412"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2a9.7 9.7 0 0 0-8.4 14.6L2.3 21.7l5-1.3A9.7 9.7 0 1 0 12 2.2zm0 17.7c-1.5 0-2.9-.4-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 19.9zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8 1c-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-3.3-2.9c-.2-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2.1.7 2.8.6.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.1-.3z"/></svg></a></span></div></div>
+      <div class="cta-row"><a class="btn btn-ghost dl-x64" href="https://github.com/aoosio/mithqal-releases/releases/latest">تحميل مثقال لويندوز</a></div>
     </div>
   </div>
 </section>

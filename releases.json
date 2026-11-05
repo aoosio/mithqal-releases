@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-05T16:31:14.054Z",
+  "updated": "2026-11-05T16:59:52.473Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -325,6 +325,27 @@
           "name": "Mithqal-Setup-1.26.0-ia32.exe",
           "size": 102824480,
           "sha512": "4ac3be7dd04c1d1448bed479dde40a800a11a1c5e5e4fea9f408ea702e92976e07dbd94bab45fbb4336ca3acaba4501bbe34139d1e8d6ac8efbcf04883298ce3",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.27.0",
+      "date": "2026-11-05",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "خدمة سعر الصرف المركزية لكل الحسابات بسعري الشراء والبيع، وإلغاء إعداد المصدر واسمه، والوقت 12 ساعة بتوقيت العراق.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.27.0-x64.exe",
+          "size": 124680305,
+          "sha512": "727d71d20cd47bc8dce1dc7a278df7451cac9dd2a8288eee0f4cc4df4771c39761a80750c5da01505bc9d607a4c6bf8393f3cb78606a39ee2df87582d19b4551",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.27.0-ia32.exe",
+          "size": 102824903,
+          "sha512": "49561b77cef08b838917b7787841e8dbab8e024cc9d0d054af63258c0609aabc2215c8caaf2c8981d7379d2a3c14edb2df09af99794a0f93d0d0736344f0d24c",
           "signed": false
         }
       }

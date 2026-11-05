@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-03T17:46:51.762Z",
+  "updated": "2026-11-05T14:41:20.579Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -262,6 +262,27 @@
           "name": "Mithqal-Setup-1.23.0-ia32.exe",
           "size": 102802809,
           "sha512": "4efec20aebfeb9788676b6ba6cb5002d73ed017bc5365a508baa37ade64d4450de582dcd8f641e1f563939ffd2c010d2eae6e20bf45dad944e0b86a134568d9b",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.24.0",
+      "date": "2026-11-05",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "إضافة الدرهم الإماراتي للصناديق والتحويلات وقبض الفواتير وتسديد الديون، ونافذة «شنو الجديد» وسجل الإصدارات بدون إنترنت، وتنظيم الإعدادات وتحسين إشعار التحديث وإقفال التجربة المنتهية.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.24.0-x64.exe",
+          "size": 124666774,
+          "sha512": "797112f5d48b1ba8f32748f0e864ebafd832af45d48374fbc188fe0cc7e56b92248f63b356a9b8e2896342dc67a6f2ce39f30a3f8d803ac415f09669494e6db0",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.24.0-ia32.exe",
+          "size": 102811273,
+          "sha512": "71fa79284884634369ec0d082a48d788bb69009c40a915debcdb7ce41f443ad0f1b00e7cdfbfd663b04cee15a7a638365cde5567b1f35d30d15d5367b5c23041",
           "signed": false
         }
       }

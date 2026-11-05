@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-05T15:52:59.564Z",
+  "updated": "2026-11-05T16:31:14.054Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -304,6 +304,27 @@
           "name": "Mithqal-Setup-1.25.0-ia32.exe",
           "size": 102820056,
           "sha512": "6373946429f589a02c1ad65a66d928f11f21929c10dfee7a44186f9a3b98c3e8d3fc1e96c20da3a155aba9ce620257403d3e0d2611c1b1a874332cb9eae7e546",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.26.0",
+      "date": "2026-11-05",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "عرض شراء وبيع الدولار من IQWealth، واقتراح تثبيت السعر داخل الشراء والتسديد والخشالة مع احتساب الدرهم وحفظ مصدر السعر.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.26.0-x64.exe",
+          "size": 124679892,
+          "sha512": "cfc2d2a61969488b57463b0cf1500f3471cd77a2768074406f1388b0efb65265d118982581ac239b1b1796a23f0c5e151202a91eb9584266892a7912f99f98b0",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.26.0-ia32.exe",
+          "size": 102824480,
+          "sha512": "4ac3be7dd04c1d1448bed479dde40a800a11a1c5e5e4fea9f408ea702e92976e07dbd94bab45fbb4336ca3acaba4501bbe34139d1e8d6ac8efbcf04883298ce3",
           "signed": false
         }
       }

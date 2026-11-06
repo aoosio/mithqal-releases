@@ -7,7 +7,8 @@ Arabic RTL marketing site. 56 product features, seven-day trial, responsive prod
 - Repository: aoosio/mithqal-releases
 - Production branch: cloudflare-premium
 - Project: mithqal-premium
-- Live URL: https://mithqal-premium.pages.dev
+- Live URL: https://mithqal.mortada.io
+- Cloudflare URL: https://mithqal-premium.pages.dev
 - Root directory: premium
 - Build command: empty (prebuilt static files)
 - Build output: dist

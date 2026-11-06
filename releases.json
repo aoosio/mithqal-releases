@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-06T14:28:26.325Z",
+  "updated": "2026-11-06T15:58:21.351Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -388,6 +388,27 @@
           "name": "Mithqal-Setup-1.29.0-ia32.exe",
           "size": 102855281,
           "sha512": "3efb751d24f52804544aea5b57ad53a65d83e1ca9ed72e6685c295fdb8534ad07f8f58ada52eadc15b7e7da7497e18ea592c9e70b3362ec1e4654f8d1f521ee5",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.30.0",
+      "date": "2026-11-06",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "ظهور أونصة الذهب عيار 24 بجانب شراء وبيع الدولار الموازي مباشرةً بدون فتح تفاصيل أسعار السوق.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.30.0-x64.exe",
+          "size": 124711052,
+          "sha512": "daf47bd8ab9aaf789a1e0dc38c27f2a720d9279b01a5db35f8d542823435f06e8928c032783c09eaa12b468b625b8aa4dad5acfd84f90d90f65ee76d57645a53",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.30.0-ia32.exe",
+          "size": 102855885,
+          "sha512": "6b0ccc31cdb4db1e54713d4bb17b9c311dc4f55528d33697fd16a82df3a7c2c415111378658912275cc606bd89f6f476e54af75848746a290feafdc6d0a01924",
           "signed": false
         }
       }

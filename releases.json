@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-06T14:14:05.838Z",
+  "updated": "2026-11-06T14:28:26.325Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -367,6 +367,27 @@
           "name": "Mithqal-Setup-1.28.0-ia32.exe",
           "size": 102845393,
           "sha512": "77d1ad4646ce38e3d30437e99bb3fe4eaf9b6aeab4238659e1104cc638f235fc5aeaa8c6d4553676c143aeceb0ca2517878b14f5741975d79000eb936726ea29",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.29.0",
+      "date": "2026-11-06",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "تحديث تراكمي يجمع تحسينات 1.28.0 مع قارئ الموازين والاستشعار والتعريف التلقائي من الإعدادات.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.29.0-x64.exe",
+          "size": 124710687,
+          "sha512": "e467fa98a278ab5ca457ee9227208814bdbabb737771f5dcad6b6fdb502e1faf50c6398e13ac5a1dff1bc309154d5473ac41ae8a8f3884acb7e2d1124dc57fd1",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.29.0-ia32.exe",
+          "size": 102855281,
+          "sha512": "3efb751d24f52804544aea5b57ad53a65d83e1ca9ed72e6685c295fdb8534ad07f8f58ada52eadc15b7e7da7497e18ea592c9e70b3362ec1e4654f8d1f521ee5",
           "signed": false
         }
       }

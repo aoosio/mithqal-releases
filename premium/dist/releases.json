@@ -1,0 +1,417 @@
+{
+  "product": "mithqal",
+  "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
+  "updated": "2026-11-06T15:58:21.351Z",
+  "releases": [
+    {
+      "version": "1.13.1",
+      "date": "2026-10-31",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "غلاف سطح المكتب، SQLite خلف طبقة التخزين، التفعيل بالترخيص، التحديث التلقائي.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.13.1-x64.exe",
+          "size": 121824533,
+          "sha512": "00db508baa063efef63fd998beaecf66ed264dba0052a150e82dfada6efd5271d194b0e9be6a22bbdfd1061da9501f8d774b9ea629c5381d49e6757306391a92"
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.13.1-ia32.exe",
+          "size": 99969699,
+          "sha512": "846f76c75c7d57b3302ac351d8ad28db3a65ef5bc2c92dac33ecde2f14aa124104d6a102043e40d8c9c8b065efe732feebf211ecae053bd392cdede9567950b8"
+        }
+      }
+    },
+    {
+      "version": "1.14.0",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "مزامنة شبكة المحل بين الجهاز الرئيسي والتوابع، أرقام فواتير بكتل محجوزة، تحذير انحراف الساعة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.14.0-x64.exe",
+          "size": 121840313,
+          "sha512": "5a6b2f1ad1fd9359fb4091b626fd42567c72ec4acbe88156c20eeba969a7f64793ab65f6ba3465497f633d4082e5aa03b69257990ff8438e12d39f68e210ff44"
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.14.0-ia32.exe",
+          "size": 99985342,
+          "sha512": "a27614f3d9d047b47cb74e1605001b2671883bed156693f62ebfcf7a3b81f6835369bfc0da9d480ff174512affd8c2be0a9a682cb1a9121d5aa1821802d3be99"
+        }
+      }
+    },
+    {
+      "version": "1.15.0",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "الأعيرة المتعددة (عيار لكل صنف، ديون ومخزون بالعيار)، شراء الذهب المستعمل والمرتجع، إيصال حراري 80 ملم وطباعة صامتة، الإغلاق اليومي، وأداء 50 ألف فاتورة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.15.0-x64.exe",
+          "size": 121873368,
+          "sha512": "c60f54849fdbb0c1d331f3132203432cfaa69701ecc1709a4f967270ce8b30501b83e2e2ca4df37fb595b85a6beb250151d1bb2079eadf3a31f576d89e514492"
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.15.0-ia32.exe",
+          "size": 100018625,
+          "sha512": "d77f43fb13a0e0c1d35237be9e91d09b2b08013e13eef7edab8a3526c19aa2f922baf7eb520bb4f61c257954e9944689f929b92a1656801bed144d0798c747cc"
+        }
+      }
+    },
+    {
+      "version": "1.16.0",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "الموردون كسجل مستقل بأرصدتهم (ذهب بالعيار ودينار ودولار)، مركز التقارير الجاهزة، اللوحة الرئيسية، الهوية الذهبية وشعار مثقال، النسخ الاحتياطي التلقائي إلى OneDrive أو Google Drive أو iCloud.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.16.0-x64.exe",
+          "size": 124386985,
+          "sha512": "939b68aac3d6152d742a47ad304a98a2bb8490239844d071110beb9ef672d77f2c48a08b42ff7798d7ee3a55a06fddb19b2ed9c502ed467d8afd359f00630a46"
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.16.0-ia32.exe",
+          "size": 102531662,
+          "sha512": "ebf12611f6db704a2797527b9717506c8da2b1812980c315996f333b310a183373979001e621bc8f20295214fb8b984f7cf22701e926e55a097f33fddfb2bab8"
+        }
+      }
+    },
+    {
+      "version": "1.17.0",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "الجرد بالقطعة والباركود وليبل 50×12 مع قارئ لوحة المفاتيح في الفاتورة والجرد الفعلي وتقريري القطع والربح بالتكلفة، الربط المباشر مع Google Drive وOneDrive، تحسينات شاشات اللابتوب بتكبير 125% و150%.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.17.0-x64.exe",
+          "size": 124440757,
+          "sha512": "17b0a403fe6aa2d0f311e87cf40991131fc1e8f4cc502f55a090f60251a322f784d08ab6556c7d4b4a8cbdfdfa03708569655413ff174be1e28825f48648628c"
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.17.0-ia32.exe",
+          "size": 102585524,
+          "sha512": "fc7820a12e3e2167404c1197c3fc4b6040f3a5218c4c3376d714dc05ffdda1a25cee9249362e5c9a86dfafbbf8dad524d7936d4c21a2bfbc5795fe6261e8a34e"
+        }
+      }
+    },
+    {
+      "version": "1.18.0",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "منشئ التقارير بحفظ التقارير باسم، تعدد الفروع (فرع لكل جهاز ونطاق عرض للسجل واللوحة والتقارير والإغلاق)، جاهزية التوقيع الرقمي، وتحسينات بيع القطع.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.18.0-x64.exe",
+          "size": 124452365,
+          "sha512": "d288d3ed84e1746fe460142e5a65888221cb54ef83c2f49213b744848538756db46ec8ed8fac7b84e652e44c94dab122943842e7a36deb8a5bcf498cf6363458",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.18.0-ia32.exe",
+          "size": 102597072,
+          "sha512": "ac142799a38035397401ba4298d7a2424f85101a5ed71d2ded75046d96b8044b02123c5b2671504f3efaa0f4dd0e156544cb59c5da40c57659abd0c4b40a7cfd",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.18.1",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "أرصدة الذهب أوضح: كل عيار باسمه «23.509 غم عيار 21» بدل سلسلة «غم(21) + …»، في اللوحة والكشوف والفواتير والإيصالات.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.18.1-x64.exe",
+          "size": 124453848,
+          "sha512": "369f238e7140aaa59cd5cf7cfc0ed1119640c0029f0963b1e0fddfb2b90a58401cb71524ada895d095822600602e34301d92097000a7f7e719cafa5275a6a21a",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.18.1-ia32.exe",
+          "size": 102598414,
+          "sha512": "1bd4c641bf7483640d93eff3670796792fe533f03d20795b6fcbecef4aac40afd39095bb096bf856b54e1f9c1e84efaf7b417ea46c5ffd4abdd1f36466716d60",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.18.2",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "خط IBM Plex Sans Arabic في البرنامج والفواتير والإيصالات والكشوف، ومسافة واضحة بين اسم الزبون وهاتفه في الفاتورة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.18.2-x64.exe",
+          "size": 124631302,
+          "sha512": "0865e3674ba960324a9487b1751a4ceb9517f45ffc2c83b946bca21d5ec48b550cc9d6b540cd7632618dce463d30b12cf2dd784eeeb3438578b6d65375231a57",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.18.2-ia32.exe",
+          "size": 102775921,
+          "sha512": "f955957dceac623249f33715aa38fa82aced30f9ec5409e1e2ca3df33c8e01701b34556c795068668220352ce4e0429043e9fc2a88141a115520fa3aa8c9d101",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.19.0",
+      "date": "2026-11-01",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "مزامنة مثقال السحابية (باشتراك): البرنامج يرفع نسخة مشفّرة تلقائيًا، وتربط موبايلك برمز من الإعدادات فيتحدّث تطبيق مثقال للموبايل وحده أينما كنت.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.19.0-x64.exe",
+          "size": 124634495,
+          "sha512": "8366665962693b1c18bd1760b25eca59649e79b86070407cc13bbf1554f73c124301e72d0446f6431642a37b2a59f912b212fa3c78234dbdc77be2c9c4f2ef92",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.19.0-ia32.exe",
+          "size": 102779123,
+          "sha512": "de688bf9a19f66c0daa9c8a28717293d788b70f678f8947aa5ef17d7d20fa2e36c1c8fc56d68f51c4a16ff2a0f0cb43383c1f49f860b02ed836c270bd1591f28",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.20.0",
+      "date": "2026-11-02",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "المزامنة السحابية صارت باتجاهين: ما يُسجَّل على موبايلات المحل يصل الحاسبة، وأرقام الفواتير ورموز القطع تُحجز من خادم مثقال فلا تتكرر بين الأجهزة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.20.0-x64.exe",
+          "size": 124645351,
+          "sha512": "7e3697128526d15abce63f89426b3a27bccfcc83721a905eb7ca8ae0b2343b2c5e1617697f373ae7b9d14d548f21cc4e3a5fd61bd48dc32fda9c5b2e1b57f885",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.20.0-ia32.exe",
+          "size": 102790036,
+          "sha512": "a907582050aad091e7ad2868cc2f99e55ab7c842611c4e4137e45762e6b2cf4053bf42570da152c6d0016cc49d82c4811c3383b285b1c379de4fb126e8de325a",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.21.0",
+      "date": "2026-11-03",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "الحاسبة وموبايلات المحل صارت تعمل بالقواعد نفسها: الفواتير والمشتريات والتسديد والإغلاق تُحفظ بالطريقة نفسها على كل جهاز، والمستخدمون وصلاحياتهم وإعدادات المحل تتزامن بين الحاسبة والموبايلات.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.21.0-x64.exe",
+          "size": 124655340,
+          "sha512": "72ba1084a2ac16137bc36e37cdf79f93eea6a1ec96f870877a82d55e86baf8fb1b9ac37bfec54a0aa99bede83be9dfbe6937cda6043098b01de7ece7b12904ff",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.21.0-ia32.exe",
+          "size": 102800048,
+          "sha512": "b22c9f318a74588e88aefaf68587d9f0e92f61e597ad919cd7ed42ffc39aa73543599aafffc7d8c45a3c3db6f15a92d001cb03f270dec65735618a1392a856db",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.22.0",
+      "date": "2026-11-03",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "الحاسبة تنضم لمحل يعمل على الموبايل وحده برمز ربط من الموبايل الأساسي، فتعمل معه بالأرقام نفسها بلا تكرار. وتحسينات في المزامنة مع الموبايلات: حالة القطع المرقّمة تصل كل الأجهزة، وتنبيه «بيعت مرتين» لا يظهر لقطعة أُرجعت ثم بيعت.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.22.0-x64.exe",
+          "size": 124657831,
+          "sha512": "bd5290cd4f88a0205670a535def9bde70f251c4698baf81860b49238d4418c62ad943d16aac59ae39f82c7656f9c66a595506917ed1cbb9dec1d916d821b552a",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.22.0-ia32.exe",
+          "size": 102802407,
+          "sha512": "bb49b0256d31a686776c18312401e36a1788034645189415d5af55acf7b29ac49e6a954c37c6f7c9d109c11cd0a3b0f2e7d2f7fd3f74dbb1c75d5ca41ebb51b2",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.23.0",
+      "date": "2026-11-03",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "ربط الموبايل بالحاسبة صار بمسح رمز QR بكاميرا الموبايل بدل كتابة الرمز الطويل (الرمز المكتوب يبقى متاحًا).",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.23.0-x64.exe",
+          "size": 124658244,
+          "sha512": "28142b1b9e131e62f12d92966bf23a1df803e3effb7def0170ee6dd0d6f8259ad6c6b97763e36c16d0f92cc23c7ad0909b2d885d407218d82abfedc2a096d391",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.23.0-ia32.exe",
+          "size": 102802809,
+          "sha512": "4efec20aebfeb9788676b6ba6cb5002d73ed017bc5365a508baa37ade64d4450de582dcd8f641e1f563939ffd2c010d2eae6e20bf45dad944e0b86a134568d9b",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.24.0",
+      "date": "2026-11-05",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "إضافة الدرهم الإماراتي للصناديق والتحويلات وقبض الفواتير وتسديد الديون، ونافذة «شنو الجديد» وسجل الإصدارات بدون إنترنت، وتنظيم الإعدادات وتحسين إشعار التحديث وإقفال التجربة المنتهية.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.24.0-x64.exe",
+          "size": 124666774,
+          "sha512": "797112f5d48b1ba8f32748f0e864ebafd832af45d48374fbc188fe0cc7e56b92248f63b356a9b8e2896342dc67a6f2ce39f30a3f8d803ac415f09669494e6db0",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.24.0-ia32.exe",
+          "size": 102811273,
+          "sha512": "71fa79284884634369ec0d082a48d788bb69009c40a915debcdb7ce41f443ad0f1b00e7cdfbfd663b04cee15a7a638365cde5567b1f35d30d15d5367b5c23041",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.25.0",
+      "date": "2026-11-05",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "تنظيم فاتورة شراء المورد وأجورها بعملتها، التسديد بسعر التسكير من أي صندوق، شراء الخشالة والتسليم المباشر، تسويات الفروقات، وحساب الدرهم تلقائيًا من الدولار.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.25.0-x64.exe",
+          "size": 124675322,
+          "sha512": "f338e7a9c49de3351184d372698c991219995f007942a22fc4e8bb50e8935772f32128b9754cda6890edcd93d0971b9244c0482c265ae404e0a6432a076d3d4f",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.25.0-ia32.exe",
+          "size": 102820056,
+          "sha512": "6373946429f589a02c1ad65a66d928f11f21929c10dfee7a44186f9a3b98c3e8d3fc1e96c20da3a155aba9ce620257403d3e0d2611c1b1a874332cb9eae7e546",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.26.0",
+      "date": "2026-11-05",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "عرض شراء وبيع الدولار من IQWealth، واقتراح تثبيت السعر داخل الشراء والتسديد والخشالة مع احتساب الدرهم وحفظ مصدر السعر.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.26.0-x64.exe",
+          "size": 124679892,
+          "sha512": "cfc2d2a61969488b57463b0cf1500f3471cd77a2768074406f1388b0efb65265d118982581ac239b1b1796a23f0c5e151202a91eb9584266892a7912f99f98b0",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.26.0-ia32.exe",
+          "size": 102824480,
+          "sha512": "4ac3be7dd04c1d1448bed479dde40a800a11a1c5e5e4fea9f408ea702e92976e07dbd94bab45fbb4336ca3acaba4501bbe34139d1e8d6ac8efbcf04883298ce3",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.27.0",
+      "date": "2026-11-05",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "خدمة سعر الصرف المركزية لكل الحسابات بسعري الشراء والبيع، وإلغاء إعداد المصدر واسمه، والوقت 12 ساعة بتوقيت العراق.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.27.0-x64.exe",
+          "size": 124680305,
+          "sha512": "727d71d20cd47bc8dce1dc7a278df7451cac9dd2a8288eee0f4cc4df4771c39761a80750c5da01505bc9d607a4c6bf8393f3cb78606a39ee2df87582d19b4551",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.27.0-ia32.exe",
+          "size": 102824903,
+          "sha512": "49561b77cef08b838917b7787841e8dbab8e024cc9d0d054af63258c0609aabc2215c8caaf2c8981d7379d2a3c14edb2df09af99794a0f93d0d0736344f0d24c",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.28.0",
+      "date": "2026-11-06",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "تجربة مجانية للحاسبة لمدة 7 أيام تبدأ تلقائيًا بدون رمز من مركز الروان، ثم تتوقف مع بقاء بيانات المحل.\nمسودات آمنة على الموبايل قابلة للاستعادة قبل تسجيل الفاتورة.\nلوحة اليوم بالمبيعات والمقبوضات والمخزون، وحالة الحفظ والمزامنة وقائمة الانتظار.\nسجل نشاط ومساعدة وتدريب منفصل عن الحسابات الحقيقية.\nهوية كحلية وذهبية وتنقل موحد وأحجام نص وأزرار أوضح.\nمراجعة أثر الشراء والتسديد والتحويل قبل الحفظ.\nحماية الحفظ والاستعادة والترقيم والصلاحيات والتقريب والإغلاق المحفوظ.\nإبقاء الكتابة المباشرة على الفاتورة ومخرجات الطباعة كما هي.\nالرجوع من إعداد التدريب واستخدام معلومات المحل الحالي بدون نسخ الفواتير أو الأرصدة.\nوضوح أسعار الشراء والبيع، وإصلاح مجاميع بعض النسخ القديمة وعرض الأرقام الطويلة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.28.0-x64.exe",
+          "size": 124700809,
+          "sha512": "f26d3392d76e7d9907ae592794ca6076a0b5df3eff85b1a79e92c04158237e195bb0f890858e0db1a0d04d20ddd7ba537d566d6f6501b952e36889b951783af7",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.28.0-ia32.exe",
+          "size": 102845393,
+          "sha512": "77d1ad4646ce38e3d30437e99bb3fe4eaf9b6aeab4238659e1104cc638f235fc5aeaa8c6d4553676c143aeceb0ca2517878b14f5741975d79000eb936726ea29",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.29.0",
+      "date": "2026-11-06",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "تحديث تراكمي يجمع تحسينات 1.28.0 مع قارئ الموازين والاستشعار والتعريف التلقائي من الإعدادات.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.29.0-x64.exe",
+          "size": 124710687,
+          "sha512": "e467fa98a278ab5ca457ee9227208814bdbabb737771f5dcad6b6fdb502e1faf50c6398e13ac5a1dff1bc309154d5473ac41ae8a8f3884acb7e2d1124dc57fd1",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.29.0-ia32.exe",
+          "size": 102855281,
+          "sha512": "3efb751d24f52804544aea5b57ad53a65d83e1ca9ed72e6685c295fdb8534ad07f8f58ada52eadc15b7e7da7497e18ea592c9e70b3362ec1e4654f8d1f521ee5",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.30.0",
+      "date": "2026-11-06",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "ظهور أونصة الذهب عيار 24 بجانب شراء وبيع الدولار الموازي مباشرةً بدون فتح تفاصيل أسعار السوق.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.30.0-x64.exe",
+          "size": 124711052,
+          "sha512": "daf47bd8ab9aaf789a1e0dc38c27f2a720d9279b01a5db35f8d542823435f06e8928c032783c09eaa12b468b625b8aa4dad5acfd84f90d90f65ee76d57645a53",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.30.0-ia32.exe",
+          "size": 102855885,
+          "sha512": "6b0ccc31cdb4db1e54713d4bb17b9c311dc4f55528d33697fd16a82df3a7c2c415111378658912275cc606bd89f6f476e54af75848746a290feafdc6d0a01924",
+          "signed": false
+        }
+      }
+    }
+  ]
+}

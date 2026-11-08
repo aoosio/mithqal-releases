@@ -1,0 +1,11 @@
+{
+  "name": "mithqal-premium-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/market.test.mjs && node tests/worker.test.mjs && node tests/measurement.test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "29.1.1"
+  }
+}

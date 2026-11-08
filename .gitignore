@@ -1,3 +1,4 @@
 # Local runtime and private marketing measurement evidence.
 **/.wrangler/
 /analytics/
+**/node_modules/

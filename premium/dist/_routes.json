@@ -1,1 +1,1 @@
-{"version":1,"include":["/api/market","/gold-prices","/gold-prices/*"],"exclude":[]}
+{"version":1,"include":["/","/api/market","/gold-prices","/gold-prices/*","/blog","/blog/*"],"exclude":["/blog/feed.xml","/blog/index.json"]}

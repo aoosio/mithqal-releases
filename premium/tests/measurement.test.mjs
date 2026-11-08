@@ -24,4 +24,5 @@ w=await page();w.document.querySelector('[data-accept]').click();assert.equal(w.
 w=await page({stored:{analytics:false,marketing:false}});assert.equal(w.document.querySelectorAll('script[src]').length,0);assert.ok(!w.document.querySelector('#consent-banner'));w.close();
 w=await page({url:'https://preview.example/'});assert.equal(w.document.querySelectorAll('script[src]').length,0);assert.ok(!w.document.querySelector('#consent-banner'));w.close();
 w=await page({fail:true});assert.equal(w.document.querySelectorAll('script[src]').length,0);w.close();
+w=await page({url:'https://mithqal.mortada.io/blog/some-story/'});w.document.querySelector('[data-accept]').click();assert.equal(w.dataLayer.map(x=>Array.from(x)).find(x=>x[0]==='event'&&x[1]==='page_view')[2].page_type,'news');w.close();
 console.log('Measurement: no pre-consent tracking, rejection persistence, category separation, idempotence, safe event payloads and preview/config failure guards passed.');

@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const KEY = 'mithqal-consent-v1';
-  const type = location.pathname.startsWith('/gold-prices') ? 'market' : location.pathname.startsWith('/privacy') ? 'privacy' : 'software';
+  const type = location.pathname.startsWith('/gold-prices') ? 'market' : location.pathname.startsWith('/blog') ? 'news' : location.pathname.startsWith('/privacy') ? 'privacy' : 'software';
   const allowed = new Set(['contact_intent', 'download_click', 'store_click', 'feature_view', 'market_calculation']);
   let config = {}, choice = {analytics: false, marketing: false}, gaStarted = false, pixelStarted = false;
   let gaPageSent = false, pixelPageSent = false;

@@ -3,9 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node tests/market.test.mjs && node tests/worker.test.mjs && node tests/measurement.test.mjs"
+    "test": "node tests/market.test.mjs && node tests/worker.test.mjs && node tests/measurement.test.mjs && node tests/news.test.mjs"
   },
   "devDependencies": {
-    "jsdom": "29.1.1"
+    "jsdom": "29.1.1",
+    "wrangler": "4.158.0"
   }
 }

@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-09-wgc-weekly-inflation-watch",
+    "eventKey": "wgc-weekly-monitor-2026-11-09",
+    "slot": "16",
+    "title": "مجلس الذهب العالمي يترقب التضخم الأمريكي بعد أسبوع متقلب",
+    "summary": "تقرير جديد لمجلس الذهب العالمي يلخّص حركة الدولار والنفط والعوائد، قبل بيانات التضخم الأمريكي هذا الأسبوع. هذه أبرز نقاطه ومواعيد المتابعة بتوقيت بغداد.",
+    "publishedAt": "2026-11-09T13:00:29.346Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-09-wgc-weekly-inflation-watch/",
+    "sources": [
+      {
+        "url": "https://www.gold.org/goldhub/gold-focus/2026/11/weekly-markets-monitor-surprise-surprise",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+        "publisher": "مكتب إحصاءات العمل الأمريكي BLS",
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "2026-11-09-us-jobs-october-gold",
     "eventKey": "bls-employment-2026-10",
     "slot": "launch",

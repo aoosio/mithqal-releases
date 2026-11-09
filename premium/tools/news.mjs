@@ -9,7 +9,7 @@ export const BASE='https://mithqal.mortada.io';
 export const HOURS=['08','12','16','20','23'];
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'../..');
 const content=join(root,'premium/content/news'),dist=join(root,'premium/dist');
-const hosts=new Set(['bls.gov','www.bls.gov','federalreserve.gov','www.federalreserve.gov','gold.org','www.gold.org','cbi.iq','www.cbi.iq','imf.org','www.imf.org','ecb.europa.eu','www.ecb.europa.eu','treasury.gov','home.treasury.gov','www.treasury.gov','reuters.com','www.reuters.com','apnews.com','www.apnews.com','iraqsm.com','www.iraqsm.com','www.gold-api.com','api.gold-api.com','fred.stlouisfed.org','www.bea.gov','bea.gov','www.dol.gov','dol.gov']);
+const hosts=new Set(['bls.gov','www.bls.gov','federalreserve.gov','www.federalreserve.gov','newyorkfed.org','www.newyorkfed.org','gold.org','www.gold.org','cbi.iq','www.cbi.iq','imf.org','www.imf.org','ecb.europa.eu','www.ecb.europa.eu','treasury.gov','home.treasury.gov','www.treasury.gov','reuters.com','www.reuters.com','apnews.com','www.apnews.com','iraqsm.com','www.iraqsm.com','www.gold-api.com','api.gold-api.com','fred.stlouisfed.org','www.bea.gov','bea.gov','www.dol.gov','dol.gov']);
 export const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const baghdadDay=at=>new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Baghdad',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(at));
 const stamp=at=>new Intl.DateTimeFormat('ar-IQ-u-nu-latn',{timeZone:'Asia/Baghdad',dateStyle:'medium',timeStyle:'short'}).format(new Date(at));

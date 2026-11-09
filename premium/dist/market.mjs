@@ -1,3 +1,4 @@
+import {presentMarkup} from './ui.mjs';
 export const TROY_OUNCE_GRAMS = 31.1034768;
 export const MITHQAL_GRAMS = 5;
 export const MAX_SOURCE_AGE_MS = 72 * 60 * 60 * 1000;
@@ -73,12 +74,12 @@ export async function loadQuote(fetchImpl = fetch, now = Date.now()) {
   return makeQuote(gold, fx, now);
 }
 
-const money = n => new Intl.NumberFormat('ar-IQ', {maximumFractionDigits: 0}).format(n);
-const stamp = s => new Intl.DateTimeFormat('ar-IQ', {timeZone: 'Asia/Baghdad', dateStyle: 'medium', timeStyle: 'short'}).format(new Date(s));
+const money = n => new Intl.NumberFormat('ar-IQ-u-nu-latn', {maximumFractionDigits: 0}).format(n);
+const stamp = s => new Intl.DateTimeFormat('ar-IQ-u-nu-latn', {timeZone: 'Asia/Baghdad', dateStyle: 'medium', timeStyle: 'short'}).format(new Date(s));
 export function quoteMarkup(quote) {
-  if (!quote?.available) return '<p class="market-notice" role="status">تعذّر جلب أسعار موثوقة الآن. حاول لاحقًا، أو راجع المصدر مباشرةً. لا نعرض سعرًا بديلًا غير متحقق.</p>';
+  if (!quote?.available) return '<p class="market-notice" role="status">تعذّر تحديث الأسعار. حاول لاحقًا أو راجع المصدر.</p>';
   const rows = quote.karats.map(k => `<tr><th scope="row">عيار ${k.karat}</th><td><bdi>${money(k.mithqalIqd)}</bdi> د.ع</td><td><bdi>${money(k.gramIqd)}</bdi> د.ع</td></tr>`).join('');
-  return `<div class="market-summary"><article><span>مثقال عيار ٢١ · ٥ غرام</span><strong><bdi>${money(quote.karats.find(k => k.karat === 21).mithqalIqd)}</bdi> <small>د.ع</small></strong><p>تقدير من السعر العالمي، بدون مصنعية</p></article><article><span>١٠٠ دولار · سعر بيع المصدر</span><strong><bdi>${money(quote.fx.sell * 100)}</bdi> <small>د.ع</small></strong><p>سعر شراء المصدر: <bdi>${money(quote.fx.buy * 100)}</bdi> د.ع</p></article></div>
+  return presentMarkup(`<div class="market-summary"><article><span>مثقال 21 · 5 غرام</span><strong><bdi>${money(quote.karats.find(k => k.karat === 21).mithqalIqd)}</bdi> <small>د.ع</small></strong><p>بدون مصنعية</p></article><article><span>أونصة عيار 24</span><strong><bdi>${new Intl.NumberFormat('ar-IQ-u-nu-latn', {minimumFractionDigits:2,maximumFractionDigits:2}).format(quote.gold.ounceUsd)}</bdi> <small>$</small></strong><p>السعر العالمي بالدولار</p></article><article><span>100$ · بيع المصدر</span><strong><bdi>${money(quote.fx.sell * 100)}</bdi> <small>د.ع</small></strong><p>سعر شراء المصدر: <bdi>${money(quote.fx.buy * 100)}</bdi> د.ع</p></article></div>
     <div class="market-table-wrap"><table><caption>قيمة الذهب بالدينار العراقي حسب العيار</caption><thead><tr><th>العيار</th><th>المثقال · ٥ غرام</th><th>الغرام</th></tr></thead><tbody>${rows}</tbody></table></div>
-    <div class="market-sources"><p>الذهب: <a href="https://www.gold-api.com/" rel="noopener" target="_blank">Gold API</a> · أونصة ٢٤: <bdi>${quote.gold.ounceUsd.toFixed(2)}</bdi> دولار · تحديث المصدر <time datetime="${quote.gold.updatedAt}">${stamp(quote.gold.updatedAt)}</time></p><p>الصرف: <a href="https://iraqsm.com/fx" rel="noopener" target="_blank">IQWealth</a> · بيع الدولار الواحد: <bdi>${quote.fx.sell.toFixed(2)}</bdi> د.ع · تحديث المصدر <time datetime="${quote.fx.updatedAt}">${stamp(quote.fx.updatedAt)}</time></p><p>التوقيت بتوقيت بغداد. السعر مرجع حسابي، ويختلف عن سعر التنفيذ في المحل أو الصيرفة.${quote.warning ? ' أحد المصدرين لم يتحدث منذ أكثر من ٦ ساعات؛ راجع وقت التحديث أعلاه.' : ''}</p></div>`;
+    <div class="market-sources"><p>الذهب: <a href="https://www.gold-api.com/" rel="noopener" target="_blank">Gold API</a> · أونصة ٢٤: <bdi>${quote.gold.ounceUsd.toFixed(2)}</bdi> دولار · تحديث المصدر <time datetime="${quote.gold.updatedAt}">${stamp(quote.gold.updatedAt)}</time></p><p>الصرف: <a href="https://iraqsm.com/fx" rel="noopener" target="_blank">IQWealth</a> · بيع الدولار الواحد: <bdi>${quote.fx.sell.toFixed(2)}</bdi> د.ع · تحديث المصدر <time datetime="${quote.fx.updatedAt}">${stamp(quote.fx.updatedAt)}</time></p><p>بتوقيت بغداد. أسعار مرجعية قد تختلف عن سعر التنفيذ.${quote.warning ? ' أحد المصدرين أقدم من 6 ساعات.' : ''}</p></div>`);
 }

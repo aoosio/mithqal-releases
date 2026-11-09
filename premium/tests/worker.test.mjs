@@ -8,9 +8,9 @@ const env={ASSETS:{fetch:async()=>new Response('<html><!--MARKET_STRIP--><!--MAR
 const ctx={waitUntil(){}};
 const page=await worker.fetch(new Request('https://test.example/gold-prices/'),env,ctx);
 assert.equal(page.status,200); assert.equal(page.headers.has('content-length'),false);assert.equal(page.headers.has('etag'),false);
-const html=await page.text();assert.ok(html.includes('٤٣٧٬٥٠٠'));assert.ok(!html.includes('/*MARKET_DATA*/'));assert.ok(!html.includes('<!--MARKET_STRIP-->'));
-const home=await worker.fetch(new Request('https://test.example/'),env,ctx);assert.match(await home.text(),/المثقال ٥ غرام/);
-const blog=await worker.fetch(new Request('https://test.example/blog/news/'),env,ctx);assert.match(await blog.text(),/المثقال ٥ غرام/);
+const html=await page.text();assert.ok(html.includes('437,500'));assert.ok(!html.includes('/*MARKET_DATA*/'));assert.ok(!html.includes('<!--MARKET_STRIP-->'));
+const home=await worker.fetch(new Request('https://test.example/'),env,ctx);assert.match(await home.text(),/مثقال 21 · 5 غرام/);
+const blog=await worker.fetch(new Request('https://test.example/blog/news/'),env,ctx);assert.match(await blog.text(),/مثقال 21 · 5 غرام/);
 assert.equal((await worker.fetch(new Request('https://test.example/api/market',{method:'POST'}),env,ctx)).status,405);
 const head=await worker.fetch(new Request('https://test.example/api/market',{method:'HEAD'}),env,ctx);assert.equal(await head.text(),'');
 const red=await worker.fetch(new Request('https://test.example/gold-prices?utm_source=test'),env,ctx);assert.equal(red.status,301);assert.equal(red.headers.get('location'),'https://test.example/gold-prices/?utm_source=test');

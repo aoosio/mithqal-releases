@@ -3,10 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node tests/market.test.mjs && node tests/worker.test.mjs && node tests/measurement.test.mjs && node tests/news.test.mjs"
+    "test": "node tests/market.test.mjs && node tests/worker.test.mjs && node tests/measurement.test.mjs && node tests/news.test.mjs && node tests/ui.test.mjs",
+    "build:ui": "node tools/ui.mjs"
   },
   "devDependencies": {
     "jsdom": "29.1.1",
+    "remixicon": "4.9.1",
     "wrangler": "4.158.0"
   }
 }

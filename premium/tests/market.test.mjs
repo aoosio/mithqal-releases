@@ -11,5 +11,5 @@ assert.throws(()=>parseFx(html({buy:1700,sell:1685,publishedAt:at}),now));
 assert.throws(()=>parseFx(html({buy:1680,sell:1685,publishedAt:'garbage'}),now));
 await assert.rejects(boundedText(new Response('123456'),3));
 await assert.rejects(boundedText(new Response('bad',{status:503}),1024));
-assert.match(quoteMarkup(q),/٤٣٧٬٥٠٠/); assert.doesNotMatch(quoteMarkup(null),/undefined|NaN/);
+assert.match(quoteMarkup(q),/437,500/); assert.doesNotMatch(quoteMarkup(null),/undefined|NaN/);
 const real=process.env.LIVE_MARKET_CHECK === '1' ? await loadQuote() : q; assert.ok(real.available);console.log(JSON.stringify({tests:'passed',mode:process.env.LIVE_MARKET_CHECK === '1' ? 'live_source_check' : 'synthetic_unit_test',quote:{gold:real.gold,fx:real.fx,mithqal21:real.karats.find(k=>k.karat===21).mithqalIqd}},null,2));

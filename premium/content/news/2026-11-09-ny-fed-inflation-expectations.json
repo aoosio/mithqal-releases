@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-09-ny-fed-inflation-expectations",
+  "eventKey": "ny-fed-sce-october-2026",
+  "slot": "23",
+  "topic": "inflation",
+  "title": "فيدرالي نيويورك: توقعات التضخم لسنة تبقى عند 3.9%",
+  "summary": "مسح أكتوبر المنشور اليوم أبقى توقعات التضخم مستقرة، مع تباين في نظرة الأسر الأمريكية إلى سوق العمل.",
+  "publishedAt": "2026-11-09T20:08:53.075Z",
+  "sources": [
+    {
+      "id": "nyfed",
+      "publisher": "بنك الاحتياطي الفيدرالي في نيويورك",
+      "title": "Inflation Expectations Stable; Labor Market Expectations Mixed",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261109",
+      "publishedAt": "2026-11-09",
+      "reviewedAt": "2026-11-09T20:08:53.075Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "Gold Market Commentary: Where floor art thou?",
+      "url": "https://www.gold.org/goldhub/research/gold-market-commentary-october-2026",
+      "publishedAt": "2026-11-05",
+      "reviewedAt": "2026-11-09T20:08:53.075Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "nyfed",
+      "text": "Median inflation expectations were unchanged at the one-year, three-year, and five-year-ahead horizons at 3.9%, 3.3%, and 3.0%, respectively."
+    },
+    {
+      "sourceId": "wgc",
+      "text": "Gold fell in October, likely on asset rotation, de-grossing and Fed rate-path repricing."
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو أعلن المسح؟",
+      "paragraphs": [
+        "نشر فيدرالي نيويورك في 9 نوفمبر نتائج مسح توقعات المستهلكين لشهر أكتوبر 2026. بقيت توقعات التضخم الوسيطة عند 3.9% لسنة، و3.3% لثلاث سنوات، و3.0% لخمس سنوات، من دون تغيّر عن الشهر السابق.",
+        "وبلغ متوسط احتمال ارتفاع البطالة خلال سنة، بحسب تقديرات المشاركين، 45.3%، بزيادة 1.4 نقطة مئوية؛ وهو الأعلى منذ أبريل 2020. هذا احتمال يقدّره المستطلعون، وليس معدل البطالة الفعلي.",
+        "جُمعت الإجابات بين 1 و31 أكتوبر. وتحسّنت توقعات العثور على عمل لمن يفقد وظيفته، رغم تراجع توقعات أخرى بسوق العمل."
+      ],
+      "sourceIds": [
+        "nyfed"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "شنو علاقته بمتابعة الذهب؟",
+      "paragraphs": [
+        "هذا مسح للتوقعات، وليس قياسًا جديدًا للتضخم أو قرارًا للفائدة. وللسياق، أشار مجلس الذهب العالمي في ملخصه المنشور يوم 5 نوفمبر إلى إعادة تسعير مسار فائدة الفيدرالي ضمن عوامل هبوط الذهب في أكتوبر.",
+        "قراءة مثقال: نتابع المسح ضمن الصورة الاقتصادية، من دون اعتباره وحده تفسيرًا لحركة الذهب اليوم أو إشارة شراء وبيع."
+      ],
+      "sourceIds": [
+        "nyfed",
+        "wgc"
+      ]
+    }
+  ]
+}

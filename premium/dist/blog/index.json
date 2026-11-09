@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-09-ny-fed-inflation-expectations",
+    "eventKey": "ny-fed-sce-october-2026",
+    "slot": "23",
+    "title": "فيدرالي نيويورك: توقعات التضخم لسنة تبقى عند 3.9%",
+    "summary": "مسح أكتوبر المنشور اليوم أبقى توقعات التضخم مستقرة، مع تباين في نظرة الأسر الأمريكية إلى سوق العمل.",
+    "publishedAt": "2026-11-09T20:08:53.075Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-09-ny-fed-inflation-expectations/",
+    "sources": [
+      {
+        "url": "https://www.newyorkfed.org/newsevents/news/research/2026/20261109",
+        "publisher": "بنك الاحتياطي الفيدرالي في نيويورك",
+        "publishedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.gold.org/goldhub/research/gold-market-commentary-october-2026",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-11-05"
+      }
+    ]
+  },
+  {
     "id": "2026-11-09-wgc-weekly-inflation-watch",
     "eventKey": "wgc-weekly-monitor-2026-11-09",
     "slot": "16",

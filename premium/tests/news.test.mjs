@@ -1,5 +1,7 @@
 import assert from 'node:assert/strict';
-import {mkdtempSync,mkdirSync,writeFileSync,readFileSync,rmSync} from 'node:fs';
+import {mkdtempSync,mkdirSync,writeFileSync,readFileSync,rmSync,symlinkSync} from 'node:fs';
+import {spawnSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 import {readArticles,validateArticle,articleHtml,baghdadDay,build} from '../tools/news.mjs';
@@ -36,3 +38,13 @@ try {
  assert.ok(readFileSync(join(distDir,'sitemap.xml'),'utf8').includes('/blog/synthetic-news-12/'));
 } finally {rmSync(fixture,{recursive:true,force:true});}
 console.log('News: a 13-article synthetic archive paginates and exposes only visible article schema.');
+
+const aliasDir=mkdtempSync(join(tmpdir(),'mithqal-news-cli-alias-'));
+try {
+ const alias=join(aliasDir,'news-alias.mjs');
+ symlinkSync(fileURLToPath(new URL('../tools/news.mjs',import.meta.url)),alias);
+ const result=spawnSync(process.execPath,[alias,'status'],{encoding:'utf8'});
+ assert.equal(result.status,0,result.stderr);
+ assert.equal(JSON.parse(result.stdout).timezone,'Asia/Baghdad');
+} finally {rmSync(aliasDir,{recursive:true,force:true});}
+console.log('News: CLI commands execute through symlinked macOS temporary paths.');

@@ -1,7 +1,7 @@
 import {digits,presentMarkup} from '../dist/ui.mjs';
-import {readFileSync,writeFileSync,mkdirSync,readdirSync,existsSync,mkdtempSync,rmSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync,readdirSync,existsSync,mkdtempSync,rmSync,realpathSync} from 'node:fs';
 import {resolve,dirname,join} from 'node:path';
-import {fileURLToPath,pathToFileURL} from 'node:url';
+import {fileURLToPath} from 'node:url';
 import {tmpdir} from 'node:os';
 import {spawnSync} from 'node:child_process';
 import {createHash} from 'node:crypto';
@@ -107,7 +107,7 @@ async function publish(file){
   const existing=readArticles(join(checkout,'premium/content/news'));validateArticle(a,existing);const old=existing.find(x=>x.id===a.id);
   if(old&&digest(old)!==digest(a))throw new Error('Existing article differs. Keep its published id and review corrections separately.');
   if(old&&await verifyLive(a))return {published:false,duplicate:true,url:BASE+'/blog/'+a.id+'/'};
-  if(!old){run(process.execPath,[join(checkout,'premium/tools/news.mjs'),'add',resolve(file)],checkout);run('git',['add','premium/content/news','premium/dist/blog','premium/dist/index.html','premium/dist/sitemap.xml'],checkout);run('git',['commit','-m','Publish verified gold news: '+a.id],checkout);run('git',['push','origin','HEAD:cloudflare-premium'],checkout);}
+  if(!old){run(process.execPath,[join(checkout,'premium/tools/news.mjs'),'add',resolve(file)],checkout);const saved=join(checkout,'premium/content/news',a.id+'.json');if(!existsSync(saved)||digest(JSON.parse(readFileSync(saved,'utf8')))!==digest(a))throw new Error('The isolated news build did not save this packet; retry the same id after repairing the CLI.');run('git',['add','premium/content/news','premium/dist/blog','premium/dist/index.html','premium/dist/sitemap.xml'],checkout);run('git',['commit','-m','Publish verified gold news: '+a.id],checkout);run('git',['push','origin','HEAD:cloudflare-premium'],checkout);}
   // Reconcile again after deployment if another website commit arrived in flight.
   let settled=false;
   for(let attempt=0;attempt<3;attempt++){
@@ -125,4 +125,6 @@ async function publish(file){
  }finally{if(linked)run('git',['worktree','remove','--force',checkout]);rmSync(temp,{recursive:true,force:true});}
 }
 function status(){const a=readArticles(),day=baghdadDay(Date.now()),h=Number(new Intl.DateTimeFormat('en-GB',{timeZone:'Asia/Baghdad',hour:'2-digit',hourCycle:'h23'}).format(new Date()));return {day,timezone:'Asia/Baghdad',schedule:HOURS,today:a.filter(x=>baghdadDay(x.publishedAt)===day).map(x=>({id:x.id,slot:x.slot,eventKey:x.eventKey})),eligibleSlot:[...HOURS].reverse().find(x=>Number(x)<=h)||null,recent:a.slice(0,20).map(x=>({id:x.id,eventKey:x.eventKey,publishedAt:x.publishedAt,title:x.title,sources:x.sources.map(s=>s.url)}))};}
-if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href){try{const [cmd,file]=process.argv.slice(2);if(cmd==='build')console.log(JSON.stringify(build()));else if(cmd==='add')console.log(JSON.stringify(add(resolve(file))));else if(cmd==='validate'){validateArticle(JSON.parse(readFileSync(resolve(file),'utf8')),readArticles());console.log('Valid reviewed news packet');}else if(cmd==='publish')console.log(JSON.stringify(await publish(resolve(file))));else if(cmd==='status')console.log(JSON.stringify(status(),null,2));else throw new Error('Use: news.mjs status | build | validate <packet.json> | add <packet.json> | publish <packet.json>');}catch(e){console.error(e.message);process.exitCode=1;}}
+// macOS resolves /var to /private/var when loading modules from a temp worktree.
+// Compare canonical paths so the child CLI runs instead of silently importing.
+if(process.argv[1]&&realpathSync(fileURLToPath(import.meta.url))===realpathSync(resolve(process.argv[1]))){try{const [cmd,file]=process.argv.slice(2);if(cmd==='build')console.log(JSON.stringify(build()));else if(cmd==='add')console.log(JSON.stringify(add(resolve(file))));else if(cmd==='validate'){validateArticle(JSON.parse(readFileSync(resolve(file),'utf8')),readArticles());console.log('Valid reviewed news packet');}else if(cmd==='publish')console.log(JSON.stringify(await publish(resolve(file))));else if(cmd==='status')console.log(JSON.stringify(status(),null,2));else throw new Error('Use: news.mjs status | build | validate <packet.json> | add <packet.json> | publish <packet.json>');}catch(e){console.error(e.message);process.exitCode=1;}}

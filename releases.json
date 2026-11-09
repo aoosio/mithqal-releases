@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-06T15:58:21.351Z",
+  "updated": "2026-11-09T16:51:40.640Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -409,6 +409,27 @@
           "name": "Mithqal-Setup-1.30.0-ia32.exe",
           "size": 102855885,
           "sha512": "6b0ccc31cdb4db1e54713d4bb17b9c311dc4f55528d33697fd16a82df3a7c2c415111378658912275cc606bd89f6f476e54af75848746a290feafdc6d0a01924",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.31.0",
+      "date": "2026-11-09",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "معلومات تواصل واضحة عند بدء تجربة الأسبوع، مع الحفاظ على مدتها وبيانات المحل.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.31.0-x64.exe",
+          "size": 124711801,
+          "sha512": "f45f668b0f324385a5f724845874976a9f68564c2e878ec06b81a547fc2e68db8b18abaf67f7a4d348ea1079452f32721b6a705dadc10f62fa0fb9cda8bcd5f6",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.31.0-ia32.exe",
+          "size": 102856352,
+          "sha512": "f9f771a40a57f5bc9d9e32a6e8029889e062cdce0aecf013db48e321c8633af7d8d9029324d7529374dc591ce108ba906091a2f171ee2cd5765df1f5a6156598",
           "signed": false
         }
       }

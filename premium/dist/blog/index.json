@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-11-10-us-treasury-yields-november-9",
+    "eventKey": "us-treasury-par-yields-2026-11-09",
+    "slot": "08",
+    "title": "العائد الأمريكي لعشر سنوات يرتفع إلى 4.88% في قراءة 9 نوفمبر",
+    "summary": "أظهرت بيانات الخزانة الأمريكية زيادة محدودة بالعائد الاسمي والحقيقي لعشر سنوات مقارنة بقراءة 6 نوفمبر.",
+    "publishedAt": "2026-11-10T08:06:28.402Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-10-us-treasury-yields-november-9/",
+    "sources": [
+      {
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+        "publisher": "وزارة الخزانة الأمريكية",
+        "publishedAt": "2026-11-09"
+      },
+      {
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
+        "publisher": "وزارة الخزانة الأمريكية",
+        "publishedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.gold.org/goldhub/research/gold-market-commentary-october-2026",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-11-05"
+      }
+    ]
+  },
+  {
     "id": "2026-11-09-ny-fed-inflation-expectations",
     "eventKey": "ny-fed-sce-october-2026",
     "slot": "23",

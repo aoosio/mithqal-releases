@@ -1,0 +1,86 @@
+{
+  "id": "2026-11-10-us-treasury-yields-november-9",
+  "eventKey": "us-treasury-par-yields-2026-11-09",
+  "slot": "08",
+  "topic": "rates",
+  "title": "العائد الأمريكي لعشر سنوات يرتفع إلى 4.88% في قراءة 9 نوفمبر",
+  "summary": "أظهرت بيانات الخزانة الأمريكية زيادة محدودة بالعائد الاسمي والحقيقي لعشر سنوات مقارنة بقراءة 6 نوفمبر.",
+  "publishedAt": "2026-11-10T08:06:28.402Z",
+  "sources": [
+    {
+      "id": "nominal",
+      "publisher": "وزارة الخزانة الأمريكية",
+      "title": "العوائد اليومية الاسمية للخزانة الأمريكية: قراءة 9 نوفمبر 2026",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+      "publishedAt": "2026-11-09",
+      "reviewedAt": "2026-11-10T08:06:28.402Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "real",
+      "publisher": "وزارة الخزانة الأمريكية",
+      "title": "العوائد اليومية الحقيقية للخزانة الأمريكية: قراءة 9 نوفمبر 2026",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
+      "publishedAt": "2026-11-09",
+      "reviewedAt": "2026-11-10T08:06:28.402Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "Gold Market Commentary: Where floor art thou?",
+      "url": "https://www.gold.org/goldhub/research/gold-market-commentary-october-2026",
+      "publishedAt": "2026-11-05",
+      "reviewedAt": "2026-11-10T08:06:28.402Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "nominal",
+      "text": "11/09/2026 … 4.76 | 4.88 | 5.29 | 5.26"
+    },
+    {
+      "sourceId": "nominal",
+      "text": "11/06/2026 … 4.74 | 4.86 | 5.29 | 5.26"
+    },
+    {
+      "sourceId": "real",
+      "text": "11/09/2026 | 2.42 | 2.53 | 2.66"
+    },
+    {
+      "sourceId": "real",
+      "text": "11/06/2026 | 2.35 | 2.48 | 2.63"
+    },
+    {
+      "sourceId": "wgc",
+      "text": "Gold fell in October, likely on asset rotation, de-grossing and Fed rate-path repricing."
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو تغيّر بالأرقام؟",
+      "paragraphs": [
+        "بلغ العائد الاسمي للخزانة الأمريكية لأجل 10 سنوات 4.88% في بيانات 9 نوفمبر 2026، مقابل 4.86% يوم 6 نوفمبر. الزيادة نقطتا أساس، أي 0.02 نقطة مئوية.",
+        "وارتفع العائد الحقيقي للأجل نفسه، المستخلص من سندات الخزانة المحمية من التضخم، إلى 2.66% من 2.63%؛ بزيادة 3 نقاط أساس. الأرقام تخص يوم التداول السابق، وليست أسعارًا لحظية لصباح 10 نوفمبر.",
+        "توضح الخزانة أن هذه عوائد مرجعية تُستخلص عند آجال ثابتة من منحنى العائد، اعتمادًا على أسعار استرشادية بالسوق."
+      ],
+      "sourceIds": [
+        "nominal",
+        "real"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "ليش نتابعها ويا الذهب؟",
+      "paragraphs": [
+        "أشار مجلس الذهب العالمي في ملخصه المنشور يوم 5 نوفمبر إلى إعادة تسعير مسار فائدة الفيدرالي ضمن عوامل هبوط الذهب في أكتوبر، إلى جانب تغيّر مراكز التداول وانتقال الأموال بين الأصول.",
+        "قراءة مثقال: الزيادة الحالية محدودة. نتابع العوائد ضمن الصورة الأوسع، من دون نسب حركة الذهب اليوم إليها وحدها أو تحويلها إلى توصية شراء وبيع."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

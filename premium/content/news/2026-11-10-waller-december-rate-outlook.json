@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-10-waller-december-rate-outlook",
+  "eventKey": "waller-economic-outlook-2026-11-10",
+  "slot": "12",
+  "topic": "rates",
+  "title": "والر يؤيد رفع الفائدة في ديسمبر ويحذّر من تشديد أكبر",
+  "summary": "عضو الفيدرالي يرجّح زيادة 25 نقطة أساس، ويطرح 50 نقطة إذا استمر التضخم مرتفعًا. تصريحاته سبقت بيانات أسعار المستهلكين الأمريكية.",
+  "publishedAt": "2026-11-10T12:57:42.251Z",
+  "sources": [
+    {
+      "id": "fed",
+      "publisher": "الاحتياطي الفيدرالي الأمريكي",
+      "title": "The Economic Outlook and Some Thoughts on Labor Market Dynamism",
+      "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+      "publishedAt": "2026-11-10",
+      "reviewedAt": "2026-11-10T12:57:42.251Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "bls",
+      "publisher": "مكتب إحصاءات العمل الأمريكي",
+      "title": "جدول إصدارات نوفمبر 2026",
+      "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+      "publishedAt": "2026-11-03",
+      "reviewedAt": "2026-11-10T12:57:42.251Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "fed",
+      "text": "I believe a 50 basis point hike in the policy rate should be considered at the December meeting."
+    },
+    {
+      "sourceId": "bls",
+      "text": "10 Consumer Price Index October 2026 08:30 AM"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو قال والر؟",
+      "paragraphs": [
+        "قال كريستوفر والر، عضو مجلس محافظي الفيدرالي، في كلمة بلندن يوم 10 نوفمبر، إنه يميل إلى دعم رفع الفائدة 25 نقطة أساس في اجتماع ديسمبر، حتى إذا تحسّن التضخم الشهري مثلما يتوقع.",
+        "وأضاف أن قراءة للتضخم الأساسي تقارب 0.3% شهريًا أو تتجاوزها قد تستدعي بحث زيادة أكبر تبلغ 50 نقطة أساس. وشدّد على أن الآراء المطروحة تخصه، ولا تمثل بالضرورة زملاءه أو لجنة السياسة النقدية.",
+        "هذه زيادة مقترحة لا قرار صادر؛ 25 نقطة أساس تعادل ربع نقطة مئوية، و50 نقطة تعادل نصف نقطة."
+      ],
+      "sourceIds": [
+        "fed"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "شنو نتابع بعد التصريح؟",
+      "paragraphs": [
+        "حدّد جدول BLS صدور مؤشر أسعار المستهلكين لشهر أكتوبر اليوم، الساعة 8:30 صباحًا بتوقيت شرق أمريكا، أي 16:30 بتوقيت بغداد. لم تكن النتائج صادرة عند إعداد هذه النشرة.",
+        "قراءة مثقال لأهل الذهب: نميّز بين موقف عضو بالفيدرالي، ونتيجة البيانات، والقرار الفعلي للجنة؛ التصريح وحده لا يضمن اتجاه سعر الذهب المقبل."
+      ],
+      "sourceIds": [
+        "bls",
+        "fed"
+      ]
+    }
+  ]
+}

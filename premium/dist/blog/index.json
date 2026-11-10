@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-10-waller-december-rate-outlook",
+    "eventKey": "waller-economic-outlook-2026-11-10",
+    "slot": "12",
+    "title": "والر يؤيد رفع الفائدة في ديسمبر ويحذّر من تشديد أكبر",
+    "summary": "عضو الفيدرالي يرجّح زيادة 25 نقطة أساس، ويطرح 50 نقطة إذا استمر التضخم مرتفعًا. تصريحاته سبقت بيانات أسعار المستهلكين الأمريكية.",
+    "publishedAt": "2026-11-10T12:57:42.251Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-10-waller-december-rate-outlook/",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm",
+        "publisher": "الاحتياطي الفيدرالي الأمريكي",
+        "publishedAt": "2026-11-10"
+      },
+      {
+        "url": "https://www.bls.gov/schedule/2026/11_sched.htm",
+        "publisher": "مكتب إحصاءات العمل الأمريكي",
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-us-treasury-yields-november-9",
     "eventKey": "us-treasury-par-yields-2026-11-09",
     "slot": "08",

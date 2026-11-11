@@ -1,0 +1,69 @@
+{
+  "id": "2026-11-11-bowman-inflation-policy-outlook",
+  "eventKey": "bowman-economic-outlook-2026-11-10",
+  "slot": "12",
+  "topic": "rates",
+  "title": "بومان: التضخم أكثر استمرارًا، وقرار الفائدة ينتظر البيانات",
+  "summary": "بومان تحذّر من استمرار ضغوط الأسعار. تقديرها لتضخم الاستهلاك الأساسي لا يمثل نتيجة التقرير الرسمي أو قرارًا للفائدة.",
+  "publishedAt": "2026-11-11T09:03:54.353Z",
+  "sources": [
+    {
+      "id": "fed",
+      "publisher": "الاحتياطي الفيدرالي الأمريكي",
+      "title": "خطاب ميشيل بومان: الاقتصاد الأمريكي واعتبارات السياسة النقدية",
+      "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+      "publishedAt": "2026-11-10",
+      "reviewedAt": "2026-11-11T09:03:54.353Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "تعليق سوق الذهب لشهر أكتوبر 2026",
+      "url": "https://www.gold.org/goldhub/research/gold-market-commentary-october-2026",
+      "publishedAt": "2026-11-05",
+      "reviewedAt": "2026-11-11T09:03:54.353Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "fed",
+      "text": "monetary policy is not on a preset course"
+    },
+    {
+      "sourceId": "fed",
+      "text": "12-month core PCE inflation likely moved up further to 3.3 percent in October"
+    },
+    {
+      "sourceId": "wgc",
+      "text": "Gold fell in October, likely on asset rotation, de-grossing and Fed rate-path repricing."
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو قالت بومان؟",
+      "paragraphs": [
+        "قالت ميشيل بومان، نائبة رئيس الاحتياطي الفيدرالي للإشراف، في خطاب بواشنطن يوم 10 نوفمبر، إن التضخم استمر أكثر مما توقعت، مع مؤشرات على اتساع ضغوط الأسعار.",
+        "وقدّرت أن تضخم نفقات الاستهلاك الشخصي الأساسي ربما بلغ 3.3% سنويًا في أكتوبر. هذا تقدير منها مبني على بيانات أسعار المستهلكين، وليس نتيجة تقرير الاستهلاك الرسمي المرتقب قبل اجتماع ديسمبر.",
+        "وقالت إن فائدة التشديد الإضافي يجب موازنتها مع تكلفته. وأكدت أن القرارات تعتمد على البيانات، والآراء في الخطاب تخصها ولا تمثل بالضرورة بقية أعضاء اللجنة."
+      ],
+      "sourceIds": [
+        "fed"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "شنو علاقته بالذهب؟",
+      "paragraphs": [
+        "أشار مجلس الذهب العالمي في تعليقه المنشور يوم 5 نوفمبر إلى إعادة تسعير مسار الفائدة ضمن العوامل المحتملة لتراجع الذهب في أكتوبر.",
+        "قراءة مثقال: التصريحات تساعد على فهم السياق، لكنها لا تحسم اتجاه الأونصة أو سعر المثقال في العراق. خطاب بومان لا يعلن رفعًا جديدًا للفائدة."
+      ],
+      "sourceIds": [
+        "wgc",
+        "fed"
+      ]
+    }
+  ]
+}

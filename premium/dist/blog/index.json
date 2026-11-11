@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-11-bowman-inflation-policy-outlook",
+    "eventKey": "bowman-economic-outlook-2026-11-10",
+    "slot": "12",
+    "title": "بومان: التضخم أكثر استمرارًا، وقرار الفائدة ينتظر البيانات",
+    "summary": "بومان تحذّر من استمرار ضغوط الأسعار. تقديرها لتضخم الاستهلاك الأساسي لا يمثل نتيجة التقرير الرسمي أو قرارًا للفائدة.",
+    "publishedAt": "2026-11-11T09:03:54.353Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-11-bowman-inflation-policy-outlook/",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm",
+        "publisher": "الاحتياطي الفيدرالي الأمريكي",
+        "publishedAt": "2026-11-10"
+      },
+      {
+        "url": "https://www.gold.org/goldhub/research/gold-market-commentary-october-2026",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-11-05"
+      }
+    ]
+  },
+  {
     "id": "2026-11-10-us-cpi-october-results",
     "eventKey": "bls-cpi-2026-10",
     "slot": "20",

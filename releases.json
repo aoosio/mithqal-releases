@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-09T16:51:40.640Z",
+  "updated": "2026-11-11T22:38:16.082Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -430,6 +430,27 @@
           "name": "Mithqal-Setup-1.31.0-ia32.exe",
           "size": 102856352,
           "sha512": "f9f771a40a57f5bc9d9e32a6e8029889e062cdce0aecf013db48e321c8633af7d8d9029324d7529374dc591ce108ba906091a2f171ee2cd5765df1f5a6156598",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.31.1",
+      "date": "2026-11-12",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "إصلاح بقاء المدفوع الآن بعد مغادرة الحقل، ومطابقة المعاينة مع الحفظ، والحفاظ على كسور الدرهم ووضوح الأرقام السالبة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.31.1-x64.exe",
+          "size": 124714022,
+          "sha512": "40d949889e5e84c6f68f35996bf9d7f9fd737b0b1f7eb4fc627fa49e63c7b75318fbe400c6501d660674277d357f8a780d04e57bfe33909833878a3b2c891bab",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.31.1-ia32.exe",
+          "size": 102858673,
+          "sha512": "6bac4f49b81f5765f45f8d46830f42e3b9379ab217f89cafd7a4c9494fb49f5202cb98073eb378ea49b45cdb6d5324cb4e717667cbd4aba857713c0fa2e59ca3",
           "signed": false
         }
       }

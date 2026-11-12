@@ -1,5 +1,22 @@
 [
   {
+    "id": "2026-11-12-ecb-conflict-scenario-analysis",
+    "eventKey": "ecb-middle-east-scenario-framework-2026-11-12",
+    "slot": "20",
+    "title": "تحليل أوروبي جديد يقارن سيناريوهات الصراع والتضخم",
+    "summary": "المركزي الأوروبي يقارن مسارات النمو والتضخم بالتاريخ، ويوضح أن المقياس لا يحدد احتمال وقوع الصراع أو تطوره.",
+    "publishedAt": "2026-11-12T18:52:29.613Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-12-ecb-conflict-scenario-analysis/",
+    "sources": [
+      {
+        "url": "https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202607_01~63d20abac5.en.html",
+        "publisher": "البنك المركزي الأوروبي",
+        "publishedAt": "2026-11-12"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-us-weekly-jobless-claims",
     "eventKey": "dol-weekly-claims-2026-11-12",
     "slot": "16",

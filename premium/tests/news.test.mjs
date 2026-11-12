@@ -15,6 +15,8 @@ assert.throws(()=>validateArticle({...a,eventKey:'duplicate-event'},[{...a,id:'o
 assert.throws(()=>validateArticle({...a,sources:[{...a.sources[0],url:'https://127.0.0.1/private'}]},[],now));
 assert.ok(validateArticle({...a,sources:a.sources.map((s,i)=>i? s:{...s,url:'https://www.newyorkfed.org/newsevents/news/research/2026/20261109'})},[],now));
 assert.throws(()=>validateArticle({...a,sources:a.sources.map((s,i)=>i? s:{...s,url:'https://www.newyorkfed.org.evil.example/release'})},[],now),/Unapproved source URL/);
+assert.ok(validateArticle({...a,sources:a.sources.map((s,i)=>i? s:{...s,url:'https://fiscaldata.treasury.gov/static-data/published-reports/mts/MonthlyTreasuryStatement_202610.pdf'})},[],now));
+assert.throws(()=>validateArticle({...a,sources:a.sources.map((s,i)=>i? s:{...s,url:'https://fiscaldata.treasury.gov.evil.example/report.pdf'})},[],now),/Unapproved source URL/);
 assert.throws(()=>validateArticle({...a,evidence:[]},[],now));
 assert.throws(()=>validateArticle(a,Array.from({length:5},(_,i)=>({...a,id:'prior-post-'+i,eventKey:'prior-event-'+i,slot:['08','12','16','20','23'][i]})),now));
 const early=baghdadDay(a.publishedAt)+'T05:00:00Z';

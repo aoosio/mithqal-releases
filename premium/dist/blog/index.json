@@ -1,5 +1,22 @@
 [
   {
+    "id": "2026-11-12-us-october-budget-deficit",
+    "eventKey": "us-treasury-mts-october-2026",
+    "slot": "23",
+    "title": "العجز الأمريكي يبلغ 404 مليارات دولار في أكتوبر",
+    "summary": "إيرادات بنحو 369 مليار دولار ومصروفات 773 مليارًا، مع انتقال بعض دفعات نوفمبر إلى أكتوبر.",
+    "publishedAt": "2026-11-12T20:20:15.864Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-12-us-october-budget-deficit/",
+    "sources": [
+      {
+        "url": "https://fiscaldata.treasury.gov/static-data/published-reports/mts/MonthlyTreasuryStatement_202610.pdf",
+        "publisher": "وزارة الخزانة الأمريكية",
+        "publishedAt": "2026-11-12"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-ecb-conflict-scenario-analysis",
     "eventKey": "ecb-middle-east-scenario-framework-2026-11-12",
     "slot": "20",

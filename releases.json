@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-13T15:47:05.006Z",
+  "updated": "2026-11-13T16:20:42.310Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -472,6 +472,27 @@
           "name": "Mithqal-Setup-1.32.0-ia32.exe",
           "size": 102869632,
           "sha512": "4dcd2eee635a57688d279d9d05998a26836c34bdacdafa3f50ae7c9edf4dd93d386813d9760411c172a17045915370560ef70b3677e53d9c090511c50566960c",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.32.1",
+      "date": "2026-11-13",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "تصحيح صلاحية اتصال الميزان في ويندوز وإعادة فتح USB، ومنع المحاولات التلقائية بعد فشل التعريف اليدوي. تصحيح أجرة القطعة عند إدخال الباركود. يشمل الأجرة المقطوعة لكل صنف وبقاء الربط وأخذ الوزن للصنف المحدد والتفاصيل الكاملة في الفاتورة والطباعة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.32.1-x64.exe",
+          "size": 124725884,
+          "sha512": "40583a2327e7a9c27dc88a6b69dc3dd444f7f864a9e238d747a619fbf437bb7469d1b6f50796f733d8ad2b0a5a1eb7673d81f3faf059e61d37f4d03ce7009296",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.32.1-ia32.exe",
+          "size": 102870508,
+          "sha512": "d7b9e1ca62ce98e11c8e917549981a5a139738e0b154480db365ea2300e63e74df3fa92b77a2907c9065653f77ddd9190bb9100b22f05726be9553ccd8a287ca",
           "signed": false
         }
       }

@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-13-us-treasury-yields-november-12",
+    "eventKey": "us-treasury-par-yields-2026-11-12",
+    "slot": "08",
+    "title": "العائد الأمريكي لعشر سنوات يرتفع إلى 5.10% في قراءة 12 نوفمبر",
+    "summary": "زيادة 12 نقطة أساس عن 10 نوفمبر، مع صعود العائد الحقيقي لعشر سنوات إلى 2.86%.",
+    "publishedAt": "2026-11-13T05:00:51Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-13-us-treasury-yields-november-12/",
+    "sources": [
+      {
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+        "publisher": "وزارة الخزانة الأمريكية",
+        "publishedAt": "2026-11-12"
+      },
+      {
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026",
+        "publisher": "وزارة الخزانة الأمريكية",
+        "publishedAt": "2026-11-12"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-us-october-budget-deficit",
     "eventKey": "us-treasury-mts-october-2026",
     "slot": "23",

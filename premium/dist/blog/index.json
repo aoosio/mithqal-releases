@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-13-us-ppi-october-results",
+    "eventKey": "bls-ppi-2026-10",
+    "slot": "20",
+    "title": "أسعار المنتجين الأمريكية ترتفع 0.3% في أكتوبر و6.5% سنويًا",
+    "summary": "تباطأت الزيادة الشهرية من 1.4% في سبتمبر، لكن الارتفاع السنوي بلغ أعلى مستوى منذ نوفمبر 2022، بحسب تقرير BLS الصادر اليوم.",
+    "publishedAt": "2026-11-13T17:00:43.130Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-13-us-ppi-october-results/",
+    "sources": [
+      {
+        "url": "https://www.bls.gov/news.release/archives/ppi_11132026.htm",
+        "publisher": "مكتب إحصاءات العمل الأمريكي BLS",
+        "publishedAt": "2026-11-13T13:30:00Z"
+      },
+      {
+        "url": "https://www.gold.org/goldhub/research/gold-market-commentary-october-2026",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-11-05"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-us-treasury-yields-november-12",
     "eventKey": "us-treasury-par-yields-2026-11-12",
     "slot": "08",

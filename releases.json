@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-13T16:20:42.310Z",
+  "updated": "2026-11-13T16:49:57.919Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -493,6 +493,27 @@
           "name": "Mithqal-Setup-1.32.1-ia32.exe",
           "size": 102870508,
           "sha512": "d7b9e1ca62ce98e11c8e917549981a5a139738e0b154480db365ea2300e63e74df3fa92b77a2907c9065653f77ddd9190bb9100b22f05726be9553ccd8a287ca",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.32.2",
+      "date": "2026-11-13",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "زر أخذ الوزن بجانب كل صنف في الفاتورة بضغطة واحدة للقراءة الثابتة بالغرام. الموازين التي تعمل بالطلب تطلب قراءة جديدة من زر الصنف نفسه.\nفحص التحديثات كل خمس دقائق ومع عودة الاتصال أو الرجوع للبرنامج، وإظهار الإشعار بالأعلى عند توفر إصدار أحدث.\nيشمل تصحيحات فتح الميزان في ويندوز من 1.32.1.\nربط مباشر بمنفذ COM في ويندوز بدل Web Serial. اختر المنفذ من الإعدادات مرة بعد التحديث؛ يبقى الاختيار محفوظًا لإعادة الاتصال.\nتصحيح ضغط حقول نموذج الفاتورة عند ضيق المساحة، وإبقاء إشعار التحديث ظاهرًا أثناء التمرير.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.32.2-x64.exe",
+          "size": 125418974,
+          "sha512": "ba171140cadc2c84b3df6aeba9c5d9e519e040a12ca4ac4484b30cf99d7a8c6e70e567927e7b6978a275c3c40a2b4a753ad75e26c1ac479b394ebfa78640009d",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.32.2-ia32.exe",
+          "size": 103563662,
+          "sha512": "702754cd7f8ee61e10a7458b543c8dfe875ad2e89a76dc3fd2040fdb750eba6d75a53eb7177aec7aa8afd5b29964114b5095198076d8e9e995458d0c0f9ecdd2",
           "signed": false
         }
       }

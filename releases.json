@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-11T22:38:16.082Z",
+  "updated": "2026-11-13T15:47:05.006Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -451,6 +451,27 @@
           "name": "Mithqal-Setup-1.31.1-ia32.exe",
           "size": 102858673,
           "sha512": "6bac4f49b81f5765f45f8d46830f42e3b9379ab217f89cafd7a4c9494fb49f5202cb98073eb378ea49b45cdb6d5324cb4e717667cbd4aba857713c0fa2e59ca3",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.32.0",
+      "date": "2026-11-13",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "أجرة مقطوعة أو بالغرام لكل صنف، اتصال ميزان مستمر مع أخذ الوزن للصنف المحدد، وتحسين عرض وطباعة جميع التفاصيل. حدّث أجهزة المحل المرتبطة إلى نسخ تدعم الأجرة المقطوعة قبل استخدامها.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.32.0-x64.exe",
+          "size": 124724905,
+          "sha512": "ec02ce41c70bf2b9939c720a97e2f492e2a463288a1fca3f1826f3d917ee700085bf5d75a0e1b9a6e042a3a1a04a1bb0e6b1e14e9fe17cc16be0440cd75e07fe",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.32.0-ia32.exe",
+          "size": 102869632,
+          "sha512": "4dcd2eee635a57688d279d9d05998a26836c34bdacdafa3f50ae7c9edf4dd93d386813d9760411c172a17045915370560ef70b3677e53d9c090511c50566960c",
           "signed": false
         }
       }

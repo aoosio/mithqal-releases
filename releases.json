@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-14T15:19:47.700Z",
+  "updated": "2026-11-14T15:56:22.937Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -535,6 +535,27 @@
           "name": "Mithqal-Setup-1.32.3-ia32.exe",
           "size": 103566860,
           "sha512": "1d7f56fc7daa8296f9d9caf55d8e0caf0d97f395933b0ee8cdbd5aadb94d5b9f0b12f0c2cc413ada0d43b9902209e2dfc904094e0553019c5169372c3bf8f189",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.32.4",
+      "date": "2026-11-14",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "طباعة شعار المحل على ليبل باركود القطعة من إعدادات الطباعة والليبل.\nإصدار ليبل من شاشة الجرد بالوزن المقروء من الميزان أو بالوزن المسجّل قبل القراءة.\nالاحتفاظ برمز القطعة ووزن بطاقتها عند طباعة وزن الجرد، وعدم احتساب فتح المعاينة كطباعة.\nضبط حجم واتجاه صفحة الليبل حسب الشريط المختار عند الطباعة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.32.4-x64.exe",
+          "size": 125424200,
+          "sha512": "49d5189b9c9b8899879f81ec0426ba19f0f0712011149cfe466862edc8caf9484eb8c6d4c664b7ec976f3246641100eb99f996bc46e6f56364c261253f770a15",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.32.4-ia32.exe",
+          "size": 103568932,
+          "sha512": "bbf3399c4c9decccb221f7084a0d3b036017c3e6f5e458f3bc20f76cff3deb2356146c2c0ab1ac47df4cef8690ea59aec2972f5d6e878579da7bfc56d84a51d9",
           "signed": false
         }
       }

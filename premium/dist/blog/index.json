@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-14-jefferson-inflation-policy-signal",
+    "eventKey": "jefferson-economic-outlook-2026-11-13",
+    "slot": "08",
+    "title": "جيفرسون: مسار التضخم الإشارة الأهم للسياسة النقدية",
+    "summary": "نائب رئيس الفيدرالي يشدّد على استمرار التضخم وتماسك العمل، بخطاب مؤرخ 13 نوفمبر يعرض رأيه الشخصي.",
+    "publishedAt": "2026-11-14T05:50:56.196Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-14-jefferson-inflation-policy-signal/",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+        "publisher": "مجلس الاحتياطي الفيدرالي الأمريكي",
+        "publishedAt": "2026-11-13"
+      },
+      {
+        "url": "https://www.gold.org/goldhub/research/gold-market-commentary-october-2026",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-11-05"
+      }
+    ]
+  },
+  {
     "id": "2026-11-13-us-ppi-october-results",
     "eventKey": "bls-ppi-2026-10",
     "slot": "20",

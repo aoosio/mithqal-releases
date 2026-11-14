@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-14-ap-hormuz-tanker-report",
+    "eventKey": "ap-iran-state-tv-hormuz-tankers-2026-11-14",
+    "slot": "20",
+    "title": "AP تنقل إعلاناً إيرانياً عن إصابة 3 ناقلات قرب هرمز",
+    "summary": "رواية نقلتها الوكالة عن التلفزيون الإيراني، مع غياب تفاصيل جنسيات السفن أو الإصابات البشرية.",
+    "publishedAt": "2026-11-14T17:02:36.168Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-14-ap-hormuz-tanker-report/",
+    "sources": [
+      {
+        "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-14-ade76bebaf22135168aac6eb3016bc19",
+        "publisher": "أسوشيتد برس AP",
+        "publishedAt": "2026-11-14"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-14-jefferson-inflation-policy-signal",
     "eventKey": "jefferson-economic-outlook-2026-11-13",
     "slot": "08",

@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-14-ap-hormuz-tanker-report",
+  "eventKey": "ap-iran-state-tv-hormuz-tankers-2026-11-14",
+  "slot": "20",
+  "topic": "geopolitics",
+  "title": "AP تنقل إعلاناً إيرانياً عن إصابة 3 ناقلات قرب هرمز",
+  "summary": "رواية نقلتها الوكالة عن التلفزيون الإيراني، مع غياب تفاصيل جنسيات السفن أو الإصابات البشرية.",
+  "publishedAt": "2026-11-14T17:02:36.168Z",
+  "sources": [
+    {
+      "id": "ap",
+      "publisher": "أسوشيتد برس AP",
+      "title": "تطورات الشرق الأوسط يوم 14 نوفمبر",
+      "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-14-ade76bebaf22135168aac6eb3016bc19",
+      "publishedAt": "2026-11-14",
+      "reviewedAt": "2026-11-14T17:02:36.168Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "الذهب أمام نصف ثانٍ تحكمه المخاطر والفائدة ومراكز المستثمرين",
+      "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+      "publishedAt": "2026-07-01",
+      "reviewedAt": "2026-11-14T17:02:36.168Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "ap",
+      "text": "Iranian state TV reported, citing statements"
+    },
+    {
+      "sourceId": "wgc",
+      "text": "gold’s performance is not driven by a single factor."
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو نقلت الوكالة؟",
+      "paragraphs": [
+        "نقلت AP، السبت 14 نوفمبر، عن التلفزيون الإيراني أن ثلاث ناقلات نفط اصطدمت بألغام واشتعلت قرب هرمز. ونسب التلفزيون الرواية للحرس الثوري والبحرية.",
+        "لم تُذكر جنسيات السفن أو وجهاتها أو إصابات بشرية. الخبر ينقل إعلاناً إيرانياً، وليس تأكيداً مستقلاً للحادث."
+      ],
+      "sourceIds": [
+        "ap"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "ليش نتابعه ضمن أخبار الذهب؟",
+      "paragraphs": [
+        "للسياق، ذكر مجلس الذهب العالمي في بيان 1 يوليو أن أداء الذهب يتأثر بالتوترات الجيوسياسية وتوقعات الفائدة ومراكز المستثمرين معاً، لا بعامل منفرد. هذا تحليل سابق للسوق، وليس قياساً لأثر إعلان اليوم.",
+        "قراءة تحريرية: متابعة أخبار الملاحة تساعد أهل الذهب في العراق على فهم المخاطر العالمية. لكنها لا تكفي لإثبات ارتفاع كلفة الطاقة أو تحديد اتجاه سعر الذهب والمثقال المحلي. لذلك لا ننسب حركة سعر إلى الإعلان، ولا نقدّم توصية شراء أو بيع؛ ننتظر تحققاً إضافياً من تفاصيل الواقعة."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

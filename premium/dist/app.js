@@ -59,7 +59,7 @@ dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoun
 dialog.addEventListener('close',()=>document.body.classList.remove('modal-open'));
 fetch('releases.json').then(r=>r.ok?r.json():Promise.reject()).then(feed=>{
  const release=feed.releases.filter(r=>r.files?.x64).sort((a,b)=>a.version.localeCompare(b.version,undefined,{numeric:true})).at(-1);if(!release)return;
- const base=`https://github.com/aoosio/mithqal-releases/releases/download/v${encodeURIComponent(release.version)}/`;
- for(const [arch,id]of[['x64','download-x64'],['ia32','download-x86']])if(release.files[arch])$(`#${id}`).href=base+encodeURIComponent(release.files[arch].name);
- $('#release-version').textContent=release.version;$('#release-size').textContent=`${(release.files.x64.size/1048576).toFixed(1)} MB`;$('#release-note').textContent=digits(release.notes);
-}).catch(()=>{/* The verified release links remain available offline. */});
+ $('#release-info').textContent = `إصدار ${release.version} · ${(release.files.x64.size/1048576).toFixed(1)} MB · `;
+ $('#release-note').textContent = digits(release.notes || '');
+ $('#release-note').parentElement.hidden = !release.notes;
+}).catch(()=>{/* The download buttons resolve the current installer independently. */});

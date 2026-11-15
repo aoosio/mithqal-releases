@@ -1,3 +1,4 @@
+import {isWindowsReleasePath, windowsRelease} from './windows-release.mjs';
 import {stripMarkup} from './market-strip.mjs';
 import {loadQuote, quoteMarkup, MAX_SOURCE_AGE_MS} from './market.mjs';
 
@@ -27,6 +28,7 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
     if (!['GET', 'HEAD'].includes(request.method)) return new Response('Method not allowed', {status: 405, headers: {allow: 'GET, HEAD'}});
+    if (isWindowsReleasePath(url.pathname)) return windowsRelease(request);
     if (['/gold-prices','/blog'].includes(url.pathname)) return Response.redirect(url.origin+url.pathname+'/'+url.search,301);
     if (url.pathname === '/api/market') {
       let quote;

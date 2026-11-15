@@ -17,7 +17,7 @@ Cloudflare uses its native GitHub integration. Push changes to this branch to pu
 
 ## Editing
 
-Edit dist/index.html, dist/styles.css, and dist/app.js. The feature inventory is in features.py; run python3 features.py to regenerate the feature disclosures. Update dist/releases.json when shipping new Windows versions.
+Edit dist/index.html, dist/styles.css, and dist/app.js. The feature inventory is in features.py; run python3 features.py to regenerate the feature disclosures. Windows download buttons and /releases.json resolve the same public main-branch feed used by the desktop updater.
 
 For local preview: python3 -m http.server 4327 --directory dist
 

@@ -19,3 +19,19 @@ const down=await worker.fetch(new Request('https://test.example/api/market'),env
 const downPage=await worker.fetch(new Request('https://test.example/gold-prices/'),env,ctx);assert.equal(downPage.status,200);assert.match(await downPage.text(),/تعذّر/);
 globalThis.fetch=originalFetch;
 console.log('Worker: server-rendered quotes, HEAD, redirect, method guard and source outage passed.');
+
+// A future release must change both download targets without rebuilding the landing page.
+const fixtures = ['1.9.0','1.34.0','1.10.0'].map(version => ({
+  version, files: Object.fromEntries(['x64','ia32'].map(arch =>
+    [arch, {name: `Mithqal-Setup-${version}-${arch}.exe`}])),
+}));
+try {
+  globalThis.fetch = async () => Response.json({releases:fixtures});
+  for (const arch of ['x64','ia32']) {
+    const result = await worker.fetch(new Request('https://test.example/download/windows-'+arch+'.exe'), env, ctx);
+    assert.equal(result.status,302);
+    assert.equal(result.headers.get('location'),`https://github.com/aoosio/mithqal-releases/releases/download/v1.34.0/Mithqal-Setup-1.34.0-${arch}.exe`);
+  }
+  const feed = await worker.fetch(new Request('https://test.example/releases.json'),env,ctx);
+  assert.deepEqual((await feed.json()).releases, fixtures);
+} finally { globalThis.fetch = originalFetch; }

@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-14T15:56:22.937Z",
+  "updated": "2026-11-15T18:52:29.803Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -556,6 +556,27 @@
           "name": "Mithqal-Setup-1.32.4-ia32.exe",
           "size": 103568932,
           "sha512": "bbf3399c4c9decccb221f7084a0d3b036017c3e6f5e458f3bc20f76cff3deb2356146c2c0ab1ac47df4cef8690ea59aec2972f5d6e878579da7bfc56d84a51d9",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.33.0",
+      "date": "2026-11-15",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "اختيار دين الزبون عند البيع بالذهب أو بالدينار أو الدولار أو الدرهم، مع تثبيت سعر الصرف على الفاتورة.\nظهور روابط إدارة المحل عند النزول في القائمة الجانبية على الشاشات القصيرة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.33.0-x64.exe",
+          "size": 125425022,
+          "sha512": "6b855278db37eaf2a2a5f48fa6df84bbee51344ea849850f486f5eda00eaaaf27a7cec5088fa8e126eb4b8d56f7fb0ad002f8a228db9ba9693aece5342ee2d86",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.33.0-ia32.exe",
+          "size": 103569589,
+          "sha512": "bff1cf2ff5412dbb2a47820a14f82f65cbe9bdd1b272131e69cdb952ca8d21d61e59fe4276f7e2867154bdd3b5ce854c9fde6a1552acc5657efd6a19cf4187a7",
           "signed": false
         }
       }

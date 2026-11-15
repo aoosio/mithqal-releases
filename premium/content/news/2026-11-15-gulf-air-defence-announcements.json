@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-15-gulf-air-defence-announcements",
+  "eventKey": "ap-bahrain-saudi-interceptions-2026-11-15",
+  "slot": "16",
+  "topic": "geopolitics",
+  "title": "البحرين والسعودية تعلنان اعتراض هجمات جوية",
+  "summary": "اعتراض مقذوفات في البحرين وصاروخين بالستيين نحو الرياض، بحسب الجهات العسكرية التي نقلت عنها AP الأحد.",
+  "publishedAt": "2026-11-15T15:10:31.598Z",
+  "sources": [
+    {
+      "id": "ap",
+      "publisher": "أسوشيتد برس AP",
+      "title": "تطورات الشرق الأوسط يوم 15 نوفمبر",
+      "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c",
+      "publishedAt": "2026-11-15",
+      "reviewedAt": "2026-11-15T15:10:31.598Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "الذهب والمخاطر الجيوسياسية والفائدة ومراكز المستثمرين",
+      "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+      "publishedAt": "2026-07-01",
+      "reviewedAt": "2026-11-15T15:10:31.598Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "ap",
+      "text": "Bahrain’s military said Sunday its air defense systems intercepted a number of Iranian projectiles before they reached their targets."
+    },
+    {
+      "sourceId": "wgc",
+      "text": "gold’s performance is not driven by a single factor."
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو أعلنت الجهات العسكرية؟",
+      "paragraphs": [
+        "نقلت أسوشيتد برس، الأحد 15 نوفمبر، عن الجيش البحريني قوله إن دفاعاته اعترضت عدداً من المقذوفات الإيرانية قبل وصولها إلى أهدافها، بعدما أصدرت وزارة الداخلية إنذارين على مستوى المملكة.",
+        "وفي السعودية، قال المتحدث العسكري تركي المالكي إن الدفاعات اعترضت صاروخين بالستيين أطلقهما الحوثيون نحو الرياض، وأسقطت مسيّرتين فوق المنطقة الشرقية.",
+        "التقرير نقل أيضاً ادعاءً إيرانياً بضرب رادار أمريكي في البحرين، مع عدم صدور تعليق فوري من القيادة الأمريكية. إعلان الاعتراض لا يثبت نجاح ذلك الادعاء."
+      ],
+      "sourceIds": [
+        "ap"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "شنو علاقته بمتابعة الذهب؟",
+      "paragraphs": [
+        "ذكر مجلس الذهب العالمي في بيان مؤرخ 1 يوليو 2026 أن التوترات الجيوسياسية وتوقعات الفائدة ومراكز المستثمرين تؤثر معاً في الذهب. هذا سياق سابق يوضح سبب متابعة أخبار المنطقة، وليس قياساً لرد فعل السوق اليوم.",
+        "قراءة تحريرية: الإعلانان لا يقدّمان بيانات عن أثرهما في سعر الأونصة أو المثقال العراقي. لذلك لا نستنتج منهما صعوداً أو هبوطاً مؤكداً، ولا نقدّم توصية شراء أو بيع."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

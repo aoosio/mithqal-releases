@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-15-gulf-air-defence-announcements",
+    "eventKey": "ap-bahrain-saudi-interceptions-2026-11-15",
+    "slot": "16",
+    "title": "البحرين والسعودية تعلنان اعتراض هجمات جوية",
+    "summary": "اعتراض مقذوفات في البحرين وصاروخين بالستيين نحو الرياض، بحسب الجهات العسكرية التي نقلت عنها AP الأحد.",
+    "publishedAt": "2026-11-15T15:10:31.598Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-15-gulf-air-defence-announcements/",
+    "sources": [
+      {
+        "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c",
+        "publisher": "أسوشيتد برس AP",
+        "publishedAt": "2026-11-15"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-14-ap-hormuz-tanker-report",
     "eventKey": "ap-iran-state-tv-hormuz-tankers-2026-11-14",
     "slot": "20",

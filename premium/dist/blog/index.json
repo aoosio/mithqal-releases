@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-15-ap-aden-evening-explosions",
+    "eventKey": "ap-aden-evening-explosions-2026-11-15",
+    "slot": "23",
+    "title": "AP: انفجارات في عدن مساء الأحد",
+    "summary": "مراسل الوكالة سمع انفجارات مساءً، فيما نسبت وسائل إعلام محلية هجوماً صاروخياً إلى الحوثيين، وسط تصعيد قرب باب المندب.",
+    "publishedAt": "2026-11-15T20:03:07.532Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-15-ap-aden-evening-explosions/",
+    "sources": [
+      {
+        "url": "https://apnews.com/article/3b4adde832dadd333451fd2f7a51908c",
+        "publisher": "أسوشيتد برس AP",
+        "publishedAt": "2026-11-15"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-gulf-air-defence-announcements",
     "eventKey": "ap-bahrain-saudi-interceptions-2026-11-15",
     "slot": "16",

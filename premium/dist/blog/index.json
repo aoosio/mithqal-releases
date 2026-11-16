@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-16-japan-third-quarter-gdp",
+    "eventKey": "japan-gdp-2026-q3-first-estimate",
+    "slot": "08",
+    "title": "اليابان: انكماش طفيف في الربع الثالث",
+    "summary": "بيانات أولية نقلتها AP تظهر اقتصاداً شبه مستقر فصلياً، بانكماش يعادل 0.1% بالمعدل السنوي المحسوب.",
+    "publishedAt": "2026-11-16T05:00:45.197Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-16-japan-third-quarter-gdp/",
+    "sources": [
+      {
+        "url": "https://apnews.com/article/263988f2ec1894d3bf88522fd12500a6",
+        "publisher": "أسوشيتد برس AP",
+        "publishedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-ap-aden-evening-explosions",
     "eventKey": "ap-aden-evening-explosions-2026-11-15",
     "slot": "23",

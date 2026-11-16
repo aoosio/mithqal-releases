@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-16-ny-fed-manufacturing-prices",
+    "eventKey": "ny-fed-empire-state-november-2026",
+    "slot": "20",
+    "title": "تصنيع نيويورك يتباطأ في نوفمبر وضغوط الأسعار تستمر",
+    "summary": "فيدرالي نيويورك: مؤشر النشاط تراجع إلى 7.8، مع استمرار نمو التوظيف وتباطؤ وتيرة زيادة الأسعار.",
+    "publishedAt": "2026-11-16T17:00:19.620Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-16-ny-fed-manufacturing-prices/",
+    "sources": [
+      {
+        "url": "https://www.newyorkfed.org/medialibrary/media/survey/empire/empire2026/2026_11_empire-state-manufacturing-survey.pdf",
+        "publisher": "بنك الاحتياطي الفيدرالي في نيويورك",
+        "publishedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-gold-october-2025-low",
     "eventKey": "reuters-gold-october-2025-low-2026-11-16",
     "slot": "16",

@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-16-ny-fed-manufacturing-prices",
+  "eventKey": "ny-fed-empire-state-november-2026",
+  "slot": "20",
+  "topic": "inflation",
+  "title": "تصنيع نيويورك يتباطأ في نوفمبر وضغوط الأسعار تستمر",
+  "summary": "فيدرالي نيويورك: مؤشر النشاط تراجع إلى 7.8، مع استمرار نمو التوظيف وتباطؤ وتيرة زيادة الأسعار.",
+  "publishedAt": "2026-11-16T17:00:19.620Z",
+  "sources": [
+    {
+      "id": "empire",
+      "publisher": "بنك الاحتياطي الفيدرالي في نيويورك",
+      "title": "مسح إمباير ستيت للتصنيع — نوفمبر 2026",
+      "url": "https://www.newyorkfed.org/medialibrary/media/survey/empire/empire2026/2026_11_empire-state-manufacturing-survey.pdf",
+      "publishedAt": "2026-11-16",
+      "reviewedAt": "2026-11-16T16:58:53.798Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "الذهب والمخاطر الجيوسياسية وتوقعات الفائدة",
+      "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+      "publishedAt": "2026-07-01",
+      "reviewedAt": "2026-11-16T16:58:53.798Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "empire",
+      "text": "The headline general business conditions index remained positive but fell eighteen points to 7.8."
+    },
+    {
+      "sourceId": "wgc",
+      "text": "gold’s performance is not driven by a single factor."
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو أظهر المسح الجديد؟",
+      "paragraphs": [
+        "أظهر مسح إمباير ستيت للتصنيع، الصادر في 16 نوفمبر، تباطؤ نمو نشاط المصانع في ولاية نيويورك بعد نمو قوي في أكتوبر. تراجع مؤشر ظروف الأعمال إلى 7.8، لكنه بقي موجباً، بما يشير إلى استمرار نمو محدود لدى الشركات المشاركة.",
+        "تباطأت زيادة كلفة المدخلات وأسعار البيع، لكنها بقيت مرتفعة. سجل مؤشر الأسعار المدفوعة 45.9 ومؤشر الأسعار المستلمة 27.2. تراجع هذين المؤشرين يعني أن وتيرة الزيادة هدأت، وليس أن الأسعار انخفضت.",
+        "وفي المقابل، ارتفع مؤشر عدد العاملين إلى 18.1، وهو أعلى مستوى منذ يونيو 2022. هذه أرقام مؤشرات لمسح إقليمي، وليست نسب نمو للتصنيع الأمريكي كله."
+      ],
+      "sourceIds": [
+        "empire"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "شنو علاقته بمتابعة الذهب؟",
+      "paragraphs": [
+        "هذه قراءة إضافية لضغوط التكاليف والنشاط، ضمن متابعة التضخم والفائدة. ويؤكد مجلس الذهب العالمي، في سياق سابق مؤرخ 1 يوليو 2026، أن أداء الذهب يتأثر بعوامل متعددة، منها توقعات الفائدة والدولار والمخاطر العالمية.",
+        "نتائج المسح لا تحدد وحدها اتجاه الأونصة أو سعر المثقال العراقي، ولا تثبت سبب حركة سعر بعينها."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-15T22:20:46.385Z",
+  "updated": "2026-11-16T13:27:45.504Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -598,6 +598,27 @@
           "name": "Mithqal-Setup-1.34.0-ia32.exe",
           "size": 103797447,
           "sha512": "ffe4f5bd52bd6812c79e1b14f6571495aad3566f65dd349f954668542942dbf7f4e8c291485554bf648e6e5d3e39dedf20581a1d97349470721b74ce4818cc12",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.35.0",
+      "date": "2026-11-16",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "فيديوهات تعليمية بلقطات من البرنامج وصوت عربي مبسّط، مع زر واضح في كل واجهة وفي نوافذ العمليات.\nمقاطع مفهرسة لكل فيديو مع البحث والشرح المكتوب والترجمة العربية، وتشغيل الفيديوهات بدون إنترنت.\nالانتقال مباشرة إلى شرح المهمة المطلوبة، وإيقاف الصوت عند إغلاق الفيديو.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.35.0-x64.exe",
+          "size": 251529506,
+          "sha512": "a8c968350a6c5c4edcbaa03179b427769b05d62a0703be410b56b185377e9340c805ffd40b33d2507543a60186e64ed7563c6b0165995c626a57e88d320af37a",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.35.0-ia32.exe",
+          "size": 229674269,
+          "sha512": "8a42c578e4c623ea5b33573e98693722e730380a89c895724f119b1520f0286bf7a6a9388878ca1ea1e53813ec8e81d983982488ac5b77bdcf5fe5e843e9d725",
           "signed": false
         }
       }

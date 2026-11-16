@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-16T13:27:45.504Z",
+  "updated": "2026-11-16T14:48:39.968Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -619,6 +619,27 @@
           "name": "Mithqal-Setup-1.35.0-ia32.exe",
           "size": 229674269,
           "sha512": "8a42c578e4c623ea5b33573e98693722e730380a89c895724f119b1520f0286bf7a6a9388878ca1ea1e53813ec8e81d983982488ac5b77bdcf5fe5e843e9d725",
+          "signed": false
+        }
+      }
+    },
+    {
+      "version": "1.36.0",
+      "date": "2026-11-16",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "شروحات تعليمية قصيرة بالصوت المعتمد وتحسين مشغّل الفيديو ودليل الأزرار.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.36.0-x64.exe",
+          "size": 147004415,
+          "sha512": "f700a8957b7621c0ead135e0ec93c45c5cdc302b8642e98ae1f2eadee4ba45378abb14fd4943579f063c8e8d455966265da2a326d24361a2e98aa2d46795b3ed",
+          "signed": false
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.36.0-ia32.exe",
+          "size": 125149008,
+          "sha512": "8e3635bc64b4f995562f6ad16cd53b467ea123c47418a15593e8a19e0679d07153bad6af32d40a16c85b5d3572d13c037f766771f3879ba355bb49c07cb733f2",
           "signed": false
         }
       }

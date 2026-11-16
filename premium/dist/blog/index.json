@@ -1,5 +1,22 @@
 [
   {
+    "id": "2026-11-16-gold-october-2025-low",
+    "eventKey": "reuters-gold-october-2025-low-2026-11-16",
+    "slot": "16",
+    "title": "الذهب يلامس أدنى مستوى منذ أكتوبر 2025",
+    "summary": "رويترز: الأونصة لامست 3,830 دولار خلال جلسة الاثنين، ثم سجلت 3,874.49 دولار عند قراءة 11:17 بتوقيت غرينتش.",
+    "publishedAt": "2026-11-16T13:05:53.766Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-16-gold-october-2025-low/",
+    "sources": [
+      {
+        "url": "https://www.reuters.com/world/india/gold-edges-higher-investors-await-warsh-remarks-rate-signals-2026-11-16/",
+        "publisher": "رويترز",
+        "publishedAt": "2026-11-16T01:25:00Z"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-ecb-sovereign-debt-yield-risks",
     "eventKey": "ecb-vujcic-financial-stability-speech-2026-11-16",
     "slot": "12",

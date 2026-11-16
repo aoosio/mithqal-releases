@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-16-ecb-sovereign-debt-yield-risks",
+    "eventKey": "ecb-vujcic-financial-stability-speech-2026-11-16",
+    "slot": "12",
+    "title": "تحذير أوروبي من مخاطر الديون والعوائد الطويلة",
+    "summary": "خطاب جديد لنائب رئيس المركزي الأوروبي يربط هشاشة الديون بضغوط العوائد، ويحذّر من استمرار أثر صدمة الطاقة.",
+    "publishedAt": "2026-11-16T09:07:01.385Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-16-ecb-sovereign-debt-yield-risks/",
+    "sources": [
+      {
+        "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
+        "publisher": "البنك المركزي الأوروبي",
+        "publishedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-japan-third-quarter-gdp",
     "eventKey": "japan-gdp-2026-q3-first-estimate",
     "slot": "08",

@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-16T14:48:39.968Z",
+  "updated": "2026-11-18",
   "releases": [
     {
       "version": "1.13.1",
@@ -646,20 +646,20 @@
     }
   ],
   "manualDownload": {
-    "version": "1.38.0",
-    "date": "2026-11-17",
-    "notes": "تنبيهات المحل، الخلاصة بالذهب، وذهب لدى مورد. تنزيل يدوي غير موقّع بشهادة Windows.",
+    "version": "1.38.1",
+    "date": "2026-11-18",
+    "notes": "حماية حساب مالك المحل من تعديل مدير آخر. تنزيل يدوي غير موقّع بشهادة Windows.",
     "files": {
       "x64": {
-        "name": "Mithqal-Setup-1.38.0-x64.exe",
-        "size": 146076553,
-        "sha256": "017c87ac9280ccfeeca84eac2c802bc999becf9adba197f84e00b2cf0e5c9b34",
+        "name": "Mithqal-Setup-1.38.1-x64.exe",
+        "size": 146077325,
+        "sha256": "45358fd9a7e07608ddc0770cdc7d612f9c3cc8e7c86925dbd7a07c80314d0419",
         "signed": false
       },
       "ia32": {
-        "name": "Mithqal-Setup-1.38.0-ia32.exe",
-        "size": 124221650,
-        "sha256": "69b719e4604bab2367767b1418bd49578cfcaf681687e2065d6b29d1232d53ef",
+        "name": "Mithqal-Setup-1.38.1-ia32.exe",
+        "size": 124222619,
+        "sha256": "482f5015fb0a092fea2bb3c1ce1faa5a679aac9a33d4c246c07cba460d51de15",
         "signed": false
       }
     }

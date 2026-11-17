@@ -1,5 +1,22 @@
 [
   {
+    "id": "2026-11-17-china-october-gold-demand",
+    "eventKey": "wgc-china-gold-market-october-2026",
+    "slot": "23",
+    "title": "الصين: شراء رسمي للذهب وتدفقات للصناديق في أكتوبر",
+    "summary": "تقرير مجلس الذهب العالمي المنشور في 17 تشرين الثاني يرصد مشتريات للبنك المركزي وتدفقات للصناديق الصينية، مع اختلاف الصورة في بداية نوفمبر.",
+    "publishedAt": "2026-11-17T20:00:25.758Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-17-china-october-gold-demand/",
+    "sources": [
+      {
+        "url": "https://www.gold.org/goldhub/gold-focus/2026/11/china-gold-market-update-robust-demand-october",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-11-17"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-us-import-prices-october",
     "eventKey": "bls-import-export-prices-2026-10",
     "slot": "20",

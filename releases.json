@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-18",
+  "updated": "2026-11-17T21:10:22.000Z",
   "releases": [
     {
       "version": "1.13.1",

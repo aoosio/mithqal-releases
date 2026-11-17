@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-17-bahrain-drone-interception",
+    "eventKey": "ap-bahrain-us-radar-drone-attack-2026-11-17",
+    "slot": "16",
+    "title": "البحرين تعلن اعتراض مسيّرات استهدفت منشأة أمريكية",
+    "summary": "أسوشيتد برس تنقل إعلان اعتراض مسيّرات إيرانية يوم 17 نوفمبر، وعدم إصابة أفراد أو معدات أمريكية.",
+    "publishedAt": "2026-11-17T13:09:31.444Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-17-bahrain-drone-interception/",
+    "sources": [
+      {
+        "url": "https://apnews.com/article/582e0b5d51be06f0ed630fac24f39b72",
+        "publisher": "أسوشيتد برس AP",
+        "publishedAt": "2026-11-17"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-uk-wages-and-labour-market",
     "eventKey": "uk-labour-market-november-2026-release",
     "slot": "12",

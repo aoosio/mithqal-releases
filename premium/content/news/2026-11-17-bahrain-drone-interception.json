@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-17-bahrain-drone-interception",
+  "eventKey": "ap-bahrain-us-radar-drone-attack-2026-11-17",
+  "slot": "16",
+  "topic": "geopolitics",
+  "title": "البحرين تعلن اعتراض مسيّرات استهدفت منشأة أمريكية",
+  "summary": "أسوشيتد برس تنقل إعلان اعتراض مسيّرات إيرانية يوم 17 نوفمبر، وعدم إصابة أفراد أو معدات أمريكية.",
+  "publishedAt": "2026-11-17T13:09:31.444Z",
+  "sources": [
+    {
+      "id": "ap",
+      "publisher": "أسوشيتد برس AP",
+      "title": "A 2-month lull ends with Iran’s third strike on US targets in Bahrain",
+      "url": "https://apnews.com/article/582e0b5d51be06f0ed630fac24f39b72",
+      "publishedAt": "2026-11-17",
+      "reviewedAt": "2026-11-17T13:09:31.444Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "Gold Faces a Pivotal Second Half as Geopolitical Risk, Rate Expectations, and Investor Positioning Collide",
+      "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+      "publishedAt": "2026-07-01",
+      "reviewedAt": "2026-11-17T13:09:31.444Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "ap",
+      "text": "all of the drones had been intercepted without any damage"
+    },
+    {
+      "sourceId": "wgc",
+      "text": "gold’s performance is not driven by a single factor"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو ورد في تحديث اليوم؟",
+      "paragraphs": [
+        "أوردت أسوشيتد برس في تحديث 17 نوفمبر 2026 أن إيران أطلقت مسيّرات على منشأة رادار أمريكية في البحرين. وأعلنت البحرين نجاح دفاعاتها في الاعتراض.",
+        "ونقلت الوكالة عن الجيش الأمريكي أن جميع المسيّرات اعتُرضت، دون أضرار بالمعدات الأمريكية أو إصابات بين أفراده. هذه معلومات منسوبة للجهات المعلنة، وليست تقييمًا مستقلًا للأضرار."
+      ],
+      "sourceIds": [
+        "ap"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "ليش الخبر ضمن متابعة الذهب؟",
+      "paragraphs": [
+        "في تحليله المؤرخ 1 يوليو 2026، اعتبر مجلس الذهب العالمي أن المخاطر الجيوسياسية وتوقعات الفائدة ومعنويات المستثمرين من العوامل المؤثرة في سوق الذهب، وأكد أن أداءه لا تحركه إشارة واحدة.",
+        "هذا سياق لمتابعة أحداث المنطقة، وليس إثباتًا بأن الهجوم حرّك سعر الذهب اليوم. للصائغ العراقي، يبقى فصل الخبر عن التسعير ضروريًا: سعر المثقال يتأثر أيضًا بالذهب العالمي والصرف، ولا يحدد هذا الإعلان وحده اتجاهه المقبل."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-17-dollar-new-19-month-high",
+    "eventKey": "reuters-dollar-new-19-month-high-2026-11-17",
+    "slot": "08",
+    "title": "الدولار يسجل قمة جديدة منذ أبريل 2025",
+    "summary": "رويترز: مؤشر الدولار يصل إلى 103.66 في التداولات الآسيوية يوم 17 نوفمبر، مع استمرار رهانات تشديد الفائدة الأمريكية. هذا مؤشر عالمي، وليس سعر صرف الدولار بالدينار.",
+    "publishedAt": "2026-11-17T05:00:17.388Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-17-dollar-new-19-month-high/",
+    "sources": [
+      {
+        "url": "https://www.reuters.com/world/africa/us-dollar-hits-19-month-peak-fed-hike-bets-aussie-dips-2026-11-17/",
+        "publisher": "رويترز",
+        "publishedAt": "2026-11-17T01:42:00Z"
+      },
+      {
+        "url": "https://www.gold.org/goldhub/gold-focus/2026/11/weekly-markets-monitor-waller-dollar",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-11-16"
+      }
+    ]
+  },
+  {
     "id": "2026-11-16-warsh-technology-policy-scenarios",
     "eventKey": "warsh-productivity-jobs-opening-2026-11-16",
     "slot": "23",

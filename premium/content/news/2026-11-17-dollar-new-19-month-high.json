@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-17-dollar-new-19-month-high",
+  "eventKey": "reuters-dollar-new-19-month-high-2026-11-17",
+  "slot": "08",
+  "topic": "dollar",
+  "title": "الدولار يسجل قمة جديدة منذ أبريل 2025",
+  "summary": "رويترز: مؤشر الدولار يصل إلى 103.66 في التداولات الآسيوية يوم 17 نوفمبر، مع استمرار رهانات تشديد الفائدة الأمريكية. هذا مؤشر عالمي، وليس سعر صرف الدولار بالدينار.",
+  "publishedAt": "2026-11-17T05:00:17.388Z",
+  "sources": [
+    {
+      "id": "reuters",
+      "publisher": "رويترز",
+      "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+      "url": "https://www.reuters.com/world/africa/us-dollar-hits-19-month-peak-fed-hike-bets-aussie-dips-2026-11-17/",
+      "publishedAt": "2026-11-17T01:42:00Z",
+      "reviewedAt": "2026-11-17T05:00:17.388Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "Weekly Markets Monitor - Waller the Dollar",
+      "url": "https://www.gold.org/goldhub/gold-focus/2026/11/weekly-markets-monitor-waller-dollar",
+      "publishedAt": "2026-11-16",
+      "reviewedAt": "2026-11-17T05:00:17.388Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "reuters",
+      "text": "rising to 103.66, the highest since April 2, 2025"
+    },
+    {
+      "sourceId": "wgc",
+      "text": "headwind for gold for the foreseeable future"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو الجديد هذا الصباح؟",
+      "paragraphs": [
+        "سجّل مؤشر الدولار الأمريكي 103.66 خلال التداولات الآسيوية يوم الثلاثاء 17 نوفمبر 2026، وهو أعلى مستوى منذ 2 أبريل 2025، بحسب تقرير رويترز المنشور صباح اليوم. وامتدت مكاسبه إلى جلسة سادسة متتالية.",
+        "يقيس المؤشر أداء الدولار أمام 6 عملات، منها اليورو والين والإسترليني. وربطت الوكالة قوته ببيانات التضخم الأمريكية الأخيرة وتصريحات تميل إلى تشديد السياسة النقدية. هذا وصف لتوقعات السوق، وليس إعلان قرار فائدة جديد."
+      ],
+      "sourceIds": [
+        "reuters"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "شنو علاقته بمتابعة الذهب؟",
+      "paragraphs": [
+        "في تحليله المؤرخ 16 نوفمبر، اعتبر مجلس الذهب العالمي أن قوة الدولار وارتفاع العوائد قد يشكلان ضغطًا على الذهب. هذا سياق تحليلي من اليوم السابق، ولا يثبت وحده سبب أي حركة بالسعر هذا الصباح.",
+        "لأهل الذهب في العراق، قراءة 103.66 ليست سعر الدولار بالدينار، ولا سعر المثقال. لذلك تُقرأ مع أسعار الصرف والذهب المحلية، ولا تتحول وحدها إلى توقع لاتجاه السعر أو توصية شراء وبيع."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

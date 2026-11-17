@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-17-uk-wages-and-labour-market",
+    "eventKey": "uk-labour-market-november-2026-release",
+    "slot": "12",
+    "title": "بريطانيا: نمو الأجور يتباطأ والبطالة تنخفض إلى 4.6%",
+    "summary": "بيانات 17 نوفمبر تظهر نمو الأجور دون المكافآت بنسبة 3.5% سنويًا، مع انخفاض البطالة وتراجع الوظائف الشاغرة. إشارات متباينة يتابعها بنك إنجلترا لتقييم ضغوط التضخم.",
+    "publishedAt": "2026-11-17T09:06:54.737Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-17-uk-wages-and-labour-market/",
+    "sources": [
+      {
+        "url": "https://www.reuters.com/world/uk/uk-wage-growth-slows-35-three-months-september-2026-11-17/",
+        "publisher": "رويترز",
+        "publishedAt": "2026-11-17T07:07:00Z"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-dollar-new-19-month-high",
     "eventKey": "reuters-dollar-new-19-month-high-2026-11-17",
     "slot": "08",

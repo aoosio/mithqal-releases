@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-17-uk-wages-and-labour-market",
+  "eventKey": "uk-labour-market-november-2026-release",
+  "slot": "12",
+  "topic": "jobs",
+  "title": "بريطانيا: نمو الأجور يتباطأ والبطالة تنخفض إلى 4.6%",
+  "summary": "بيانات 17 نوفمبر تظهر نمو الأجور دون المكافآت بنسبة 3.5% سنويًا، مع انخفاض البطالة وتراجع الوظائف الشاغرة. إشارات متباينة يتابعها بنك إنجلترا لتقييم ضغوط التضخم.",
+  "publishedAt": "2026-11-17T09:06:54.737Z",
+  "sources": [
+    {
+      "id": "reuters",
+      "publisher": "رويترز",
+      "title": "UK pay growth slows as job vacancies hit lowest since 2021",
+      "url": "https://www.reuters.com/world/uk/uk-wage-growth-slows-35-three-months-september-2026-11-17/",
+      "publishedAt": "2026-11-17T07:07:00Z",
+      "reviewedAt": "2026-11-17T09:06:54.737Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "Gold Faces a Pivotal Second Half as Geopolitical Risk, Rate Expectations, and Investor Positioning Collide",
+      "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+      "publishedAt": "2026-07-01",
+      "reviewedAt": "2026-11-17T09:06:54.737Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "reuters",
+      "text": "Excluding bonuses, pay growth slowed more than expected to 3.5% from 3.7%"
+    },
+    {
+      "sourceId": "wgc",
+      "text": "gold’s performance is not driven by a single factor"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو أظهرت البيانات؟",
+      "paragraphs": [
+        "أظهرت بيانات سوق العمل البريطانية المنشورة يوم 17 نوفمبر 2026 تباطؤ النمو السنوي لمتوسط الأجر الأسبوعي، باستثناء المكافآت، إلى 3.5% في الأشهر الثلاثة المنتهية بسبتمبر، مقابل 3.7% في الفترة المنتهية بأغسطس، بحسب رويترز.",
+        "وانخفض معدل البطالة إلى 4.6% من 4.7%، بينما تراجع عدد الوظائف الشاغرة إلى 690,000 في الأشهر الثلاثة المنتهية بأكتوبر، وهو الأدنى منذ الفترة المنتهية بأبريل 2021. تختلف فترة قياس الشواغر عن فترة الأجور والبطالة.",
+        "يتابع بنك إنجلترا الأجور والتوظيف لتقييم ضغوط الأسعار. الأرقام تعطي صورة متباينة: نمو أجور أبطأ وشواغر أقل، مع انخفاض البطالة أيضًا. وهي بيانات اقتصادية وليست قرار فائدة جديدًا."
+      ],
+      "sourceIds": [
+        "reuters"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "ليش تدخل ضمن متابعة الذهب؟",
+      "paragraphs": [
+        "أوضح مجلس الذهب العالمي في تحليله المؤرخ 1 يوليو 2026 أن توقعات الفائدة والظروف الاقتصادية العالمية من عوامل سوق الذهب، وأن أداءه لا تحركه إشارة واحدة.",
+        "لذلك تُقرأ هذه البيانات ضمن الصورة الدولية للتضخم والفائدة. ولا تكفي وحدها لتحديد اتجاه الذهب أو سعر المثقال بالعراق، ولا لإثبات سبب حركة يومية محددة."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

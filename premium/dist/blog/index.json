@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-17-us-import-prices-october",
+    "eventKey": "bls-import-export-prices-2026-10",
+    "slot": "20",
+    "title": "أسعار الواردات الأمريكية ترتفع 1.1% في أكتوبر",
+    "summary": "بيانات أمريكية صدرت في 17 تشرين الثاني تسجّل زيادة شهرية في أسعار الواردات والصادرات. الأرقام السنوية لبعض المؤشرات غير متاحة، وهذه قراءة للتقرير وسياقه ضمن متابعة الذهب.",
+    "publishedAt": "2026-11-17T17:03:08.246Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-17-us-import-prices-october/",
+    "sources": [
+      {
+        "url": "https://www.bls.gov/news.release/archives/ximpim_11172026.htm",
+        "publisher": "مكتب إحصاءات العمل الأمريكي BLS",
+        "publishedAt": "2026-11-17T13:30:00Z"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-bahrain-drone-interception",
     "eventKey": "ap-bahrain-us-radar-drone-attack-2026-11-17",
     "slot": "16",

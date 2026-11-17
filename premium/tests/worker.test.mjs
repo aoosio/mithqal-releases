@@ -34,4 +34,14 @@ try {
   }
   const feed = await worker.fetch(new Request('https://test.example/releases.json'),env,ctx);
   assert.deepEqual((await feed.json()).releases, fixtures);
+
+  const version = '1.37.0';
+  const manualDownload = {version, files: Object.fromEntries(['x64','ia32'].map(arch => [arch,{name:'Mithqal-Setup-'+version+'-'+arch+'.exe'}]))};
+  globalThis.fetch = async () => Response.json({releases:fixtures, manualDownload});
+  for (const arch of ['x64','ia32']) {
+    const r = await worker.fetch(new Request('https://test.example/download/windows-'+arch+'.exe'),env,ctx);
+    assert.equal(r.headers.get('location'),'https://github.com/aoosio/mithqal-releases/releases/download/v1.37.0/'+manualDownload.files[arch].name);
+  }
+  const automatic = await worker.fetch(new Request('https://test.example/releases.json'),env,ctx);
+  assert.deepEqual((await automatic.json()).releases,fixtures);
 } finally { globalThis.fetch = originalFetch; }

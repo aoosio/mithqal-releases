@@ -58,7 +58,7 @@ $('#close-dialog').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()}});
 dialog.addEventListener('close',()=>document.body.classList.remove('modal-open'));
 fetch('releases.json').then(r=>r.ok?r.json():Promise.reject()).then(feed=>{
- const release=feed.releases.filter(r=>r.files?.x64).sort((a,b)=>a.version.localeCompare(b.version,undefined,{numeric:true})).at(-1);if(!release)return;
+ const release=feed.releases.concat(feed.manualDownload || []).filter(r=>r.files?.x64).sort((a,b)=>a.version.localeCompare(b.version,undefined,{numeric:true})).at(-1);if(!release)return;
  $('#release-info').textContent = `إصدار ${release.version} · ${(release.files.x64.size/1048576).toFixed(1)} MB · `;
  $('#release-note').textContent = digits(release.notes || '');
  $('#release-note').parentElement.hidden = !release.notes;

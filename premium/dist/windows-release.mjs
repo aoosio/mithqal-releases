@@ -19,8 +19,9 @@ export async function windowsRelease(request) {
         headers: {'content-type': 'application/json', 'cache-control': 'no-cache'},
       });
     }
-    const {releases} = await upstream.json();
-    const latest = releases.filter(r => /^\d+\.\d+\.\d+$/.test(r.version) && r.files?.x64)
+    // Manual installers are selectable on the site, never inserted into the automatic update list.
+    const {releases, manualDownload} = await upstream.json();
+    const latest = releases.concat(manualDownload || []).filter(r => /^\d+\.\d+\.\d+$/.test(r.version) && r.files?.x64)
       .sort((a, b) => a.version.localeCompare(b.version, 'en', {numeric: true})).at(-1);
     const arch = architectures.get(path);
     const name = latest?.files[arch]?.name;

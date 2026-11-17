@@ -644,5 +644,24 @@
         }
       }
     }
-  ]
+  ],
+  "manualDownload": {
+    "version": "1.37.0",
+    "date": "2026-11-17",
+    "notes": "هوية مثقال الجديدة وتحسين الصلاحيات. تنزيل يدوي غير موقّع بشهادة Windows.",
+    "files": {
+      "x64": {
+        "name": "Mithqal-Setup-1.37.0-x64.exe",
+        "size": 145129001,
+        "sha256": "bad4cf7667d483533bf135464ec9fb2a6dbcd0ad144b03c58cbe013353853d6e",
+        "signed": false
+      },
+      "ia32": {
+        "name": "Mithqal-Setup-1.37.0-ia32.exe",
+        "size": 123274252,
+        "sha256": "d1c1bf62fdd47d352c0b00e3969dbba4a2fe105348e0da85a2fe089b1aaef01e",
+        "signed": false
+      }
+    }
+  }
 }

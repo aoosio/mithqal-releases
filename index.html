@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>مثقال، برنامج محل الذهب</title>
 <meta name="description" content="مثقال: برنامج سهل لمحلات الذهب في العراق. فواتير، ديون ومخزون بالغرام، ويشتغل بلا إنترنت. جرّبه مجانًا لمدة شهر: 07779397740 أو 07718075412.">
-<meta name="theme-color" content="#10162A">
+<meta name="theme-color" content="#141E42">
 <meta name="color-scheme" content="dark">
 <link rel="icon" type="image/png" sizes="64x64" href="assets/icon-64.png">
 <link rel="apple-touch-icon" href="assets/icon-256.png">
@@ -29,10 +29,10 @@
 <style>
 /* ===== الرموز ===== */
 :root{
-  --canvas:#10162A; --canvas-2:#0A0F1D; --stage:#040811; --paper:#F4F2EC; --paper-2:#EAE6DA;
-  --panel:#1A2238; --panel-2:#222C47; --line:rgba(214,166,58,.16); --line-strong:rgba(214,166,58,.42);
-  --accent:#D6A63A; --accent-hover:#E8BE57; --accent-deep:#B98A24; --accent-muted:rgba(214,166,58,.16);
-  --text-primary:#F4F0E4; --text-secondary:#BDB7A6; --ink:#1B2030; --ink-2:#4B5166;
+  --canvas:#141E42; --canvas-2:#0A0F1D; --stage:#040811; --paper:#FCFCF8; --paper-2:#EAE6DA;
+  --panel:#1C284D; --panel-2:#222C47; --line:rgba(216,171,76,.16); --line-strong:rgba(216,171,76,.42);
+  --accent:#D8AB4C; --accent-hover:#E8BE57; --accent-deep:#A77726; --accent-muted:rgba(216,171,76,.16);
+  --text-primary:#F4F0E4; --text-secondary:#BDB7A6; --ink:#141E42; --ink-2:#4B5166;
   --display:'Aref Ruqaa',serif; --body:'IBM Plex Sans Arabic',system-ui,'Segoe UI',Tahoma,sans-serif; --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
   --ease:cubic-bezier(.22,.61,.36,1); --ease-out:cubic-bezier(.16,1,.3,1);
   --tshadow:0 1px 2px rgba(3,6,12,.95),0 3px 12px rgba(3,6,12,.78),0 10px 44px rgba(3,6,12,.8);
@@ -59,7 +59,7 @@ button{font:inherit;color:inherit}
 
 /* ===== الخلفية الواحدة ===== */
 .bg{position:fixed;inset:0;z-index:-1;background:var(--canvas);overflow:hidden;pointer-events:none}
-.bg .glow{position:absolute;width:140vmax;height:140vmax;left:50%;top:40%;margin:-70vmax 0 0 -70vmax;background:radial-gradient(circle at 50% 50%,rgba(214,166,58,.11) 0%,rgba(214,166,58,.04) 22%,rgba(16,22,42,0) 48%);animation:drift 96s linear infinite;will-change:transform}
+.bg .glow{position:absolute;width:140vmax;height:140vmax;left:50%;top:40%;margin:-70vmax 0 0 -70vmax;background:radial-gradient(circle at 50% 50%,rgba(216,171,76,.11) 0%,rgba(216,171,76,.04) 22%,rgba(16,22,42,0) 48%);animation:drift 96s linear infinite;will-change:transform}
 @keyframes drift{0%{transform:translate(0,0) rotate(0)}50%{transform:translate(6vw,-5vh) rotate(180deg)}100%{transform:translate(0,0) rotate(360deg)}}
 .dust{position:absolute;inset:0}
 .dust i{position:absolute;width:3px;height:3px;border-radius:50%;background:var(--accent);opacity:0;animation:dust var(--d,70s) linear infinite;animation-delay:var(--dl,0s);left:var(--x);top:var(--y);transform:translateY(0)}
@@ -117,10 +117,10 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 .stage.video-ready .ring-wrap,.stage.video-failed .ring-wrap{opacity:0;pointer-events:none}
 .ring circle{transition:stroke-dashoffset .15s linear;transform:rotate(-90deg);transform-origin:50% 50%}
 .ring .track{opacity:.25}
-.thread{position:absolute;inset-inline-end:3vw;top:14vh;height:72vh;width:1px;background:linear-gradient(to bottom,rgba(214,166,58,0),rgba(214,166,58,.55) 20%,rgba(214,166,58,.55) 80%,rgba(214,166,58,0));transform-origin:top;transform:scaleY(var(--p,0))}
+.thread{position:absolute;inset-inline-end:3vw;top:14vh;height:72vh;width:1px;background:linear-gradient(to bottom,rgba(216,171,76,0),rgba(216,171,76,.55) 20%,rgba(216,171,76,.55) 80%,rgba(216,171,76,0));transform-origin:top;transform:scaleY(var(--p,0))}
 .hero-static{display:none}
 /* جرّب مجانًا والرقمان: بالوجه من أول لحظة */
-.hero-try{box-sizing:border-box;display:flex;align-items:center;gap:10px 18px;flex-wrap:wrap;background:rgba(8,10,18,.62);border:1px solid rgba(214,166,58,.45);border-radius:16px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);padding:10px 12px 10px 18px;box-shadow:0 18px 50px rgba(3,6,12,.45);text-shadow:none}
+.hero-try{box-sizing:border-box;display:flex;align-items:center;gap:10px 18px;flex-wrap:wrap;background:rgba(8,10,18,.62);border:1px solid rgba(216,171,76,.45);border-radius:16px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);padding:10px 12px 10px 18px;box-shadow:0 18px 50px rgba(3,6,12,.45);text-shadow:none}
 .hero-try.float{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);width:max-content;max-width:calc(100vw - 32px);justify-content:center;z-index:2}
 .ht-label{font-size:16px;color:var(--text-primary)}.ht-label b{color:var(--accent-hover);font-weight:700}
 .ht-nums{display:flex;gap:10px;flex-wrap:wrap}
@@ -155,7 +155,7 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 }
 
 /* جرّب مجانًا: الرقمان */
-.try{background:radial-gradient(ellipse 70% 70% at 50% 50%,rgba(214,166,58,.12),transparent 72%)}
+.try{background:radial-gradient(ellipse 70% 70% at 50% 50%,rgba(216,171,76,.12),transparent 72%)}
 .try .h2{color:var(--accent-hover)}
 .try .lede{color:var(--text-primary);font-size:clamp(18px,1.6vw,21px)}
 .pcards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;max-width:860px;margin:40px auto 0}
@@ -203,7 +203,7 @@ section{position:relative;scroll-margin-top:calc(var(--nav-h) + 8px)}
 .premise figure{margin:0;position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px rgba(0,0,0,.45)}
 .premise figure img{width:100%;aspect-ratio:16/10;object-fit:cover;object-position:30% 60%}
 .premise figure::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(16,22,42,.5),transparent 45%)}
-.premise .unit{position:absolute;inset-inline-end:18px;bottom:16px;font-family:var(--mono);font-size:13px;color:var(--accent-hover);background:rgba(8,10,18,.6);border:1px solid rgba(214,166,58,.3);border-radius:8px;padding:5px 10px;direction:ltr}
+.premise .unit{position:absolute;inset-inline-end:18px;bottom:16px;font-family:var(--mono);font-size:13px;color:var(--accent-hover);background:rgba(8,10,18,.6);border:1px solid rgba(216,171,76,.3);border-radius:8px;padding:5px 10px;direction:ltr}
 .premise p.body{color:var(--text-secondary);font-size:18px;max-width:42ch;margin-top:18px}
 
 /* S2 المزايا */
@@ -231,7 +231,7 @@ section{position:relative;scroll-margin-top:calc(var(--nav-h) + 8px)}
 .phones .p1{height:100%;left:50%;transform:translate(-50%,-50%);z-index:2}
 .phones .p2{right:2%;transform:translateY(-50%) rotate(4deg)}
 .phones .p3{left:2%;transform:translateY(-50%) rotate(-4deg)}
-.phones::before{content:"";position:absolute;inset:18% 12%;border-radius:50%;background:radial-gradient(closest-side,rgba(214,166,58,.22),transparent);pointer-events:none}
+.phones::before{content:"";position:absolute;inset:18% 12%;border-radius:50%;background:radial-gradient(closest-side,rgba(216,171,76,.22),transparent);pointer-events:none}
 @media (max-width:860px){.mobile .grid{grid-template-columns:1fr}.phones{height:clamp(360px,110vw,520px);order:-1}}
 @media (max-width:420px){.phones .p2{right:-4%}.phones .p3{left:-4%}}
 
@@ -250,7 +250,7 @@ section{position:relative;scroll-margin-top:calc(var(--nav-h) + 8px)}
 .frame .bar i{width:9px;height:9px;border-radius:50%;background:rgba(27,32,48,.14)}
 .frame .bar i:first-child{background:var(--accent)}
 .frame .bar span{margin-inline:auto}
-.frame .view{position:relative;aspect-ratio:1366/768;background:#F4F2EC}
+.frame .view{position:relative;aspect-ratio:1366/768;background:#FCFCF8}
 .frame .view img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s var(--ease)}
 .frame .view img.cur{opacity:1}
 .frame .sheen{position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 40%,rgba(255,255,255,.18) 50%,transparent 60%);transform:translateX(-120%);opacity:0}
@@ -267,7 +267,7 @@ section{position:relative;scroll-margin-top:calc(var(--nav-h) + 8px)}
 .step .pic{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line);aspect-ratio:4/3;box-shadow:0 24px 60px rgba(0,0,0,.4)}
 .step .pic img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s var(--ease-out)}
 .step:hover .pic img{transform:scale(1.03)}
-.step .n{position:absolute;top:12px;inset-inline-start:12px;width:40px;height:40px;border-radius:50%;background:rgba(8,10,18,.6);border:1px solid rgba(214,166,58,.5);color:var(--accent-hover);display:grid;place-items:center;font-family:var(--mono);font-size:15px;backdrop-filter:blur(8px)}
+.step .n{position:absolute;top:12px;inset-inline-start:12px;width:40px;height:40px;border-radius:50%;background:rgba(8,10,18,.6);border:1px solid rgba(216,171,76,.5);color:var(--accent-hover);display:grid;place-items:center;font-family:var(--mono);font-size:15px;backdrop-filter:blur(8px)}
 .step h3{font-size:21px;font-weight:600;margin-top:18px}
 .step p{color:var(--text-secondary);font-size:15.5px;margin-top:6px;max-width:30ch;margin-inline:auto}
 
@@ -296,7 +296,7 @@ section{position:relative;scroll-margin-top:calc(var(--nav-h) + 8px)}
 .ro .val{font-family:var(--mono);font-size:24px;color:var(--text-primary)}
 .ro .val small{font-family:var(--body);font-size:13px;color:var(--text-secondary);margin-inline-start:6px}
 .ro.diff .val{color:var(--accent-hover)}
-.hold.is-done .ro{border-color:var(--line-strong);box-shadow:0 0 0 1px rgba(214,166,58,.15),0 16px 40px rgba(0,0,0,.3)}
+.hold.is-done .ro{border-color:var(--line-strong);box-shadow:0 0 0 1px rgba(216,171,76,.15),0 16px 40px rgba(0,0,0,.3)}
 .hold.is-done .ro:nth-child(1){transition-delay:0s}.hold.is-done .ro:nth-child(2){transition-delay:.25s}.hold.is-done .ro:nth-child(3){transition-delay:.5s}
 .hold-btn{margin-top:22px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .hold-btn .btn{user-select:none;-webkit-user-select:none;touch-action:none;position:relative;overflow:hidden}
@@ -331,10 +331,10 @@ section{position:relative;scroll-margin-top:calc(var(--nav-h) + 8px)}
 @keyframes ans{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
 
 /* S8 التحميل */
-.dl{background:radial-gradient(ellipse 70% 60% at 50% 100%,rgba(214,166,58,.14),transparent 70%),linear-gradient(to bottom,transparent,var(--canvas-2))}
+.dl{background:radial-gradient(ellipse 70% 60% at 50% 100%,rgba(216,171,76,.14),transparent 70%),linear-gradient(to bottom,transparent,var(--canvas-2))}
 .dl .box{text-align:center;max-width:720px;margin-inline:auto}
 .dl .big{position:relative;display:inline-flex;margin-top:34px}
-.dl .big::before{content:"";position:absolute;inset:-14px;border-radius:26px;background:radial-gradient(ellipse at 50% 50%,rgba(214,166,58,.35),transparent 70%);opacity:0;filter:blur(10px)}
+.dl .big::before{content:"";position:absolute;inset:-14px;border-radius:26px;background:radial-gradient(ellipse at 50% 50%,rgba(216,171,76,.35),transparent 70%);opacity:0;filter:blur(10px)}
 .live .dl .big::before{animation:breathe 6s var(--ease) infinite -2s}
 @keyframes breathe{0%,100%{opacity:.25;transform:scale(.96)}50%{opacity:.7;transform:scale(1.03)}}
 .dl .big .btn{position:relative;font-size:19px;padding:18px 34px;min-height:60px;border-radius:16px}
@@ -382,6 +382,7 @@ html.rm .hold .after{opacity:1;transform:none}
 html.rm .hold .hint{opacity:0}
 html.rm .hb .coin{opacity:1}
 html.rm .dust,html.rm .sheen{display:none}
+.brand img.mithqal-lockup{width:118px;height:auto}
 </style>
 </head>
 <body>
@@ -390,7 +391,7 @@ html.rm .dust,html.rm .sheen{display:none}
 
 <nav class="nav" id="nav" aria-label="التنقل الرئيسي">
   <div class="wrap">
-    <a class="brand" href="#hero" aria-label="مثقال، الصفحة الرئيسية"><img src="assets/mark-340.png" alt="" width="40" height="33"><span>مثقال</span></a>
+    <a class="brand" href="#hero" aria-label="مثقال، الصفحة الرئيسية"><img class="mithqal-lockup" src="assets/mithqal-logo-white.svg" alt="مثقال" width="118" height="32"></a>
     <ul class="nav-links">
       <li><a href="#features">ماذا يفعل</a></li>
       <li><a href="#try">شهر مجاني</a></li>
@@ -646,7 +647,7 @@ html.rm .dust,html.rm .sheen{display:none}
 
 <footer>
   <div class="wrap">
-    <a class="brand" href="#hero"><img src="assets/mark-340.png" alt="" width="34" height="28"><span>مثقال</span></a>
+    <a class="brand" href="#hero"><img class="mithqal-lockup" src="assets/mithqal-logo-white.svg" alt="مثقال" width="118" height="32"></a>
     <span>صُنع لمحلات الذهب في العراق.</span>
     <span class="legal">من شركة السلاسل الذكية للتسويق الالكتروني محدودة المسؤولية · بغداد، العراق · <a href="tel:+9647779397740" dir="ltr">0777 939 7740</a> · <a href="tel:+9647718075412" dir="ltr">0771 807 5412</a></span>
     <span class="copy">© مثقال 2026</span>
@@ -895,7 +896,7 @@ holdBtn.addEventListener('contextmenu', function(e){ e.preventDefault(); });
   var newer = function(a, b){ var x = semver(a), y = semver(b); for (var i = 0; i < 3; i++) { if ((x[i] || 0) !== (y[i] || 0)) return (x[i] || 0) > (y[i] || 0); } return false; };
   var mb = function(bytes){ return (bytes / 1048576).toFixed(1); };
   fetch('./releases.json', { cache: 'no-cache' }).then(function(r){ if (!r.ok) throw new Error('manifest'); return r.json(); }).then(function(m){
-    var list = (m && m.releases || []).filter(function(r){ return r && r.version && r.files && r.files.x64 && r.files.x64.name; });
+    var list = (m && m.releases || []).concat(m && m.manualDownload || []).filter(function(r){ return r && r.version && r.files && r.files.x64 && r.files.x64.name; });
     if (!list.length || !m.feed) throw new Error('empty');
     var best = list.reduce(function(acc, r){ return !acc || newer(r.version, acc.version) ? r : acc; }, null);
     var base = m.feed.replace('{version}', best.version);

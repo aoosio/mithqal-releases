@@ -663,5 +663,26 @@
         "signed": false
       }
     }
-  }
+  },
+  "macReleases": [
+    {
+      "version": "1.37.0",
+      "kind": "subscription",
+      "date": "2026-11-17",
+      "notarized": true,
+      "notes": "مثقال للماك بمعمارية Intel وApple Silicon، مع شروحات عربية وتحديثات موقّعة من الشركة.",
+      "installer": {
+        "name": "Mithqal-Mac-1.37.0-universal.dmg",
+        "size": 248894935,
+        "sha256": "1901baee100f3c3a58908431f0fff8a6609262e6d0c2f0ae7aac88f3babd718e"
+      },
+      "files": {
+        "mac-universal": {
+          "name": "Mithqal-Mac-1.37.0-universal.zip",
+          "size": 241544185,
+          "sha256": "a6f7c91df3f5ffdf0de9b45e8283ba1fd4b3f0252f72f0c3956290499b5e3d33"
+        }
+      }
+    }
+  ]
 }

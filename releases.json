@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-18T05:38:58.118Z",
+  "updated": "2026-11-18T09:59:44.624Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -664,6 +664,29 @@
           "sha512": "601c77de83262176156c04b718b4b7b37cdbff6aa6604e5e6c07a66fe1afc61c36593cd286dc1926a4282ef845d363fca87c85f357b70987c7a145b2a78b4569",
           "signed": false,
           "sig": "N8pxYeMzUKQAFcQw1x8nvNirCEK/DWuy2XmVV69WaMWHPmsDX4e1PXZTKHGI1ajQigyqn82NDM0aC0ICuuXyBQ=="
+        }
+      }
+    },
+    {
+      "version": "1.38.4",
+      "date": "2026-11-18",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "إصلاحات البنود المهمة من التدقيق: أرقام الفواتير، إغلاق اليوم، الموردون، مزامنة حاسبات المحل والهواتف، النسخ الاحتياطية، والإيصال الحراري. التحديث موثّق بتوقيع مثقال.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.38.4-x64.exe",
+          "size": 146089774,
+          "sha512": "7e50aa446c3eb51b56eee7ed00d015b9d855c3b027e2acaef88fc65c291f73f67ade7144986616f7ee0e22f3c47e9c7adb811dbb118a37de050ac5d3685d1482",
+          "signed": false,
+          "sig": "wVNhJE6mJ7/ifhRU9+JqTVW4AHIuYbNHXENWPZcEmyaJIPlzWd/EejHhS1JeR6XzkXstUm4NKO+WOuu3qT4DDw=="
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.38.4-ia32.exe",
+          "size": 124235109,
+          "sha512": "ca1e8310457246cd76551d6f2ef9177f61e515ee088428f23f6e8619b852a287eca504790946696521ce8320b102157d73de2390f72571b2c2072ebd7e1a660b",
+          "signed": false,
+          "sig": "yVNE67+B65q5K6WGISa91H1Vh/z0lcx4Jt8T3Qns+6sQVvPS3mJAudNnnbDnsxyXlaMkgpQzxaqCBChsnENkDQ=="
         }
       }
     }

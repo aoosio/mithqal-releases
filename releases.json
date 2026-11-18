@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-18T00:49:41.000Z",
+  "updated": "2026-11-18T05:38:58.118Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -643,27 +643,31 @@
           "signed": false
         }
       }
-    }
-  ],
-  "manualDownload": {
-    "version": "1.38.2",
-    "date": "2026-11-18",
-    "notes": "إصلاحات تدقيق المنطق والأمان والواجهات. تنزيل يدوي غير موقّع بشهادة Windows.",
-    "files": {
-      "x64": {
-        "name": "Mithqal-Setup-1.38.2-x64.exe",
-        "size": 146077433,
-        "sha256": "94445fab48f6852cd3be641adb7386697a21d6e76c40ce8fd35102d18296c2a7",
-        "signed": false
-      },
-      "ia32": {
-        "name": "Mithqal-Setup-1.38.2-ia32.exe",
-        "size": 124222666,
-        "sha256": "7f536698002bb0d5ddac4a82a1d5f5ba2fea11c5be380f68428771cbefd2179e",
-        "signed": false
+    },
+    {
+      "version": "1.38.3",
+      "date": "2026-11-18",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "تنبيهات المحل وخلاصة الذهب وذهب لدى مورد، حماية حساب مالك المحل، وإصلاحات تدقيق المنطق والأمان والواجهات. التحديث التلقائي على ويندوز موثّق بتوقيع مثقال.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.38.3-x64.exe",
+          "size": 146074800,
+          "sha512": "bc0b2f1043d4e6d3a081128ff0d0a5546e27ded98bb4ecc7f1a2e5f12bc4003c4c696622b6bf3bb54bf92e1ad7c8363915e56ce05d6bcecc549dba5459e20ec6",
+          "signed": false,
+          "sig": "RoJ/ZsDrJ55zDxO3qTqzeEauevV/vWTzfMlz670YWqVlWDMkHQZnC2yD+kbTjhZkK07NfbJXzL/d8muGrGccAA=="
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.38.3-ia32.exe",
+          "size": 124219990,
+          "sha512": "601c77de83262176156c04b718b4b7b37cdbff6aa6604e5e6c07a66fe1afc61c36593cd286dc1926a4282ef845d363fca87c85f357b70987c7a145b2a78b4569",
+          "signed": false,
+          "sig": "N8pxYeMzUKQAFcQw1x8nvNirCEK/DWuy2XmVV69WaMWHPmsDX4e1PXZTKHGI1ajQigyqn82NDM0aC0ICuuXyBQ=="
+        }
       }
     }
-  },
+  ],
   "macReleases": [
     {
       "version": "1.37.0",

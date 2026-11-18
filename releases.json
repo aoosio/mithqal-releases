@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-17T21:10:22.000Z",
+  "updated": "2026-11-18T00:49:41.000Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -646,20 +646,20 @@
     }
   ],
   "manualDownload": {
-    "version": "1.38.1",
+    "version": "1.38.2",
     "date": "2026-11-18",
-    "notes": "حماية حساب مالك المحل من تعديل مدير آخر. تنزيل يدوي غير موقّع بشهادة Windows.",
+    "notes": "إصلاحات تدقيق المنطق والأمان والواجهات. تنزيل يدوي غير موقّع بشهادة Windows.",
     "files": {
       "x64": {
-        "name": "Mithqal-Setup-1.38.1-x64.exe",
-        "size": 146077325,
-        "sha256": "45358fd9a7e07608ddc0770cdc7d612f9c3cc8e7c86925dbd7a07c80314d0419",
+        "name": "Mithqal-Setup-1.38.2-x64.exe",
+        "size": 146077433,
+        "sha256": "94445fab48f6852cd3be641adb7386697a21d6e76c40ce8fd35102d18296c2a7",
         "signed": false
       },
       "ia32": {
-        "name": "Mithqal-Setup-1.38.1-ia32.exe",
-        "size": 124222619,
-        "sha256": "482f5015fb0a092fea2bb3c1ce1faa5a679aac9a33d4c246c07cba460d51de15",
+        "name": "Mithqal-Setup-1.38.2-ia32.exe",
+        "size": 124222666,
+        "sha256": "7f536698002bb0d5ddac4a82a1d5f5ba2fea11c5be380f68428771cbefd2179e",
         "signed": false
       }
     }

@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-18T09:59:44.624Z",
+  "updated": "2026-11-19T07:09:28.876Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -687,6 +687,29 @@
           "sha512": "ca1e8310457246cd76551d6f2ef9177f61e515ee088428f23f6e8619b852a287eca504790946696521ce8320b102157d73de2390f72571b2c2072ebd7e1a660b",
           "signed": false,
           "sig": "yVNE67+B65q5K6WGISa91H1Vh/z0lcx4Jt8T3Qns+6sQVvPS3mJAudNnnbDnsxyXlaMkgpQzxaqCBChsnENkDQ=="
+        }
+      }
+    },
+    {
+      "version": "1.38.5",
+      "date": "2026-11-19",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "حماية سحابة المحل: الحاسبة ترتبط بترخيصها تلقائيًا عند أول مزامنة، فنسخة من رمز الترخيص وحدها لا تفتح بيانات المحل. التحديث موثّق بتوقيع مثقال.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.38.5-x64.exe",
+          "size": 146089589,
+          "sha512": "21ce9e9031b7fa4cb832db40cba78e22558084540087aecc55173544b0c76153668860a7db8a6817b59634751ca7db3d2562f55a412430fd2ae799a19715da0e",
+          "signed": false,
+          "sig": "a3HPA27MDQBSVPTtNp7/SHi/WWe3en+CbRb0mjfirdlhsFO1x3T9IFTisb+J7kRnBNFvmbMu7r4P8sjLsmEIBA=="
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.38.5-ia32.exe",
+          "size": 124234828,
+          "sha512": "20ce588736aa9905cdc15aaa91906f8c45f781d4f99f41acd7b89e28cbcabc3a1abca0e12c2ed3ce64f25aabf447db05acc2e1f0c223598666e10a4f91f77c35",
+          "signed": false,
+          "sig": "meL5CLXaa/3WT99r7PTTVbnDYMZsKuhlN9XML33tsM/F4y024yUIKDuCsA7wDpTwurYowO/1XAY2YR/fyoTxBA=="
         }
       }
     }

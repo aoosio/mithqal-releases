@@ -805,6 +805,25 @@
           "sha256": "70c61ec606aad3c13a1fe3814a4749e1627068168cd5fe45aa1c656b924703b1"
         }
       }
+    },
+    {
+      "version": "1.38.5",
+      "kind": "subscription",
+      "date": "2026-11-18",
+      "notarized": true,
+      "notes": "مثقال للماك بمعمارية Intel وApple Silicon، مع شروحات عربية وتحديثات موقّعة من الشركة.",
+      "installer": {
+        "name": "Mithqal-Mac-1.38.5-universal.dmg",
+        "size": 249857874,
+        "sha256": "59257c9e35ad83b637d0cae6d244b08eb47fb75735e31854e5f4f812f53098c9"
+      },
+      "files": {
+        "mac-universal": {
+          "name": "Mithqal-Mac-1.38.5-universal.zip",
+          "size": 242518584,
+          "sha256": "0bede9238925c89046c01f85f57bcf5655dd5b34d80e7989db47cf690c8c4dfa"
+        }
+      }
     }
   ]
 }

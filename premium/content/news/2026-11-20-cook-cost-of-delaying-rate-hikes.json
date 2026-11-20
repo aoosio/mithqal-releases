@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-20-cook-cost-of-delaying-rate-hikes",
+  "eventKey": "cook-global-context-policy-2026-11-20",
+  "slot": "23",
+  "topic": "rates",
+  "title": "كوك تحذّر من كلفة تأخير رفع الفائدة الأمريكية",
+  "summary": "قالت عضوة مجلس الاحتياطي الفيدرالي ليزا كوك في كلمة يوم 20 تشرين الثاني إن الانتظار قد يستلزم زيادات أكبر لاحقًا، مع استمرار التضخم فوق الهدف.",
+  "publishedAt": "2026-11-20T20:06:43.550Z",
+  "sources": [
+    {
+      "id": "fed",
+      "publisher": "الاحتياطي الفيدرالي الأمريكي",
+      "title": "الاقتصاد الأمريكي في السياق العالمي، ليزا كوك، 20 تشرين الثاني 2026",
+      "url": "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm",
+      "publishedAt": "2026-11-20",
+      "reviewedAt": "2026-11-20T20:06:43.550Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "نظرة منتصف العام إلى الذهب، 1 تموز 2026",
+      "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+      "publishedAt": "2026-07-01",
+      "reviewedAt": "2026-11-20T20:06:43.550Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "fed",
+      "text": "If we fall behind, additional and larger rate increases may be required later to catch up"
+    },
+    {
+      "sourceId": "wgc",
+      "text": "gold’s performance is not driven by a single factor."
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "ماذا قالت كوك؟",
+      "paragraphs": [
+        "أوضحت كوك في كلمتها بتشيلي أنها لا ترى أدلة كافية على عودة التضخم إلى مسار مستدام نحو هدف 2%. وقالت إنها تشك في كفاية زيادة سبتمبر البالغة ربع نقطة مئوية، وإن عدد التعديلات اللاحقة وحجمها يجب أن يعتمدا على استجابة الاقتصاد.",
+        "واستنادًا إلى بيانات الأسبوع الماضي، عرضت تقديرًا أوليًا لتضخم نفقات الاستهلاك الشخصي في أكتوبر عند 3.8% سنويًا، والأساسي عند 3.2%. هذان تقديران وردا في الكلمة، وليسا إعلانًا جديدًا للبيانات النهائية. وذكّرت بأنها عارضت تثبيت الفائدة في أكتوبر وفضّلت رفعها ربع نقطة."
+      ],
+      "sourceIds": [
+        "fed"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "ما صلته بالذهب؟",
+      "paragraphs": [
+        "هذا موقف كوك الشخصي، وليس قرارًا جديدًا للجنة. وللسياق، أشار مجلس الذهب العالمي في تقرير 1 تموز إلى دور الفائدة والدولار والمخاطر العالمية في الذهب. متابعة هذه التصريحات تساعد على فهم النقاش النقدي، لكنها لا تثبت وحدها سبب حركة سعر محددة ولا تحسم اتجاهه المقبل."
+      ],
+      "sourceIds": [
+        "fed",
+        "wgc"
+      ]
+    }
+  ]
+}

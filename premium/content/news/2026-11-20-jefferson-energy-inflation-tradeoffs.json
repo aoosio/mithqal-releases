@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-20-jefferson-energy-inflation-tradeoffs",
+  "eventKey": "jefferson-complex-shocks-2026-11-19",
+  "slot": "20",
+  "topic": "rates",
+  "title": "جيفرسون: صدمة الطاقة ترفع التضخم وتضغط على الطلب",
+  "summary": "في كلمة منشورة يوم 19 تشرين الثاني، أوضح نائب رئيس الفيدرالي أن التعامل مع صدمة الطاقة يعتمد على توقعات التضخم ومخاطر التوظيف، وليس على قاعدة واحدة.",
+  "publishedAt": "2026-11-20T17:01:03.988Z",
+  "sources": [
+    {
+      "id": "fed",
+      "publisher": "الاحتياطي الفيدرالي الأمريكي",
+      "title": "السياسة النقدية وسط صدمات متكررة ومعقدة، فيليب جيفرسون",
+      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm",
+      "publishedAt": "2026-11-19",
+      "reviewedAt": "2026-11-20T17:01:03.988Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "نظرة منتصف العام إلى الذهب، 1 تموز 2026",
+      "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+      "publishedAt": "2026-07-01",
+      "reviewedAt": "2026-11-20T17:01:03.988Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "fed",
+      "text": "If inflation expectations risk becoming unanchored, a stronger reaction to inflation is warranted."
+    },
+    {
+      "sourceId": "wgc",
+      "text": "gold’s performance is not driven by a single factor."
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "ماذا قال عن الطاقة والفائدة؟",
+      "paragraphs": [
+        "قال فيليب جيفرسون في كلمته المؤرخة 19 تشرين الثاني 2026 إن ارتفاع أسعار النفط المرتبط بصراع الشرق الأوسط قد يرفع التضخم، وفي الوقت نفسه يضعف الدخل الحقيقي والطلب. وأشار إلى أن التضخم الأمريكي كان أصلًا فوق هدف 2% عند وقوع الصدمة.",
+        "وبحسب جيفرسون، يصبح الرد الأقوى على التضخم مبررًا إذا تعرض استقرار توقعاته للخطر؛ أما إذا ظلت الضغوط السعرية محدودة، فقد يكون إعطاء وزن أكبر لمخاطر التوظيف مناسبًا. وأوضح أن توسع الاستثمار في الذكاء الاصطناعي يضغط حاليًا على الطلب والتضخم، بينما قد تخفف مكاسب الإنتاجية التضخم مستقبلًا."
+      ],
+      "sourceIds": [
+        "fed"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "صلة ذلك بمتابعة الذهب",
+      "paragraphs": [
+        "هذه رؤية عرضها مسؤول في كلمة، وليست قرارًا جديدًا للفائدة. وللسياق، أوضح مجلس الذهب العالمي في تقريره الصادر في 1 تموز أن الفائدة والدولار والمخاطر العالمية ومراكز المستثمرين تؤثر معًا في الذهب. لذلك لا تُثبت الكلمة وحدها سبب حركة سعر محددة، ولا تحسم اتجاهه المقبل."
+      ],
+      "sourceIds": [
+        "fed",
+        "wgc"
+      ]
+    }
+  ]
+}

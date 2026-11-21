@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-21-hormuz-tanker-projectile-attacks",
+    "eventKey": "ap-ukmto-two-tankers-projectiles-2026-11-21",
+    "slot": "20",
+    "title": "AP: إصابة ناقلتين بمقذوفات في مضيق هرمز",
+    "summary": "الوكالة تنقل عن مركز الأمن البحري البريطاني إصابتين منفصلتين صباح 21 تشرين الثاني، دون بلاغات عن إصابات بشرية.",
+    "publishedAt": "2026-11-21T17:02:02.113520Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-21-hormuz-tanker-projectile-attacks/",
+    "sources": [
+      {
+        "url": "https://apnews.com/article/29159a6f3365ff447c0ccbd1d7260f75",
+        "publisher": "أسوشيتد برس",
+        "publishedAt": "2026-11-21T14:43:49Z"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-21-gulf-hormuz-partial-diplomatic-effort",
     "eventKey": "ap-gulf-hormuz-partial-solution-2026-11-20",
     "slot": "08",

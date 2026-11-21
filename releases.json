@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-21T00:54:55.535Z",
+  "updated": "2026-11-21T15:12:24.156Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -756,6 +756,29 @@
           "sha512": "0b600e81f1cc0bf067488868567e2ec23850a47934b3f90dff0d9f4baaa2a87bb1ff9e9ec0147291d80c0b13cf11036f54635fd234c8ddd87321b7db30edfc1f",
           "signed": false,
           "sig": "eWUfl81n5NxNn5aVLSHYuqZfV16LtCTIKnVIyZ0JL9mq0iic75Rugmof40ABCsrJWY5OTjwBmriahZRvrNJMCw=="
+        }
+      }
+    },
+    {
+      "version": "1.39.3",
+      "date": "2026-11-21",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "عرض الموبايلات المسموحة والمربوطة والمتاحة للتسجيل، وتحديث حالة الأجهزة وفحص الحدّ قبل إنشاء رمز الربط.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.39.3-x64.exe",
+          "size": 159718675,
+          "sha512": "da7e33903cc0a6d17238a6f89b03733a8d46b58f6021c3795cd4400067b134e696223881188abe3d8067954561ea53c81c6c2492da914ce747bd8af22e068138",
+          "signed": false,
+          "sig": "hzHCy4ucpvvjwC4LzjcPh0mB7w03w8hZdjhQRaIc7jG/g7maA/NbJ2TFOKOSw7e9N+B5dVTCDNRUNpwyPYLeAw=="
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.39.3-ia32.exe",
+          "size": 137863974,
+          "sha512": "a79451417ad00043728037a0cd29453268169bef40debdecd50fc05d4610a42e495eb0bd57d97acf132c77c7ac024e454e415df2269f51253e0c7d34954e5ff9",
+          "signed": false,
+          "sig": "sO5T45QEYPFv2ThNfUETgM6A8azsEhs2garao4iZIlrOf5yIu4UI5mXwL5vhmEiN7Tj54aCAgF5+NoBNXRaBAg=="
         }
       }
     }

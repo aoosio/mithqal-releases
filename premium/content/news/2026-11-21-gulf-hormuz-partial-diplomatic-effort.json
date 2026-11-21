@@ -1,0 +1,84 @@
+{
+  "id": "2026-11-21-gulf-hormuz-partial-diplomatic-effort",
+  "eventKey": "ap-gulf-hormuz-partial-solution-2026-11-20",
+  "slot": "08",
+  "topic": "geopolitics",
+  "title": "AP: مسعى خليجي لتخفيف قيود الملاحة في هرمز",
+  "summary": "تقرير مؤرخ 20 تشرين الثاني يعرض مساعي دبلوماسية تشمل الملاحة والعقوبات على إيران، دون إعلان اتفاق.",
+  "publishedAt": "2026-11-21T05:04:19.462Z",
+  "sources": [
+    {
+      "id": "ap",
+      "publisher": "أسوشيتد برس",
+      "title": "تقرير عن دبلوماسية إيران",
+      "url": "https://apnews.com/article/iran-war-trump-diplomacy-attacks-8fd6dcd6dc4a1a77437cedc4567fbee8",
+      "publishedAt": "2026-11-20T21:54:52Z",
+      "reviewedAt": "2026-11-21T05:04:19.462Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "treasury",
+      "publisher": "وزارة الخزانة الأمريكية",
+      "title": "عقوبات مرتبطة بقطاع النفط الإيراني",
+      "url": "https://home.treasury.gov/news/press-releases/sb0697/",
+      "publishedAt": "2026-11-20",
+      "reviewedAt": "2026-11-21T05:04:19.462Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "تقرير منتصف العام 2026 عن الذهب",
+      "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+      "publishedAt": "2026-07-01",
+      "reviewedAt": "2026-11-21T05:04:19.462Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "ap",
+      "text": "in exchange for limited sanctions relief for Iran"
+    },
+    {
+      "sourceId": "treasury",
+      "text": "facilitate the sale of oil abroad"
+    },
+    {
+      "sourceId": "wgc",
+      "text": "gold’s performance is not driven by a single factor."
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "ماذا نقلت الوكالة؟",
+      "paragraphs": [
+        "قال دبلوماسي لم تسمّه أسوشيتد برس إن دول الخليج تسعى، عبر قنوات قائمة، لحل جزئي قد يرفع قيود الملاحة بهرمز مقابل تخفيف محدود للعقوبات على إيران ويمهّد لمفاوضات أوسع."
+      ],
+      "sourceIds": [
+        "ap"
+      ]
+    },
+    {
+      "kind": "facts",
+      "heading": "عقوبات أُعلنت في اليوم نفسه",
+      "paragraphs": [
+        "وبشكل منفصل، أعلنت الخزانة الأمريكية في بيان مؤرخ 20 تشرين الثاني عقوبات على أشخاص قالت إنهم يسهلون بيع النفط الإيراني وتحصيل عائداته، ضمن حملة الضغط الاقتصادي القائمة. هذا إعلان عقوبات محدد، وليس قرارًا عامًا برفع العقوبات."
+      ],
+      "sourceIds": [
+        "treasury"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "ما صلة ذلك بمتابعة الذهب؟",
+      "paragraphs": [
+        "لمتابع الذهب في العراق، تبقى مخاطر المنطقة ضمن الصورة الاقتصادية الأوسع. وقد أوضح مجلس الذهب العالمي في تقريره الصادر في 1 تموز 2026 أن المخاطر العالمية والفائدة والدولار ومراكز المستثمرين تؤثر معًا في الذهب. هذا سياق عام، ولا يثبت اتجاهًا للسعر أو سبب حركة محددة اليوم."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

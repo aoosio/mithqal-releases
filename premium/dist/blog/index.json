@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-11-21-gulf-hormuz-partial-diplomatic-effort",
+    "eventKey": "ap-gulf-hormuz-partial-solution-2026-11-20",
+    "slot": "08",
+    "title": "AP: مسعى خليجي لتخفيف قيود الملاحة في هرمز",
+    "summary": "تقرير مؤرخ 20 تشرين الثاني يعرض مساعي دبلوماسية تشمل الملاحة والعقوبات على إيران، دون إعلان اتفاق.",
+    "publishedAt": "2026-11-21T05:04:19.462Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-21-gulf-hormuz-partial-diplomatic-effort/",
+    "sources": [
+      {
+        "url": "https://apnews.com/article/iran-war-trump-diplomacy-attacks-8fd6dcd6dc4a1a77437cedc4567fbee8",
+        "publisher": "أسوشيتد برس",
+        "publishedAt": "2026-11-20T21:54:52Z"
+      },
+      {
+        "url": "https://home.treasury.gov/news/press-releases/sb0697/",
+        "publisher": "وزارة الخزانة الأمريكية",
+        "publishedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-20-cook-cost-of-delaying-rate-hikes",
     "eventKey": "cook-global-context-policy-2026-11-20",
     "slot": "23",

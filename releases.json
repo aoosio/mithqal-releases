@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-21T15:12:24.156Z",
+  "updated": "2026-11-21T15:47:36.952Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -779,6 +779,29 @@
           "sha512": "a79451417ad00043728037a0cd29453268169bef40debdecd50fc05d4610a42e495eb0bd57d97acf132c77c7ac024e454e415df2269f51253e0c7d34954e5ff9",
           "signed": false,
           "sig": "sO5T45QEYPFv2ThNfUETgM6A8azsEhs2garao4iZIlrOf5yIu4UI5mXwL5vhmEiN7Tj54aCAgF5+NoBNXRaBAg=="
+        }
+      }
+    },
+    {
+      "version": "1.39.4",
+      "date": "2026-11-21",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "٣ موبايلات للتجربة، وترقية سلسة للترخيص الكامل مع الاحتفاظ ببيانات المحل والموبايلات المربوطة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.39.4-x64.exe",
+          "size": 159719242,
+          "sha512": "b1203977b767863a7acd4de07b9783b907530720c6adaecde332b685ee47dbae31f3aae15f7fa8397a9e800ec702f9eea2722b6f07742be875b15b9c15499e35",
+          "signed": false,
+          "sig": "ru3DWYhH1Rp/CoyXobHLV6Q/bcZvtxyc9wrb3TqwBX+UmJiWQxV2hOeOHHuwmZHkba2rlUeblEUzZXKnmi81DA=="
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.39.4-ia32.exe",
+          "size": 137864605,
+          "sha512": "294419af987fcd33e0fe224fa7871aa0a29b7a8c072196d66387e8347a9a955d09f421ee6d2613a804d055d173ef6d5c4625a12d602293636f36d0954d3ed58e",
+          "signed": false,
+          "sig": "scX2nd0KOOocICVEyyjzqqbD9MXYKF51T8GP9kMFePfpFL1woJ1bOrJK30uplH+2BYMoVlX9OcLCy8FO+5xJBA=="
         }
       }
     }

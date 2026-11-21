@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-20T08:24:04.837Z",
+  "updated": "2026-11-21T00:54:55.535Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -733,6 +733,29 @@
           "sha512": "a9f536f3067aabceac10b18ef99494770d35fe9dd3e5a13a0ba3ad946c973bc35ec8080e72944bb785e8f4823533de7038a1495f9fc146854c2834e4b548fd79",
           "signed": false,
           "sig": "vgcbuoaGC27O+teozqlONBNI8yZy6FIrfhzrZd1AxWUqzw5SWwJwz79f3Ip7d1MiinsAUigT6VxEJ7U4IY7yBA=="
+        }
+      }
+    },
+    {
+      "version": "1.39.2",
+      "date": "2026-11-21",
+      "kind": "subscription",
+      "minVersion": "1.12.0",
+      "notes": "٥١ فيديو تعليمي قصير بصوت عربي طبيعي، وإشعارات أوضح مع بحث وفئات وتفاصيل مباشرة، ومنع التكرار وإظهار الدين بوحدته الصحيحة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.39.2-x64.exe",
+          "size": 159717841,
+          "sha512": "cc46d750949d588e18f73f36aed3c130c64732f16e9b933cc2d961004f8d7f465fd609fb177f718b714db96af9eeb60716f5d15d27dcdf28baaccf6cab6b1ee6",
+          "signed": false,
+          "sig": "14WU5tXIrAYAQaCS2aFNfjAdOl4edYZld/gh3yEp8s7bV1o8x/znEHPoIHfMAPrqZhmY+D6yfSIaWDmDXpPQBg=="
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.39.2-ia32.exe",
+          "size": 137862987,
+          "sha512": "0b600e81f1cc0bf067488868567e2ec23850a47934b3f90dff0d9f4baaa2a87bb1ff9e9ec0147291d80c0b13cf11036f54635fd234c8ddd87321b7db30edfc1f",
+          "signed": false,
+          "sig": "eWUfl81n5NxNn5aVLSHYuqZfV16LtCTIKnVIyZ0JL9mq0iic75Rugmof40ABCsrJWY5OTjwBmriahZRvrNJMCw=="
         }
       }
     }

@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-22-bahrain-civilian-industrial-facility-fire",
+    "eventKey": "reuters-bahrain-industrial-facility-fire-2026-11-21",
+    "slot": "08",
+    "title": "البحرين تعلن حريقًا بمنشأة صناعية مدنية بعد هجوم",
+    "summary": "رويترز تنقل إعلانًا بحرينيًا عن حريق وأضرار مادية مساء 21 تشرين الثاني، دون إصابات بحسب المعلومات الأولية.",
+    "publishedAt": "2026-11-22T07:22:14.962776Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-22-bahrain-civilian-industrial-facility-fire/",
+    "sources": [
+      {
+        "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
+        "publisher": "رويترز",
+        "publishedAt": "2026-11-21"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-21-hormuz-tanker-projectile-attacks",
     "eventKey": "ap-ukmto-two-tankers-projectiles-2026-11-21",
     "slot": "20",

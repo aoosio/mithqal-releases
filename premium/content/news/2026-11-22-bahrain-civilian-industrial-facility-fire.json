@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-22-bahrain-civilian-industrial-facility-fire",
+  "eventKey": "reuters-bahrain-industrial-facility-fire-2026-11-21",
+  "slot": "08",
+  "topic": "geopolitics",
+  "title": "البحرين تعلن حريقًا بمنشأة صناعية مدنية بعد هجوم",
+  "summary": "رويترز تنقل إعلانًا بحرينيًا عن حريق وأضرار مادية مساء 21 تشرين الثاني، دون إصابات بحسب المعلومات الأولية.",
+  "publishedAt": "2026-11-22T07:22:14.962776Z",
+  "sources": [
+    {
+      "id": "reuters",
+      "publisher": "رويترز",
+      "title": "تقرير هجوم البحرين؛ قُرئ نص الوكالة المنشور عبر StreetInsider",
+      "url": "https://www.reuters.com/world/middle-east/bahrain-warns-residents-potential-threat-iran-conflict-persists-2026-11-21/",
+      "publishedAt": "2026-11-21",
+      "reviewedAt": "2026-11-22T07:22:14.962776Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "تقرير منتصف العام 2026: المخاطر العالمية والفائدة ومراكز المستثمرين",
+      "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+      "publishedAt": "2026-07-01",
+      "reviewedAt": "2026-11-22T07:22:14.962776Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "reuters",
+      "text": "Civil Defence teams were working to contain the fire at the industrial facility"
+    },
+    {
+      "sourceId": "wgc",
+      "text": "gold’s performance is not driven by a single factor."
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو أعلنت البحرين؟",
+      "paragraphs": [
+        "نقلت رويترز أن وزارة الداخلية البحرينية أعلنت مساء السبت 21 تشرين الثاني 2026 استهداف منشأة صناعية مدنية بهجوم نسبته إلى إيران، ما تسبب بحريق وأضرار مادية، دون إصابات بحسب المعلومات الأولية. وقالت الوزارة إن الدفاع المدني يعمل على احتواء الحريق.",
+        "لم يحدد إعلان الوزارة الذي نقلته الوكالة اسم المنشأة أو موقعها أو طبيعة نشاطها؛ لذلك لا يصح وصفها بأنها مصفاة نفط أو الجزم بتعطل إنتاج الطاقة. الخبر يعود إلى مساء أمس، وليس إعلانًا صدر صباح اليوم."
+      ],
+      "sourceIds": [
+        "reuters"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "ليش نتابع الخبر ضمن أخبار الذهب؟",
+      "paragraphs": [
+        "مخاطر المنطقة جزء من الصورة التي يتابعها أهل الذهب في العراق. ففي تقريره المؤرخ 1 تموز 2026، أوضح مجلس الذهب العالمي أن أداء الذهب يتأثر بالمخاطر الجيوسياسية والفائدة والدولار ومراكز المستثمرين معًا. هذا سياق عام، ولا يثبت أن حادث البحرين سبّب حركة معينة بالسعر.",
+        "هذه النشرة توثّق واقعة وتصريحًا مؤرخين؛ ولا تتضمن سعرًا لحظيًا أو توقعًا لاتجاه الذهب أو توصية شراء وبيع."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

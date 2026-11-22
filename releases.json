@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-22T15:20:19.501Z",
+  "updated": "2026-11-22T19:29:03.093Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -848,6 +848,29 @@
           "sha512": "018cf6cada404f9b68187da24354b2da9b111b0fc297f42f0ecadec4749e5d73e28dc665201fb22de8eb7c4ada9e06742e976db5fad76327e30fec2963713e8f",
           "signed": false,
           "sig": "WNAc6lWvN3vkPJdI10i2i7wGwnBtRUxBtp9eKq1Kf6YuIg+bDADeE2yRg2wtkcmSmBbO54i1zGkocSUy5sjLAw=="
+        }
+      }
+    },
+    {
+      "version": "1.41.0",
+      "date": "2026-11-22",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "قبض مركب نقدًا وذهبًا، دفع للزبون صاحب الرصيد، إرجاع مشتريات للمورد واسترداد الرصيد منه، مع صفحة حساب موحدة وتفاصيل لكل عملية وحماية الحركات المترابطة. العمليات الجديدة تُنفَّذ من الحاسبة؛ حدّث الهواتف المرتبطة إلى 1.11.0.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.41.0-x64.exe",
+          "size": 159752776,
+          "sha512": "44f8c21e94a2336a84d3f41513e5ea98da956f6a05ba8a3cabd55b7e8a6f27c59c4372ca3d8c66fc304c212a602074f9b81c65428e153f74258c1a4ddc8adc0a",
+          "signed": false,
+          "sig": "VHDBDgHM2C42EL/YplNTW1x7aIbMI7U4YyW3myQMfUzIIAuc+s2Ke/mn5PWR6EHOKjfaOPkY4S5JlgIAJhKoCg=="
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.41.0-ia32.exe",
+          "size": 137898014,
+          "sha512": "1c258fc5803a8cd1302a95cb56bd7ba76dcf290d54718b971099d554a35ed8e74002fee0a235bc7e0f2c2d6fba17861e7c1b8d85012eb0dacfd3681345c59ad4",
+          "signed": false,
+          "sig": "KcRmo97eSd5iQZPf4Rgj0V/2oTGXMV4gPA5L1YPCbsLwQLKwLgeV/T36QvikEVDts4bKnK444PZtnA5nafOrDw=="
         }
       }
     }

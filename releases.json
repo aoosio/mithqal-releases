@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-21T15:59:12.245Z",
+  "updated": "2026-11-22T10:20:33.935Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -802,6 +802,29 @@
           "sha512": "294419af987fcd33e0fe224fa7871aa0a29b7a8c072196d66387e8347a9a955d09f421ee6d2613a804d055d173ef6d5c4625a12d602293636f36d0954d3ed58e",
           "signed": false,
           "sig": "scX2nd0KOOocICVEyyjzqqbD9MXYKF51T8GP9kMFePfpFL1woJ1bOrJK30uplH+2BYMoVlX9OcLCy8FO+5xJBA=="
+        }
+      }
+    },
+    {
+      "version": "1.40.0",
+      "date": "2026-11-22",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "عملية صهر موثقة من المخزون مع احتساب الناتج والفاقد وحماية رصيد الكسر وترحيل الكلفة. اعتماد الصهر من الجهاز الأساسي، بدفعة واحدة وبالعيار نفسه.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.40.0-x64.exe",
+          "size": 159724205,
+          "sha512": "885fb61329632751c964b4928005004b89694f2a8dc54b15ae5c6ebe33c8470db5cc410a870017544d44f1977f5a1bb61c8a3bd7beeef4e48485332d30ad597f",
+          "signed": false,
+          "sig": "7qH+DNGipKM45JSNx2GuQt+nz5hGyXqRH8gfOWsEouztdw/nd63Wemy2zKtkcR4JHohmhbXiYqVi3SSrpo1TCQ=="
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.40.0-ia32.exe",
+          "size": 137869448,
+          "sha512": "30486e660a34bbcd6200f1c4144c0d23bf7a59327ae2f2fbb8d8c27ea1eef084e5aba734cec4a691ba32e42820ef4d42bc6b1c70b5c867dce9ee4d30deeeb65e",
+          "signed": false,
+          "sig": "+y+vgO9sam9PMa3n+l0wz3V/2t+BEbvSP4DkyAGKvqpH85juNOzoaVuZhOA17+RbeI1Ip+vhDIK2cobHS0DOAA=="
         }
       }
     }

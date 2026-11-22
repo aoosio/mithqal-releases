@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-22-sanaa-fuel-station-airstrike",
+    "eventKey": "ap-sanaa-fuel-station-six-workers-2026-11-22",
+    "slot": "16",
+    "title": "AP: إعلان حوثي عن إصابة 6 عمال بغارة في صنعاء",
+    "summary": "تقرير للوكالة صباح 22 تشرين الثاني ينقل عن متحدث صحي تابع للحوثيين إصابة عمال وأضرارًا بمحطة وقود ومبنى شركة النفط.",
+    "publishedAt": "2026-11-22T13:08:01.388Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-22-sanaa-fuel-station-airstrike/",
+    "sources": [
+      {
+        "url": "https://apnews.com/article/mideast-houthis-west-bank-november-22-2026-8d1680a23d592667db1ce1969b55b4f2",
+        "publisher": "أسوشيتد برس AP",
+        "publishedAt": "2026-11-22"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-22-bahrain-civilian-industrial-facility-fire",
     "eventKey": "reuters-bahrain-industrial-facility-fire-2026-11-21",
     "slot": "08",

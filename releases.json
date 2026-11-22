@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-22T10:20:33.935Z",
+  "updated": "2026-11-22T15:20:19.501Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -825,6 +825,29 @@
           "sha512": "30486e660a34bbcd6200f1c4144c0d23bf7a59327ae2f2fbb8d8c27ea1eef084e5aba734cec4a691ba32e42820ef4d42bc6b1c70b5c867dce9ee4d30deeeb65e",
           "signed": false,
           "sig": "+y+vgO9sam9PMa3n+l0wz3V/2t+BEbvSP4DkyAGKvqpH85juNOzoaVuZhOA17+RbeI1Ip+vhDIK2cobHS0DOAA=="
+        }
+      }
+    },
+    {
+      "version": "1.40.1",
+      "date": "2026-11-22",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "تحديث الأسعار بنتيجة واضحة: آخر تحقق مستقل عن وقت سعر المصدر، وإظهار السعر لم يتغير أو تعذر الاتصال. زر موحد للذهب والدولار مع الشراء والبيع ظاهرين، مهلة للطلبات المعلقة وإعادة المحاولة دون إغلاق التطبيق. قوالب Excel وCSV جاهزة لاستيراد القطع بباركود المحل، مع حفظ الباركود كنص ومثال وتعليمات في ورقة مستقلة.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.40.1-x64.exe",
+          "size": 159734986,
+          "sha512": "4a6bf7f3f7daa2363664c3d03b950fa70dae2f35799c7c0ee8e9a9c288ddcf5404c36ad5d957559cf58aae2f5931dc66d56032a48c1e2b252d1256813032ff48",
+          "signed": false,
+          "sig": "khKLVYKSjqip8NwACkwx+uQaeJH6PXSZNmZzA8bWgJtt56fOZrC6yEXCtoLXthfKCkFqDSXNQLR5zxVRIP1jBg=="
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.40.1-ia32.exe",
+          "size": 137880176,
+          "sha512": "018cf6cada404f9b68187da24354b2da9b111b0fc297f42f0ecadec4749e5d73e28dc665201fb22de8eb7c4ada9e06742e976db5fad76327e30fec2963713e8f",
+          "signed": false,
+          "sig": "WNAc6lWvN3vkPJdI10i2i7wGwnBtRUxBtp9eKq1Kf6YuIg+bDADeE2yRg2wtkcmSmBbO54i1zGkocSUy5sjLAw=="
         }
       }
     }

@@ -1,7 +1,7 @@
 {
   "product": "mithqal",
   "feed": "https://github.com/aoosio/mithqal-releases/releases/download/v{version}/",
-  "updated": "2026-11-22T21:15:30.558Z",
+  "updated": "2026-11-23T18:06:03.601Z",
   "releases": [
     {
       "version": "1.13.1",
@@ -894,6 +894,29 @@
           "sha512": "7e0c8207955ef12c94c2827c6d1e8e12688a53265e697730c09f6b7712a6a2a367443f57405f92227c2dddfdbc2a5563c594501111375b50d69c0d580c3148c4",
           "signed": false,
           "sig": "YjfNSJZF7jQMoAJCYpJm13LGUd2G9lYHpx//hziNhwRX8Hwlnu9HH+NFo7YseALM4293bC7RySqwejiDf4cUAQ=="
+        }
+      }
+    },
+    {
+      "version": "1.42.0",
+      "date": "2026-11-23",
+      "kind": "subscription",
+      "minVersion": "",
+      "notes": "صورة لكل قطعة مرقّمة: من ملف أو بكاميرا الحاسبة أو بالموبايل على شبكة المحل («تصوير بالموبايل» مع تطبيق الهاتف 1.12.0)، وتظهر في بطاقة القطعة والقائمة والجرد والفاتورة، مع نسخة مشفّرة بجانب النسخ الاحتياطية. تسجيل أكثر من 500 قطعة بدفعة واحدة يعطي كل قطعة رمزها، وحذف قطعة بلا ليبل يحذف صورتها.",
+      "files": {
+        "x64": {
+          "name": "Mithqal-Setup-1.42.0-x64.exe",
+          "size": 159764734,
+          "sha512": "ca5787b390fc6b91726192de297609d59a9911430cfd4931266dec651b8abfddf0fa7e0d899819b8ff7a061ec64ccf4f95da20c5e35a6b723f30ea87dbd4453b",
+          "signed": false,
+          "sig": "1J8bhfzmha9ybeaP5RW1Qio34V0smqB+/UR1fTcTOkCeXdVyt+Naop93dC4Mc+F1fJ3uDfcdsy0Epqt8pV1jDQ=="
+        },
+        "ia32": {
+          "name": "Mithqal-Setup-1.42.0-ia32.exe",
+          "size": 137909895,
+          "sha512": "78aedcd007013b7a23d7d36dab7eb8c0874156d7ccc3d5c027eed27453de942d7596ca6da4c5bdafb12e8e5e0a2231e693f57a9200042e4b065a38a5844f1ea7",
+          "signed": false,
+          "sig": "1GAQgveTj3T+m4OE+NYV92qA2f5rm7cqwlY6Y0pwx+myUMZDUaiAYLiBygFK1k19dCE0gbb52w/2O4Dt5q+zDQ=="
         }
       }
     }

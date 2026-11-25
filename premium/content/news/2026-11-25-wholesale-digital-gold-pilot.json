@@ -1,0 +1,50 @@
+{
+  "id": "2026-11-25-wholesale-digital-gold-pilot",
+  "eventKey": "wgc-first-live-pooled-gold-interests-pilot-announcement-2026-11-24",
+  "slot": "12",
+  "topic": "market",
+  "title": "تجربة مؤسسية لنقل ملكية الذهب إلكترونيًا في لندن",
+  "summary": "مجلس الذهب العالمي أعلن في 24 تشرين الثاني معاملات فعلية لحقوق ملكية في ذهب مادي، ضمن تجربة لسوق الجملة.",
+  "publishedAt": "2026-11-25T09:06:27.456Z",
+  "sources": [
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "World Gold Council facilitates first live transactions using Pooled Gold Interests",
+      "url": "https://www.gold.org/news-and-events/press-releases/world-gold-council-facilitates-first-live-transactions-using-pooled",
+      "publishedAt": "2026-11-24",
+      "reviewedAt": "2026-11-25T09:06:27.456Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "wgc",
+      "text": "now at pilot stage"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو أُعلن؟",
+      "paragraphs": [
+        "أعلن مجلس الذهب العالمي يوم 24 تشرين الثاني 2026 أن HSBC وجي بي مورغان وStoneX نفذت لأول مرة معاملات فعلية وملزمة قانونيًا باستخدام حقوق ملكية في ذهب مجمّع، تُعرف اختصارًا باسم PGI. وشملت المعاملات التداول والتسوية واستخدام هذه الحقوق ضمانًا.",
+        "وبحسب البيان، أُدخلت سبائك ذهب مادية من معيار التسليم الجيد في لندن، بوزن 400 أونصة للسبيكة، إلى المنظومة. وبعد إنشاء الحقوق وإتمام التسويات، سُحب الذهب منها لإكمال دورة التجربة. وتولت ICE Benchmark Administration تشغيل التجربة، وقدمت Baton Systems التقنية."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "شنو أهميته لأهل الذهب؟",
+      "paragraphs": [
+        "تخص المبادرة البنية التي تستخدمها المؤسسات لنقل ملكية الذهب وتسوية معاملاته، وما زالت بمرحلة تجريبية. ويقول المجلس إن هدفها تسهيل استخدام الذهب في الأسواق المالية مع الحفاظ على موثوقية ملكيته المادية.",
+        "هذا تطور في طريقة التعامل المؤسسي بالذهب؛ البيان لا يقيس أثر التجربة على سعر الأونصة أو طلب محلات الصاغة بالعراق. لذلك نتابعه كخبر عن تطور السوق، من دون استنتاج حركة سعرية منه."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

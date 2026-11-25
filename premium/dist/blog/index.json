@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-25-fed-beige-book-prices-employment",
+    "eventKey": "federal-reserve-beige-book-november-2026",
+    "slot": "23",
+    "title": "تقرير الفيدرالي: ارتفاع معتدل للأسعار ونمو طفيف بالتوظيف",
+    "summary": "تقرير اليوم يرصد نموًا في 8 مناطق واستقرارًا في 4، مع ضغوط مستمرة على التكاليف.",
+    "publishedAt": "2026-11-25T20:00:25.217Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-25-fed-beige-book-prices-employment/",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm",
+        "publisher": "الاحتياطي الفيدرالي الأمريكي",
+        "publishedAt": "2026-11-25T19:00:00Z"
+      },
+      {
+        "url": "https://www.gold.org/goldhub/gold-focus/2026/11/weekly-markets-monitor-ai-reckoning",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-us-october-pce-inflation",
     "eventKey": "bea-personal-income-outlays-pce-2026-10",
     "slot": "16",

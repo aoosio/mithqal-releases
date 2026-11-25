@@ -1,0 +1,65 @@
+{
+  "id": "2026-11-25-fed-beige-book-prices-employment",
+  "eventKey": "federal-reserve-beige-book-november-2026",
+  "slot": "23",
+  "topic": "inflation",
+  "title": "تقرير الفيدرالي: ارتفاع معتدل للأسعار ونمو طفيف بالتوظيف",
+  "summary": "تقرير اليوم يرصد نموًا في 8 مناطق واستقرارًا في 4، مع ضغوط مستمرة على التكاليف.",
+  "publishedAt": "2026-11-25T20:00:25.217Z",
+  "sources": [
+    {
+      "id": "fed",
+      "publisher": "الاحتياطي الفيدرالي الأمريكي",
+      "title": "Beige Book – November 2026: National Summary",
+      "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202611-summary.htm",
+      "publishedAt": "2026-11-25T19:00:00Z",
+      "reviewedAt": "2026-11-25T20:00:25.217Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "Weekly Markets Monitor: A(I) reckoning",
+      "url": "https://www.gold.org/goldhub/gold-focus/2026/11/weekly-markets-monitor-ai-reckoning",
+      "publishedAt": "2026-11-23",
+      "reviewedAt": "2026-11-25T20:00:25.217Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "fed",
+      "text": "Prices increased moderately overall, as in the prior reporting period."
+    },
+    {
+      "sourceId": "wgc",
+      "text": "hawkish Fed minutes"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو رصد التقرير؟",
+      "paragraphs": [
+        "أصدر الاحتياطي الفيدرالي يوم 25 تشرين الثاني 2026 «الكتاب البيج». وأفادت 8 من مناطقه الاثنتي عشرة بنمو اقتصادي بين الطفيف والمعتدل، و4 مناطق بعدم تغير النشاط. وكان الإنفاق الاستهلاكي شبه مستقر.",
+        "وارتفعت الأسعار بدرجة معتدلة، مع ضغوط من الطاقة والنقل والرعاية الصحية والتأمين والرسوم الجمركية. وزادت تكاليف المدخلات أسرع من أسعار البيع عمومًا، إذ حدّت المنافسة وحساسية الزبائن للأسعار من تمرير الكلفة.",
+        "وزاد التوظيف قليلًا، وارتفعت الأجور والمزايا بوتيرة معتدلة. المعلومات جُمعت حتى 16 تشرين الثاني، من جهات خارج الفيدرالي؛ والتقرير لا يعبر عن آراء مسؤوليه."
+      ],
+      "sourceIds": [
+        "fed"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "سياقه ضمن متابعة الذهب",
+      "paragraphs": [
+        "في تحليله المنشور يوم 23 تشرين الثاني، أدرج مجلس الذهب العالمي إشارات الفيدرالي ضمن عوامل متابعة الذهب. تقرير اليوم يضيف وصفًا للأسعار والعمل والنشاط الاقتصادي، لكنه لا يعلن قرار فائدة جديدًا.",
+        "هذا سياق لمتابعة الذهب؛ ولا تكفي هذه الإفادات وحدها لإثبات سبب حركة الأونصة أو الجزم باتجاهها المقبل."
+      ],
+      "sourceIds": [
+        "wgc",
+        "fed"
+      ]
+    }
+  ]
+}

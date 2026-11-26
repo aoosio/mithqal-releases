@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-26-euro-area-october-lending",
+    "eventKey": "ecb-monetary-developments-october-2026",
+    "slot": "12",
+    "title": "منطقة اليورو: نمو قروض الشركات يرتفع إلى 4.5%",
+    "summary": "بيانات البنك المركزي الأوروبي الصادرة اليوم تسجل تسارع الإقراض للشركات في أكتوبر، مع استقرار نمو قروض الأسر عند 3.1%.",
+    "publishedAt": "2026-11-26T09:04:43.657Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-26-euro-area-october-lending/",
+    "sources": [
+      {
+        "url": "https://www.ecb.europa.eu/press/stats/md/html/ecb.md2610~4bad1d63b5.en.html",
+        "publisher": "البنك المركزي الأوروبي",
+        "publishedAt": "2026-11-26T09:00:00Z"
+      },
+      {
+        "url": "https://www.gold.org/goldhub/gold-focus/2026/11/weekly-markets-monitor-ai-reckoning",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
     "id": "2026-11-25-fed-beige-book-prices-employment",
     "eventKey": "federal-reserve-beige-book-november-2026",
     "slot": "23",

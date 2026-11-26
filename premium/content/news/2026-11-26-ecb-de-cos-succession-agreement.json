@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-26-ecb-de-cos-succession-agreement",
+  "eventKey": "eu-leaders-de-cos-ecb-presidency-agreement-2026-11-26",
+  "slot": "23",
+  "topic": "rates",
+  "title": "اتفاق أوروبي على ترشيح دي كوس لخلافة لاغارد",
+  "summary": "اختار قادة منطقة اليورو بابلو هيرنانديز دي كوس لرئاسة المركزي الأوروبي، مع بقاء مراجعة الترشيح لدى البرلمان الأوروبي ومجلس محافظي البنك.",
+  "publishedAt": "2026-11-26T20:01:06.603Z",
+  "sources": [
+    {
+      "id": "ap",
+      "publisher": "أسوشيتد برس AP",
+      "title": "Leaders choose Spain's former central bank head as next European Central Bank president",
+      "url": "https://apnews.com/article/d308b6cfbe6399b131255f2a678b10e4",
+      "publishedAt": "2026-11-26T15:46:03Z",
+      "reviewedAt": "2026-11-26T20:01:06.603Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "Weekly Markets Monitor: A(I) reckoning",
+      "url": "https://www.gold.org/goldhub/gold-focus/2026/11/weekly-markets-monitor-ai-reckoning",
+      "publishedAt": "2026-11-23",
+      "reviewedAt": "2026-11-26T20:01:06.603Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "ap",
+      "text": "nomination still must pass review by the European Parliament"
+    },
+    {
+      "sourceId": "wgc",
+      "text": "a further rotation into bonds, hawkish Fed minutes"
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو اتفق عليه القادة؟",
+      "paragraphs": [
+        "أفادت أسوشيتد برس يوم 26 تشرين الثاني 2026 بأن قادة منطقة اليورو اختاروا الإسباني بابلو هيرنانديز دي كوس لخلافة كريستين لاغارد برئاسة البنك المركزي الأوروبي. وأكد رئيس المجلس الأوروبي أنطونيو كوستا الاتفاق على القيادة الجديدة في قمة بروكسل.",
+        "دي كوس، البالغ 55 عامًا، يدير حاليًا بنك التسويات الدولية، وسبق أن قاد بنك إسبانيا بين 2018 و2024. وما زال ترشيحه يحتاج مراجعة البرلمان الأوروبي ومجلس محافظي المركزي الأوروبي؛ فلا يعني اتفاق اليوم أنه تسلّم المنصب بالفعل.",
+        "ويضع البنك أسعار الفائدة المرجعية للدول الـ21 التي تستخدم اليورو، بما يؤثر في كلفة الاقتراض داخل اقتصاداتها."
+      ],
+      "sourceIds": [
+        "ap"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "سياق الخبر لأهل الذهب",
+      "paragraphs": [
+        "في تحليله المؤرخ 23 تشرين الثاني، أدرج مجلس الذهب العالمي إشارات الفيدرالي الأمريكي والتحول نحو السندات ضمن عوامل متابعة الذهب. نقرأ تغيير القيادة الأوروبية ضمن السياق النقدي العالمي، لا كقرار جديد للفائدة أو دليل على حركة محددة بالأونصة.",
+        "الاتفاق على اسم الرئيس لا يكفي لاستنتاج اتجاه سعر الذهب بالعراق؛ أي ربط بحركة السعر يحتاج بيانات وأدلة مستقلة."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

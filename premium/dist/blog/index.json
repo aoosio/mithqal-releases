@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-27-us-treasury-yield-friday",
+    "eventKey": "ap-us-ten-year-yield-friday-2026-11-27",
+    "slot": "23",
+    "title": "AP: عائد السندات الأمريكية لعشر سنوات يرتفع إلى 4.94%",
+    "summary": "العائد ارتفع من 4.85% مساء الأربعاء، في تحديث الأسواق المنشور مساء الجمعة 27 نوفمبر.",
+    "publishedAt": "2026-11-27T20:00:36.872Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-27-us-treasury-yield-friday/",
+    "sources": [
+      {
+        "url": "https://apnews.com/article/c7ef10c1dbc5fa09668bd4fe0729c613",
+        "publisher": "أسوشيتد برس AP",
+        "publishedAt": "2026-11-27T19:07:00Z"
+      },
+      {
+        "url": "https://www.gold.org/goldhub/gold-focus/2026/11/weekly-markets-monitor-ai-reckoning",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
     "id": "2026-11-27-ecb-consumer-inflation-expectations",
     "eventKey": "ecb-ces-october-2026-release",
     "slot": "12",

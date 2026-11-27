@@ -1,5 +1,22 @@
 [
   {
+    "id": "2026-11-27-gold-early-friday-rebound",
+    "eventKey": "reuters-gold-friday-rebound-2026-11-27",
+    "slot": "08",
+    "title": "رويترز: الذهب يرتفع 1.6% في التعاملات المبكرة للجمعة",
+    "summary": "بلغ الذهب الفوري 3,622.91 دولارًا للأونصة عند 5:47 صباحًا بتوقيت بغداد، في لقطة رويترز المؤرخة 27 تشرين الثاني.",
+    "publishedAt": "2026-11-27T06:15:15.545Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-27-gold-early-friday-rebound/",
+    "sources": [
+      {
+        "url": "https://www.reuters.com/world/india/gold-rebounds-one-year-low-ai-jitters-ease-2026-11-27/",
+        "publisher": "رويترز",
+        "publishedAt": "2026-11-27T03:27:00Z"
+      }
+    ]
+  },
+  {
     "id": "2026-11-26-ecb-de-cos-succession-agreement",
     "eventKey": "eu-leaders-de-cos-ecb-presidency-agreement-2026-11-26",
     "slot": "23",

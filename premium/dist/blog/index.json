@@ -1,5 +1,22 @@
 [
   {
+    "id": "2026-11-27-ecb-consumer-inflation-expectations",
+    "eventKey": "ecb-ces-october-2026-release",
+    "slot": "12",
+    "title": "توقعات التضخم لأسر منطقة اليورو ترتفع إلى 3.5%",
+    "summary": "استطلاع أكتوبر المنشور اليوم يسجل ارتفاع توقع التضخم لسنة، مع استقرار توقع خمس سنوات وتراجع نمو الدخل المنتظر.",
+    "publishedAt": "2026-11-27T09:51:02.656Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-27-ecb-consumer-inflation-expectations/",
+    "sources": [
+      {
+        "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
+        "publisher": "البنك المركزي الأوروبي",
+        "publishedAt": "2026-11-27T09:00:00Z"
+      }
+    ]
+  },
+  {
     "id": "2026-11-27-gold-early-friday-rebound",
     "eventKey": "reuters-gold-friday-rebound-2026-11-27",
     "slot": "08",

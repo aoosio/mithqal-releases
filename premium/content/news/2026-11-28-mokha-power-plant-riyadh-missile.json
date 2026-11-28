@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-28-mokha-power-plant-riyadh-missile",
+  "eventKey": "ap-mokha-power-fire-riyadh-cruise-interception-2026-11-28",
+  "slot": "12",
+  "topic": "geopolitics",
+  "title": "AP: إعلان حريق بمحطة كهرباء بالمخا واعتراض صاروخ بالرياض",
+  "summary": "تطورات السبت، بحسب روايتي الحوثيين والجيش السعودي اللتين نقلتهما الوكالة.",
+  "publishedAt": "2026-11-28T09:07:25.408Z",
+  "sources": [
+    {
+      "id": "ap",
+      "publisher": "أسوشيتد برس AP",
+      "title": "تطورات اليمن والشرق الأوسط يوم السبت",
+      "url": "https://apnews.com/article/088cd858cd7def5c2c2296882e6e5be4",
+      "publishedAt": "2026-11-28T08:30:20Z",
+      "reviewedAt": "2026-11-28T09:07:25.408Z",
+      "reviewedVia": "web"
+    },
+    {
+      "id": "wgc",
+      "publisher": "مجلس الذهب العالمي",
+      "title": "الذهب والمخاطر الجيوسياسية وتوقعات الفائدة",
+      "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+      "publishedAt": "2026-07-01",
+      "reviewedAt": "2026-11-28T09:07:25.408Z",
+      "reviewedVia": "web"
+    }
+  ],
+  "evidence": [
+    {
+      "sourceId": "ap",
+      "text": "strikes ignited a fire at a power plant in Mokha."
+    },
+    {
+      "sourceId": "wgc",
+      "text": "gold’s performance is not driven by a single factor."
+    }
+  ],
+  "sections": [
+    {
+      "kind": "facts",
+      "heading": "شنو ورد في التحديث؟",
+      "paragraphs": [
+        "نقلت وكالة أسوشيتد برس صباح السبت 28 نوفمبر 2026 عن قناة المسيرة التابعة للحوثيين أن غارات أشعلت حريقًا بمحطة كهرباء في المخا.",
+        "وقال المتحدث العسكري السعودي تركي المالكي إن الدفاعات اعترضت ودمّرت صاروخ كروز حوثيًا يستهدف الرياض فجر السبت."
+      ],
+      "sourceIds": [
+        "ap"
+      ]
+    },
+    {
+      "kind": "context",
+      "heading": "علاقته بمتابعة الذهب",
+      "paragraphs": [
+        "في تحليل مؤرخ 1 يوليو 2026، وضع مجلس الذهب العالمي المخاطر الجيوسياسية، ومنها الصراع الأمريكي الإيراني، إلى جانب الفائدة والدولار ومراكز المستثمرين ضمن العوامل التي تؤثر في الذهب. وشدد على أن أداء المعدن تحركه عوامل متعددة. هذا سياق عام سابق، وليس تقييمًا من المجلس لأحداث اليوم.",
+        "تحريريًا، نتابع هذه التطورات ضمن المخاطر الإقليمية، مع إبقاء كل رواية منسوبة إلى الجهة التي أعلنتها. تحديد الأثر الاقتصادي يحتاج معلومات عن حجم الضرر واستمرار التشغيل. ومجرد وقوع تصعيد لا يكفي لإثبات سبب حركة محددة للذهب أو توقع اتجاه سعره."
+      ],
+      "sourceIds": [
+        "wgc"
+      ]
+    }
+  ]
+}

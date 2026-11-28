@@ -1,5 +1,27 @@
 [
   {
+    "id": "2026-11-28-mokha-power-plant-riyadh-missile",
+    "eventKey": "ap-mokha-power-fire-riyadh-cruise-interception-2026-11-28",
+    "slot": "12",
+    "title": "AP: إعلان حريق بمحطة كهرباء بالمخا واعتراض صاروخ بالرياض",
+    "summary": "تطورات السبت، بحسب روايتي الحوثيين والجيش السعودي اللتين نقلتهما الوكالة.",
+    "publishedAt": "2026-11-28T09:07:25.408Z",
+    "updatedAt": null,
+    "url": "https://mithqal.mortada.io/blog/2026-11-28-mokha-power-plant-riyadh-missile/",
+    "sources": [
+      {
+        "url": "https://apnews.com/article/088cd858cd7def5c2c2296882e6e5be4",
+        "publisher": "أسوشيتد برس AP",
+        "publishedAt": "2026-11-28T08:30:20Z"
+      },
+      {
+        "url": "https://www.gold.org/news-and-events/press-releases/gold-faces-pivotal-second-half-geopolitical-risk-rate-expectations",
+        "publisher": "مجلس الذهب العالمي",
+        "publishedAt": "2026-07-01"
+      }
+    ]
+  },
+  {
     "id": "2026-11-27-us-treasury-yield-friday",
     "eventKey": "ap-us-ten-year-yield-friday-2026-11-27",
     "slot": "23",
